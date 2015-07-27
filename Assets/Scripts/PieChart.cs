@@ -94,8 +94,6 @@ public class PieChart : MonoBehaviour {
 			pcc.segmentVerts = entry.Value+1;
 			pcc.material = pieColors[iterator];
 
-			go.transform.localEulerAngles = new Vector3(go.transform.localEulerAngles.x , go.transform.localEulerAngles.y, 359.0f);
-
 			if(iterator != 0){ //no sense rotating the first element
 				float targetZRotation = -1.0f - (((float)_currentStartPosition / _totalVertsFloat) * 360.0f);
 				RotateTo r2 = go.AddComponent<RotateTo>();
@@ -106,7 +104,6 @@ public class PieChart : MonoBehaviour {
 			iterator++;
 
 			go.transform.SetParent(this.transform);
-            //go.transform.localPosition = new Vector3(go.transform.localPosition.x, go.transform.localPosition.y, ((float)iterator * zOffset));
             go.transform.localPosition = new Vector3(0, 0, (float)iterator *  zOffset);
 			pieSlices.Add(go);
 		}		
