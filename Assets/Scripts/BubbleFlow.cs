@@ -108,6 +108,7 @@ public class BubbleFlow : MonoBehaviour {
 			if(iterator > 8) {iterator = 8;}; //clamp the iterator;
 
 			go.transform.SetParent(this.transform);
+			go.transform.localEulerAngles = transform.parent.localEulerAngles;
 			bubbles.Add(go);
 		}
 
