@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<TechTrendsData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <currentSector>Automotive</currentSector>
+  <date>23-07-2015</date>
+  <totalData>
+    <DataSet>
+      <sector>Automotive</sector>
+      <dataPoints>
+        <DataPoint>
+          <fullName>Autonomous Vehicles</fullName>
+          <trendValue>36</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Telematics</fullName>
+          <trendValue>14</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Wearables</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Internet of Things</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Robotics</fullName>
+          <trendValue>4</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Digital Payments</fullName>
+          <trendValue>4</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Smart Grid</fullName>
+          <trendValue>4</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cloud Computing</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Big Data and Analytics</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Speech Analytics</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>3D Printing</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Augmented Reality</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Machine2Machine</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Near Field Computing</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Biometric Authentication</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quatified Self</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Location Based</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Mobile Payments</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cyber Security</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Nanotechnology</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Home Health Monitoring</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+      </dataPoints>
+    </DataSet>
+    <DataSet>
+      <sector>ConsumerGoods</sector>
+      <dataPoints>
+        <DataPoint>
+          <fullName>Quantified Self</fullName>
+          <trendValue>21</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Wearables</fullName>
+          <trendValue>12</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Digital Payments</fullName>
+          <trendValue>11</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Home Health Monitoring</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Robotics</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Big Data and Analytics</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cloud Computing</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>3D Printing</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Augmented Reality</fullName>
+          <trendValue>5</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Speech Analytics</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Telematics</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Autonomous Vehicles</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Location Based</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Mobile Payments</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Internet Of Things</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cyber Security</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Smart Grid</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Near Field Computing</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Machine2Machine</fullName>
+          <trendValue>0.3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Nanotechnology</fullName>
+          <trendValue>0.3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Biometric Authentication</fullName>
+          <trendValue>0.3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Gamification</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+      </dataPoints>
+    </DataSet>
+    <DataSet>
+      <sector>Energy</sector>
+      <dataPoints>
+        <DataPoint>
+          <fullName>Big Data And Analytics</fullName>
+          <trendValue>24</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Smart Grid</fullName>
+          <trendValue>21</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cloud Computing</fullName>
+          <trendValue>11</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Robotics</fullName>
+          <trendValue>11</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Autonomous Vehicles</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cyber Security</fullName>
+          <trendValue>4</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>3D Printing</fullName>
+          <trendValue>4</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Home Health Monitoring</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quantified Self</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Digital Payments</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Location Based</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Biometric Authentication</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Wearables</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>MobilePayments</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Nanotechnology</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Machine2Machine</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Internet of Things</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quantum Computing</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Speech Analytics</fullName>
+          <trendValue>0.5</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Telematics</fullName>
+          <trendValue>0.4</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Augmented Reality</fullName>
+          <trendValue>0.1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Near Field Computing</fullName>
+          <trendValue>0.1</trendValue>
+        </DataPoint>
+      </dataPoints>
+    </DataSet>
+    <DataSet>
+      <sector>FinancialServices</sector>
+      <dataPoints>
+        <DataPoint>
+          <fullName>Digital Payments</fullName>
+          <trendValue>22</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>MobilePayments</fullName>
+          <trendValue>20</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Near Field Computing</fullName>
+          <trendValue>10</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Biometric Authentication</fullName>
+          <trendValue>8</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Big Data and Analytics</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cloud Computing</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Wearables</fullName>
+          <trendValue>5</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cyber Security</fullName>
+          <trendValue>4</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Location Based</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Internet of Things</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Speech Analytics</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Home Health Monitoring</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quantified Self</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>3D Printing</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Robotics</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Autonomous Vehicles</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Gamification</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Machine 2 Machine</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Telematics</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Augmented Reality</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Smart Grid</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Nanotechnology</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+      </dataPoints>
+    </DataSet>
+    <DataSet>
+      <sector>HealthCare</sector>
+      <dataPoints>
+        <DataPoint>
+          <fullName>Robotics</fullName>
+          <trendValue>25</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Home Health Monitoring</fullName>
+          <trendValue>15</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Nanotechnology</fullName>
+          <trendValue>13</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Big Data and Analytics</fullName>
+          <trendValue>11</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Wearables</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cloud Computing</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quantified Self</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>3D Printing</fullName>
+          <trendValue>5</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Internet of Things</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Location Based</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Speech Analytics</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cyber Security</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Autonomous Vehicles</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Augmented Reality</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Mobile Payments</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Digital Payments</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Biometric Authentication</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Machine2Machine</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Near Field Computing</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quantum Computing</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Telematics</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+      </dataPoints>
+    </DataSet>
+    <DataSet>
+      <sector>MediaAndEntertainment</sector>
+      <dataPoints>
+        <DataPoint>
+          <fullName>Big Data And Analytics</fullName>
+          <trendValue>13</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Digital Payments</fullName>
+          <trendValue>10</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Speech Analytics</fullName>
+          <trendValue>9</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Location Based</fullName>
+          <trendValue>8</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cloud Computring</fullName>
+          <trendValue>8</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cyber Security</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Wearables</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>MobilePayments</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Internet of Things</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Robotics</fullName>
+          <trendValue>5</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quatified Self</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Augmented Reality</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Near Field Computing</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Biometric Authentication</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Gamification</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Smart Grid</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Autonomous Vehicles</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Home Health Monitoring</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>3D Printing</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Telematics</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Machine2Machine</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quantum Computing</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+      </dataPoints>
+    </DataSet>
+    <DataSet>
+      <sector>RetailWholesale</sector>
+      <dataPoints>
+        <DataPoint>
+          <fullName>Digital Payments</fullName>
+          <trendValue>43</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Mobile Payments</fullName>
+          <trendValue>13</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Wearables</fullName>
+          <trendValue>8</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cloud Computing</fullName>
+          <trendValue>7</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Near Field Computing</fullName>
+          <trendValue>5</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quatified Self</fullName>
+          <trendValue>4</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Internet of Things</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Big Data and Analytics</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Location Based</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Autonomous Vehicles</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>3D Printing</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cyber Security</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Robotics</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Machine2Machine</fullName>
+          <trendValue>2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Smart Grid</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Speech Analytics</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Biometric Authentication</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Home Health Monitoring</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Augmented Reality</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Nanotechonology</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Telematics</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+      </dataPoints>
+    </DataSet>
+    <DataSet>
+      <sector>Transportation</sector>
+      <dataPoints>
+        <DataPoint>
+          <fullName>Mobile Payments</fullName>
+          <trendValue>36</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>NFC</fullName>
+          <trendValue>11</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Digital Payments</fullName>
+          <trendValue>8</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Wearables</fullName>
+          <trendValue>8</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Telematics</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>3D Printing</fullName>
+          <trendValue>6</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cloud Computing</fullName>
+          <trendValue>5</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Big Data and Analytics</fullName>
+          <trendValue>5</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Robotics</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Cyber Security</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Internet of Things</fullName>
+          <trendValue>3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Gamification</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Autonomous Vehicles</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Biometric Authentication</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Speech Analytics</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Location Based</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Machine2Machine</fullName>
+          <trendValue>1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Smart Grid</fullName>
+          <trendValue>0.3</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Quantified Self</fullName>
+          <trendValue>0.2</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Home Health Monitoring</fullName>
+          <trendValue>0.1</trendValue>
+        </DataPoint>
+        <DataPoint>
+          <fullName>Augmented Reality</fullName>
+          <trendValue>0.1</trendValue>
+        </DataPoint>
+      </dataPoints>
+    </DataSet>
+  </totalData>
+</TechTrendsData>
