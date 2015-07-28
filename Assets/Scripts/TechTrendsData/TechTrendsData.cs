@@ -53,13 +53,17 @@ public class TechTrendsData {
 	}
 
 	public static TechTrendsData Load(string path){
-		XmlDocument xmldoc = new XmlDocument();
-		TextAsset textAsset = (TextAsset)Resources.Load (path);
-		xmldoc.LoadXml (textAsset.text);
+		//TextAsset textAsset = (TextAsset) Resources.Load("TechTrends_Data-23-07-2015");  
+		TextAsset textAsset = (TextAsset) Resources.Load(path);  
+		XmlDocument xmldoc = new XmlDocument ();
+		xmldoc.LoadXml ( textAsset.text );
 
-		XmlSerializer serializer = new XmlSerializer(typeof(TechTrendsData));		
+		XmlSerializer serializer = new XmlSerializer(typeof(TechTrendsData));
+		/*using(FileStream stream = new FileStream(path, FileMode.Open)) {
+			return serializer.Deserialize(stream) as TechTrendsData;
+		}Ye olden windowed way...*/
+
 		using (XmlReader reader = new XmlNodeReader(xmldoc)) {
-			Debug.Log ("Reading data from " + path);
 			return serializer.Deserialize(reader) as TechTrendsData;
 		}
 	}

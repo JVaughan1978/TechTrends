@@ -78,7 +78,7 @@ public class TechTrendsWrapper : MonoBehaviour {
 	}
 
 	void Start() {
-		// /sdcard/TechTrends/TechTrends_Data-23-07-2015.xml
+
 		TechTrendsData[] newTTD = new TechTrendsData[loadPaths.Length];
 		for(int i = 0; i < loadPaths.Length; i++) {
 			newTTD[i] = TechTrendsData.Load(loadPaths[i]);
