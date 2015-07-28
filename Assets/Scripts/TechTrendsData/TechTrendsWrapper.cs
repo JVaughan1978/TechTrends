@@ -89,22 +89,23 @@ public class TechTrendsWrapper : MonoBehaviour {
 
 	void Start() {
 		//string dt = DateTime.Now.ToString("dd-MM-yyyy");
-		string dt = date;
-		string path = Application.persistentDataPath + "_Data-" + dt + ".xml";
-		string[] newPaths = new string[1];
-		newPaths[0] = path;
-		loadPaths = newPaths;
+		//string dt = date;
+		//string path = Application.persistentDataPath + "_Data-" + dt + ".xml";
+		//string[] newPaths = new string[1];
+		//newPaths[0] = path;
+		//loadPaths = newPaths;
 
 		TechTrendsData[] newTTD = new TechTrendsData[loadPaths.Length];
 		for(int i = 0; i < loadPaths.Length; i++) {
 			newTTD[i] = TechTrendsData.Load(loadPaths[i]);
 		}
+
 		ttd = newTTD;
 		isLoaded = true;
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update () {/*
 		if (Input.GetKeyUp (KeyCode.F3)) {
 			SetTechTrendsDataFromInspector(0);
 		}
@@ -131,7 +132,7 @@ public class TechTrendsWrapper : MonoBehaviour {
 					Debug.Log ("Got " + ttd[0].totalData[0].dataPoints.Count + " automotive data");					
 				}
 			}
-		}
+		}*/
 		//Time to really automate this stuff
 	}
 }
