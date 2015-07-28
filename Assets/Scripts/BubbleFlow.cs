@@ -110,8 +110,7 @@ public class BubbleFlow : MonoBehaviour {
 			iterator++;
 			if(iterator > 8) {iterator = 8;}; //clamp the iterator;
 
-			SelectionReaction sr = go.AddComponent<SelectionReaction>();
-			sr.sector = sector;
+			HighlightReaction hr = go.AddComponent<HighlightReaction>();
 		}
 
 		SetBubblePositions();
