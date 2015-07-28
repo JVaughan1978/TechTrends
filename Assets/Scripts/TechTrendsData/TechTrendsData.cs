@@ -53,7 +53,8 @@ public class TechTrendsData {
 	}
 
 	public static TechTrendsData Load(string path){
-		TextAsset textAsset = (TextAsset) Resources.Load("TechTrends_Data-23-07-2015");  
+		//TextAsset textAsset = (TextAsset) Resources.Load("TechTrends_Data-23-07-2015");  
+		TextAsset textAsset = (TextAsset) Resources.Load(path);  
 		XmlDocument xmldoc = new XmlDocument ();
 		xmldoc.LoadXml ( textAsset.text );
 
