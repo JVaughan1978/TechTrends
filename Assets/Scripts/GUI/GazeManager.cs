@@ -8,7 +8,8 @@ public class GazeManager : MonoBehaviour {
 	private Ray ray;
     private bool _casting = true;
     
-    private SelectionReaction selectionReaction;    
+    private SelectionReaction selectionReaction;
+	private HighlightReaction highlightReaction;
 	
     void OnEnable(){
         SelectionReaction.OnSelect += TimeOut;
@@ -43,6 +44,10 @@ public class GazeManager : MonoBehaviour {
                     selectionReaction.Deselected();
                     selectionReaction = null;
                 }
+				if (highlightReaction != null) {                    
+					highlightReaction.Deselect();
+					highlightReaction = null;
+				}
             }
 
             if (hit.collider != null) {
@@ -58,5 +63,9 @@ public class GazeManager : MonoBehaviour {
         if (selectionReaction != null) { 
             selectionReaction.InFocus(); 
         }		
+		highlightReaction = hit.collider.gameObject.GetComponent<HighlightReaction>();
+		if (highlightReaction != null) { 
+			highlightReaction.Highlight(); 
+		}
 	}
 }

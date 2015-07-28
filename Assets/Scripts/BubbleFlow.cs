@@ -95,6 +95,9 @@ public class BubbleFlow : MonoBehaviour {
 		foreach(KeyValuePair<string, int> entry in inputDictionary) {
 			GameObject go  = new GameObject();
 			go.name = entry.Key;
+			go.transform.SetParent(this.transform);
+			go.transform.localEulerAngles = transform.parent.localEulerAngles;
+			bubbles.Add(go);
 
 			float area = (float)entry.Value / 50.0f;
 			area = Mathf.Clamp(area, 0.005f, 1.0f);
@@ -107,9 +110,8 @@ public class BubbleFlow : MonoBehaviour {
 			iterator++;
 			if(iterator > 8) {iterator = 8;}; //clamp the iterator;
 
-			go.transform.SetParent(this.transform);
-			go.transform.localEulerAngles = transform.parent.localEulerAngles;
-			bubbles.Add(go);
+			SelectionReaction sr = go.AddComponent<SelectionReaction>();
+			sr.sector = sector;
 		}
 
 		SetBubblePositions();
