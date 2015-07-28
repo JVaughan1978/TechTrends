@@ -36,16 +36,12 @@ public class TechTrendsWrapper : MonoBehaviour {
 	public bool isLoaded = false;
 
 	public void SetTechTrendsDataFromInspector(int arrayIndex){
-		//first make sure we have a ttd object
 		if (ttd[arrayIndex] != null) {
-			//then make sure all of it's lists are cleared
 			ttd[arrayIndex].date = DateTime.Now.ToString("dd-MM-yyyy");
 			ttd[arrayIndex].ClearAll();
-			//then write out the contents of each wrapper list to the TTD lists
 			for(int i = 0; i < totalData.Length; i++){
 				ttd[arrayIndex].totalData[i].sector = totalData[i].sector;
 				for(int j = 0; j < totalData[i].dataPoints.Count; j++){
-					//write the class variables to the individual structs
 					ttd[arrayIndex].AddNewDataPoint(i, totalData[i].dataPoints[j].fullName, totalData[i].dataPoints[j].trendValue);
 				}
 			}
@@ -81,19 +77,7 @@ public class TechTrendsWrapper : MonoBehaviour {
 		return d1;
 	}
 
-	/*
-	 * To be implemented with addition of UI_Text_Helper Class
-	public void DataPointToUI(){
-		
-	}*/
-
 	void Start() {
-		//string dt = DateTime.Now.ToString("dd-MM-yyyy");
-		//string dt = date;
-		//string path = Application.persistentDataPath + "_Data-" + dt + ".xml";
-		//string[] newPaths = new string[1];
-		//newPaths[0] = path;
-		//loadPaths = newPaths;
 
 		TechTrendsData[] newTTD = new TechTrendsData[loadPaths.Length];
 		for(int i = 0; i < loadPaths.Length; i++) {
