@@ -31,6 +31,10 @@ public class ProceduralCircleClipped : MonoBehaviour {
 		MeshRenderer mr = gameObject.AddComponent<MeshRenderer>();
 		mr.material = material;	
 	}
+
+	public void Init(){
+		MakeClippedCircle (totalVerts, segmentVerts, innerSegmentPercent);
+	}
 	
 	Mesh MakeClippedCircle(int numVerts, int lastVert, float innerScale){
 
@@ -145,7 +149,7 @@ public class ProceduralCircleClipped : MonoBehaviour {
 		if (_lastTotalVerts != totalVerts || 
 		    _lastSegmentVerts != segmentVerts ||
 		    _lastSegmentPercent != innerSegmentPercent ) {
-			this.GetComponent<MeshFilter>().mesh = MakeClippedCircle(totalVerts, segmentVerts, innerSegmentPercent);
+			this.GetComponent<MeshFilter>().sharedMesh = MakeClippedCircle(totalVerts, segmentVerts, innerSegmentPercent);
 		}
 		
 		_lastSegmentPercent = innerSegmentPercent;
