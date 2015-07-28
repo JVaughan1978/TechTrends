@@ -93,6 +93,7 @@ public class PieChart : MonoBehaviour {
 			pcc.totalVerts = _totalVerts;
 			pcc.segmentVerts = entry.Value+1;
 			pcc.material = pieColors[iterator];
+			pcc.Init();
 
 			if(iterator != 0){ //no sense rotating the first element
 				float targetZRotation = -1.0f - (((float)_currentStartPosition / _totalVertsFloat) * 360.0f);
@@ -106,6 +107,11 @@ public class PieChart : MonoBehaviour {
 			go.transform.SetParent(this.transform);
             go.transform.localPosition = new Vector3(0, 0, (float)iterator *  zOffset);
 			pieSlices.Add(go);
+
+			go.AddComponent<HighlightReaction>();
+			MeshCollider mc = go.AddComponent<MeshCollider>();
+			go.AddComponent<CollisionHelper>();
+			go.layer = 8;
 		}		
 	}
 
@@ -118,8 +124,7 @@ public class PieChart : MonoBehaviour {
 		transform.localPosition = Vector3.zero;
 		transform.localScale = Vector3.one;
 	}    
-	
-	// Update is called once per frame
+
 	void Update () {
         /*
 		if (Input.GetKeyUp (KeyCode.Space)) {
