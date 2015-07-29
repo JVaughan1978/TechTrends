@@ -10,8 +10,7 @@ public class PinTextToGameObject : MonoBehaviour {
 	private Text _txt;
 	public float zOffset = 0;
 	public bool usePinnedObjectRotation = false;
-	private bool _set = false;
-	private float _lastOffset = 0;
+	private bool _set = false;	
 
 	// Use this for initialization
 	void Start () {
@@ -25,10 +24,12 @@ public class PinTextToGameObject : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () {        
 		if (_mr.enabled == true) {
-			_txt.enabled = true;
-			if (_lastOffset != zOffset) {
+            Vector3 offsetPinnedObjectPosition = new Vector3(pinnedObject.transform.position.x, pinnedObject.transform.position.y,
+                                                             pinnedObject.transform.position.z + zOffset);
+					
+            if(!ExtensionMethods.CompareVectors(offsetPinnedObjectPosition, transform.localPosition, 0.1f)){
 				_set = false;
 			}
 			
@@ -36,13 +37,10 @@ public class PinTextToGameObject : MonoBehaviour {
 				if (usePinnedObjectRotation) {
 					transform.localRotation = pinnedObject.transform.localRotation;
 				}
-				transform.localPosition = pinnedObject.transform.position; //need the world space for this
-				Vector3 translator = new Vector3 (0f, 0f, zOffset);
-				transform.Translate (translator); 
+				transform.localPosition = offsetPinnedObjectPosition; //need the world space for this				
 				_set = true;
 			}
-			
-			_lastOffset = zOffset;
+            _txt.enabled = true;				
 		} else {
 			_txt.enabled = false;
 		}	

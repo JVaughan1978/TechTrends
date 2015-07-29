@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Highlight : MonoBehaviour {
 
-	public float zOffset = -0.25f;
+	public float zOffset = -0.33f;
 	public Material highlightMaterial;
 
     private bool _animating = false;
@@ -39,23 +39,7 @@ public class Highlight : MonoBehaviour {
 		if (gameObject.name == broadcastName) {
             _highlighted = false;
 		}
-	}
-
-    //putting this in the wrong place for now
-    bool CompareVectors(Vector3 v1, Vector3 v2, float angleError) {
-        if(!Mathf.Approximately(v1.magnitude, v2.magnitude)) {
-            return false;
-        }
-
-        float cosAngleError = Mathf.Cos(angleError * Mathf.Deg2Rad);
-        float cosAngle = Vector3.Dot(v1.normalized, v2.normalized);
-
-        if(cosAngle >= cosAngleError) {
-            return true;
-        } else {
-            return false;
-        }        
-    }
+	}  
     
 	// Update is called once per frame
 	void Update () {
@@ -64,8 +48,8 @@ public class Highlight : MonoBehaviour {
            // _positionSet = false;
         }
         
-        if(_animating && !_positionSet) {
-            if (CompareVectors(transform.localPosition, _originalPos, 0.1f)){
+        if(_animating && !_positionSet) {                        
+            if (ExtensionMethods.CompareVectors(transform.localPosition, _originalPos, 0.1f)){
                 _positionSet = true;
             } else {
                 _originalPos = transform.localPosition;
