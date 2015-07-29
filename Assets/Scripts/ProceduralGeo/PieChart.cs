@@ -112,6 +112,7 @@ public class PieChart : MonoBehaviour {
 			MeshCollider mc = go.AddComponent<MeshCollider>();
 			go.AddComponent<CollisionHelper>();
 			go.layer = 8;
+            go.AddComponent<Highlight>();
 		}		
 	}
 

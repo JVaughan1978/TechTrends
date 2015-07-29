@@ -113,6 +113,8 @@ public class BubbleFlow : MonoBehaviour {
 			HighlightReaction hr = go.AddComponent<HighlightReaction>();
 			go.AddComponent<SphereCollider>();
 			go.layer = 8;
+
+            go.AddComponent<Highlight>();
 		}
 
 		SetBubblePositions();
