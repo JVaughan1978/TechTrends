@@ -24,6 +24,7 @@ public class PieChart : MonoBehaviour {
 	}	
 
 	void ModeSwitch(Sector sect) {
+        
 		if (pieSlices.Count == 0) {
 			PieChartInit (sect);
 		} else {
@@ -39,6 +40,7 @@ public class PieChart : MonoBehaviour {
 
     void PieChartInit(Sector sect) {
         sector = sect;
+        GetTrendingTopicsDictionary();
         Invoke("Init", 1.0f);
     }
 

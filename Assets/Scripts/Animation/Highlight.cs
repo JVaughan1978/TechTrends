@@ -30,7 +30,9 @@ public class Highlight : MonoBehaviour {
 		if (gameObject.name == broadcastName) {
             _highlighted = true;
             _animating = true;
-		}
+        } else {
+            _highlighted = false;
+        }
 	}
 
 	void Deselected(string broadcastName) {
