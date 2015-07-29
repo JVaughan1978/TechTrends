@@ -54,7 +54,7 @@ public class TechTrendsData {
 
 	public static TechTrendsData Load(string path){
 		XmlDocument xmldoc = new XmlDocument();
-		TextAsset textAsset = (TextAsset)Resources.Load (path);
+		TextAsset textAsset = (TextAsset)Resources.Load(path, typeof(TextAsset));
 		xmldoc.LoadXml (textAsset.text);
 
 		XmlSerializer serializer = new XmlSerializer(typeof(TechTrendsData));		
