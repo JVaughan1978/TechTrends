@@ -7,6 +7,7 @@ public class BubbleFlow : MonoBehaviour {
 
 	private GameObject _dataObject;
 	private Dictionary<string, int> trendingTopics = new Dictionary<string, int>();
+    public Font bubbleFont;
 	public List<GameObject> bubbles = new List<GameObject>();
     public List<GameObject> bubbleTexts = new List<GameObject>();
 	public List<Material> bubbleColors = new List<Material>();
@@ -114,21 +115,34 @@ public class BubbleFlow : MonoBehaviour {
 			if(iterator > 8) {iterator = 8;}; //clamp the iterator;
 
 			HighlightReaction hr = go.AddComponent<HighlightReaction>();
-			go.AddComponent<SphereCollider>();
+			SphereCollider sc = go.AddComponent<SphereCollider>();
+            sc.radius = 1.0f;
 			go.layer = 8;
             go.AddComponent<Highlight>();
 
             //and now to create the respective text objects 
             GameObject bubbleText = new GameObject();
-            bubbleText.AddComponent<Text>();
+            //text object
+            Text txt = bubbleText.AddComponent<Text>();
+            txt.text = entry.Key + " : " + entry.Value;
+            txt.font = bubbleFont;
+            txt.alignment = TextAnchor.MiddleCenter;
+            txt.fontSize = 8;
+            txt.color = new Color((206f / 255f), (206f / 255f), (206f / 255f));
+            
             RectTransform rt = bubbleText.GetComponent<RectTransform>();
             rt.sizeDelta = new Vector2(360f, 60f);
             bubbleText.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
             bubbleText.name = entry.Key + "Text";
             bubbleText.transform.SetParent(Canvas.transform);
+           
             PinTextToGameObject pinTex = bubbleText.AddComponent<PinTextToGameObject>();
             pinTex.pinnedObject = go;
-            pinTex.zOffset = -0.5f;
+            pinTex.zOffset = -0.25f;
+            TextTruncator tt = bubbleText.AddComponent<TextTruncator>();
+            tt.fullName = entry.Key;
+            tt.trendCount = entry.Value;
+
             bubbleTexts.Add(bubbleText);            
 		}
 		SetBubblePositions();
@@ -439,6 +453,10 @@ public class BubbleFlow : MonoBehaviour {
 				Destroy(bub);
 		}
 		bubbles.Clear();
+        
+        foreach(GameObject bub in bubbleTexts) {
+            Destroy(bub);
+        }
         bubbleTexts.Clear();
 		Destroy(_backdrop);
 		transform.localPosition = Vector3.zero;

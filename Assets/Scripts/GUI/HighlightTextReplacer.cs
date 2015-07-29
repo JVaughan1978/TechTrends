@@ -13,6 +13,7 @@ public class HighlightTextReplacer : MonoBehaviour {
     private bool _sectorEvent = false;
     private Sector _sector = Sector.Automotive;
     private GameObject _dataObject;
+    // YES THIS SHOULD REALLY NOT BE HERE.
     private Dictionary<string, int> _data = new Dictionary<string,int>();
 
     void OnEnable() {
@@ -86,7 +87,7 @@ public class HighlightTextReplacer : MonoBehaviour {
 
     private int GetTrendingTopicsDictionary() {
         if (_dataObject.GetComponent<TechTrendsWrapper>().isLoaded == true) {
-            _data = _dataObject.GetComponent<TechTrendsWrapper>().GetSectorToTruncatedDictionary(0, _sector, 9);
+            _data = _dataObject.GetComponent<TechTrendsWrapper>().GetSectorToDictionary(0, _sector);
             return 1;
         }
         return 0;
