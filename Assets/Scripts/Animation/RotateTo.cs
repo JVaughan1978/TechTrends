@@ -5,23 +5,25 @@ public class RotateTo : MonoBehaviour {
 
 	public float endRotation = 270.0f;
 	public float rotDuration = 2.0f;
+    private float v1 = 0f;    
 
 	//not implemented yet
 	//public delegate float EaseFunction();
 	//private EaseFunction ease;
 	//public EaseType easeType = EaseType.Linear;
 
-	IEnumerator DoRotate(float start, float end, float duration){
+	IEnumerator DoRotate(float duration){
 		float time = 0f;
+        float start = 0f;
+        float end = 1f;
+
 		while (time < duration) {
 			time += Time.deltaTime;
 			if( time > duration) { time = duration; }
 
-			float newZRotation = Easing.CubicEaseOut(time, start, end, duration);
-			Vector3 newRotation = new Vector3(this.transform.localEulerAngles.x,
-			                                  this.transform.localEulerAngles.y,
-			                                  newZRotation);
-			transform.rotation = Quaternion.Euler(newRotation);
+			float lerpTime = Easing.CubicEaseOut(time, start, end, duration);
+            float angle = Mathf.Lerp(v1,endRotation, lerpTime);
+            transform.localEulerAngles = new Vector3(0f, 0f, angle);
 			yield return null;
 		}
 		Debug.Log ("DoRotate finished");
@@ -32,7 +34,7 @@ public class RotateTo : MonoBehaviour {
 	}
 
 	void DoRotate() {
-		StartCoroutine(DoRotate(this.transform.localEulerAngles.z, endRotation, rotDuration));
+		StartCoroutine(DoRotate(rotDuration));
 	}
 
 	void Update () {

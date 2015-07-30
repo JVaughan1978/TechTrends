@@ -114,7 +114,7 @@ public class BubbleFlow : MonoBehaviour {
 			iterator++;
 			if(iterator > 8) {iterator = 8;}; //clamp the iterator;
 
-			HighlightReaction hr = go.AddComponent<HighlightReaction>();
+			go.AddComponent<HighlightReaction>();
 			SphereCollider sc = go.AddComponent<SphereCollider>();
             sc.radius = 1.0f;
 			go.layer = 8;
@@ -139,6 +139,7 @@ public class BubbleFlow : MonoBehaviour {
             PinTextToGameObject pinTex = bubbleText.AddComponent<PinTextToGameObject>();
             pinTex.pinnedObject = go;
             pinTex.zOffset = -0.25f;
+            bubbleText.AddComponent<OrientTowards>();
             TextTruncator tt = bubbleText.AddComponent<TextTruncator>();
             tt.fullName = entry.Key;
             tt.trendCount = entry.Value;
@@ -393,6 +394,7 @@ public class BubbleFlow : MonoBehaviour {
 		_backdrop = new GameObject();
 		_backdrop.name = "Backdrop";
 		_backdrop.transform.SetParent (this.transform);
+        _backdrop.transform.localEulerAngles = Vector3.zero;
 		_backdrop.transform.localPosition = new Vector3 (centroid.x * 0.5f, centroid.y * 0.5f, backdropOffset);
 		_backdrop.transform.localScale = new Vector3 (centroidRadius * 2.05f, centroidRadius * 2.05f, centroidRadius * 2.05f);
 		
