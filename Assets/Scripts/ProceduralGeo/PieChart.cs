@@ -80,7 +80,7 @@ public class PieChart : MonoBehaviour {
 		backdrop = new GameObject();
 		backdrop.name = "Backdrop";
 		backdrop.transform.SetParent (this.transform);
-		//backdrop.transform.localPosition = new Vector3(backdrop.transform.localPosition.x, backdrop.transform.localPosition.y, backdrop.transform.localPosition.z + backdropOffset);
+        backdrop.transform.localEulerAngles = Vector3.zero;		
         backdrop.transform.localPosition = new Vector3(0, 0, backdropOffset);
 
 		ProceduralCircle pc = backdrop.AddComponent<ProceduralCircle>();
@@ -96,17 +96,9 @@ public class PieChart : MonoBehaviour {
 			pcc.segmentVerts = entry.Value+1;
 			pcc.material = pieColors[iterator];
 			pcc.Init();
-
-			if(iterator != 0){ //no sense rotating the first element
-				float targetZRotation = -1.0f - (((float)_currentStartPosition / _totalVertsFloat) * 360.0f);
-				RotateTo r2 = go.AddComponent<RotateTo>();
-				r2.endRotation = targetZRotation;
-			}
-
-			_currentStartPosition += entry.Value;
-			iterator++;
-
+			
 			go.transform.SetParent(this.transform);
+            go.transform.localEulerAngles = Vector3.zero;
             go.transform.localPosition = new Vector3(0, 0, (float)iterator *  zOffset);
 			pieSlices.Add(go);
 
@@ -115,6 +107,16 @@ public class PieChart : MonoBehaviour {
 			go.AddComponent<CollisionHelper>();
 			go.layer = 8;
             go.AddComponent<Highlight>();
+            
+            if(iterator != 0) { //no sense rotating the first element
+                float targetZRotation = -1.0f - (((float)_currentStartPosition / _totalVertsFloat) * 360.0f);
+                RotateTo r2 = go.AddComponent<RotateTo>();
+                r2.endRotation = targetZRotation;
+            }
+
+            _currentStartPosition += entry.Value;
+            iterator++;
+
 		}		
 	}
 

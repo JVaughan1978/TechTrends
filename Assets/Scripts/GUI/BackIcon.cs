@@ -20,8 +20,7 @@ public class BackIcon : MonoBehaviour {
 		_toggle = !_toggle;
 	}
 
-	void SetIcon(bool check){
-		Debug.Log ("SetIcon " + check);
+	void SetIcon(bool check){		
 		_mr.enabled = check;
 		_bc.enabled = check;
 	}

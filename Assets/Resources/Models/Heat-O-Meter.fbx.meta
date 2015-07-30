@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: bd27e5d7d0c89bc44b753dd20b1b92f3
+timeCreated: 1438271869
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: KPMG_HeatLevel10
+    100004: KPMG_HeatLevel11
+    100006: KPMG_HeatLevel2
+    100008: KPMG_HeatLevel3
+    100010: KPMG_HeatLevel4
+    100012: KPMG_HeatLevel5
+    100014: KPMG_HeatLevel6
+    100016: KPMG_HeatLevel7
+    100018: KPMG_HeatLevel8
+    100020: KPMG_HeatLevel9
+    100022: Meters
+    400000: //RootNode
+    400002: KPMG_HeatLevel10
+    400004: KPMG_HeatLevel11
+    400006: KPMG_HeatLevel2
+    400008: KPMG_HeatLevel3
+    400010: KPMG_HeatLevel4
+    400012: KPMG_HeatLevel5
+    400014: KPMG_HeatLevel6
+    400016: KPMG_HeatLevel7
+    400018: KPMG_HeatLevel8
+    400020: KPMG_HeatLevel9
+    400022: Meters
+    2300000: KPMG_HeatLevel10
+    2300002: KPMG_HeatLevel11
+    2300004: KPMG_HeatLevel2
+    2300006: KPMG_HeatLevel3
+    2300008: KPMG_HeatLevel4
+    2300010: KPMG_HeatLevel5
+    2300012: KPMG_HeatLevel6
+    2300014: KPMG_HeatLevel7
+    2300016: KPMG_HeatLevel8
+    2300018: KPMG_HeatLevel9
+    2300020: Meters
+    3300000: KPMG_HeatLevel10
+    3300002: KPMG_HeatLevel11
+    3300004: KPMG_HeatLevel2
+    3300006: KPMG_HeatLevel3
+    3300008: KPMG_HeatLevel4
+    3300010: KPMG_HeatLevel5
+    3300012: KPMG_HeatLevel6
+    3300014: KPMG_HeatLevel7
+    3300016: KPMG_HeatLevel8
+    3300018: KPMG_HeatLevel9
+    3300020: Meters
+    4300000: KPMG_HeatLevel11
+    4300002: Meters
+    4300004: KPMG_HeatLevel2
+    4300006: KPMG_HeatLevel3
+    4300008: KPMG_HeatLevel4
+    4300010: KPMG_HeatLevel5
+    4300012: KPMG_HeatLevel6
+    4300014: KPMG_HeatLevel7
+    4300016: KPMG_HeatLevel8
+    4300018: KPMG_HeatLevel9
+    4300020: KPMG_HeatLevel10
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
