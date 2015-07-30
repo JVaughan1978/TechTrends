@@ -18,6 +18,8 @@ public class PinTextToGameObject : MonoBehaviour {
                                                              pinnedObject.transform.position.z);       
 		
         transform.localPosition = new Vector3(pinnedObject.transform.position.x, pinnedObject.transform.position.y,
-                                                             pinnedObject.transform.position.z + zOffset);		
+                                                             pinnedObject.transform.position.z);
+
+        transform.Translate(0f, 0f, zOffset, Space.Self);
 	}
 }
