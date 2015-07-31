@@ -138,7 +138,11 @@ public class BubbleFlow : MonoBehaviour {
            
             PinTextToGameObject pinTex = bubbleText.AddComponent<PinTextToGameObject>();
             pinTex.pinnedObject = go;
-            pinTex.offset = new Vector3(0,0, -0.25f);
+            if(iterator == 0) { 
+                pinTex.offset = new Vector3(0,0, -0.275f);
+            } else {
+                pinTex.offset = new Vector3(0, 0, -0.25f);
+            }
             bubbleText.AddComponent<OrientTowards>();
             TextTruncator tt = bubbleText.AddComponent<TextTruncator>();
             tt.fullName = entry.Key;
