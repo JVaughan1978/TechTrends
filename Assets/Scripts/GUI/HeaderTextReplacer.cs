@@ -5,19 +5,25 @@ using System.Collections;
 public class HeaderTextReplacer : MonoBehaviour {
 
 	public Sector sector;
+    private bool _toggle = false;
 	private Text _text;
 
 	void OnEnable() {
-		SelectionReaction.OnFocus += Select;
+		SelectionReaction.OnSelect += Select;        
 	}
 
 	void OnDisable() {
-		SelectionReaction.OnFocus -= Select;
+		SelectionReaction.OnSelect -= Select;
 	}
 
 	void Select (Sector sect){
-		sector = sect;
-		_text.text = sector.ToString();
+        sector = sect;
+        _toggle = !_toggle;
+        if(_toggle) {
+            _text.text = sector.ToString();
+        } else {
+            _text.text = "";
+        }
 	}
 
 	void Start(){

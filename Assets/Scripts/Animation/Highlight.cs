@@ -15,6 +15,7 @@ public class Highlight : MonoBehaviour {
 	private Vector3 _originalPos = Vector3.zero;
 	private Vector3 _highlightedPos = Vector3.zero;
 	private Material _originalMaterial;
+    private Vector3 two = new Vector3(2.0f, 2.0f, 2.0f);
 
 	void OnEnable(){
 		HighlightReaction.OnHighlight += Highlighted;
@@ -62,12 +63,12 @@ public class Highlight : MonoBehaviour {
             if (_highlighted) {           
                 _time += Time.deltaTime;
                 _time = Mathf.Clamp(_time, 0f, _duration);
-                float lerp = Easing.ExpoEaseInOut(_time, 0f, 1f, _duration);
+                float lerp = Easing.ExpoEaseInOut(_time, 0f, 1f, _duration);                
                 transform.localPosition = Vector3.Lerp(_originalPos, _highlightedPos, lerp);
             } else {
                 _time -= Time.deltaTime;
                 _time = Mathf.Clamp(_time, 0f, _duration);
-                float lerp = Easing.ExpoEaseInOut(_time, 0f, 1f, _duration);
+                float lerp = Easing.ExpoEaseInOut(_time, 0f, 1f, _duration);                
                 transform.localPosition = Vector3.Lerp(_originalPos, _highlightedPos, lerp);
             }
         }
