@@ -19,7 +19,7 @@
           <trendValue>7</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Internet of Things</fullName>
+          <fullName>Internet Of Things</fullName>
           <trendValue>6</trendValue>
         </DataPoint>
         <DataPoint>
@@ -59,7 +59,7 @@
           <trendValue>1</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Near Field Computing</fullName>
+          <fullName>Near Field Communication</fullName>
           <trendValue>1</trendValue>
         </DataPoint>
         <DataPoint>
@@ -164,7 +164,7 @@
           <trendValue>1</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Near Field Computing</fullName>
+          <fullName>Near Field Communication</fullName>
           <trendValue>1</trendValue>
         </DataPoint>
         <DataPoint>
@@ -253,7 +253,7 @@
           <trendValue>1</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Internet of Things</fullName>
+          <fullName>Internet Of Things</fullName>
           <trendValue>1</trendValue>
         </DataPoint>
         <DataPoint>
@@ -273,7 +273,7 @@
           <trendValue>0.1</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Near Field Computing</fullName>
+          <fullName>Near Field Communication</fullName>
           <trendValue>0.1</trendValue>
         </DataPoint>
       </dataPoints>
@@ -290,7 +290,7 @@
           <trendValue>20</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Near Field Computing</fullName>
+          <fullName>Near Field Communication</fullName>
           <trendValue>10</trendValue>
         </DataPoint>
         <DataPoint>
@@ -318,7 +318,7 @@
           <trendValue>3</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Internet of Things</fullName>
+          <fullName>Internet Of Things</fullName>
           <trendValue>3</trendValue>
         </DataPoint>
         <DataPoint>
@@ -350,7 +350,7 @@
           <trendValue>1</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Machine 2 Machine</fullName>
+          <fullName>Machine2Machine</fullName>
           <trendValue>1</trendValue>
         </DataPoint>
         <DataPoint>
@@ -407,7 +407,7 @@
           <trendValue>5</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Internet of Things</fullName>
+          <fullName>Internet Of Things</fullName>
           <trendValue>2</trendValue>
         </DataPoint>
         <DataPoint>
@@ -447,7 +447,7 @@
           <trendValue>0.2</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Near Field Computing</fullName>
+          <fullName>Near Field Communication</fullName>
           <trendValue>0.2</trendValue>
         </DataPoint>
         <DataPoint>
@@ -496,7 +496,7 @@
           <trendValue>6</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Internet of Things</fullName>
+          <fullName>Internet Of Things</fullName>
           <trendValue>6</trendValue>
         </DataPoint>
         <DataPoint>
@@ -512,7 +512,7 @@
           <trendValue>3</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Near Field Computing</fullName>
+          <fullName>Near Field Communication</fullName>
           <trendValue>3</trendValue>
         </DataPoint>
         <DataPoint>
@@ -573,7 +573,7 @@
           <trendValue>7</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Near Field Computing</fullName>
+          <fullName>Near Field Communication</fullName>
           <trendValue>5</trendValue>
         </DataPoint>
         <DataPoint>
@@ -581,7 +581,7 @@
           <trendValue>4</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Internet of Things</fullName>
+          <fullName>Internet Of Things</fullName>
           <trendValue>2</trendValue>
         </DataPoint>
         <DataPoint>
@@ -686,7 +686,7 @@
           <trendValue>3</trendValue>
         </DataPoint>
         <DataPoint>
-          <fullName>Internet of Things</fullName>
+          <fullName>Internet Of Things</fullName>
           <trendValue>3</trendValue>
         </DataPoint>
         <DataPoint>
