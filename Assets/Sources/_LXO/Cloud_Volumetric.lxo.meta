@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: d203076bd69b6064881144c501d0d1bc
+timeCreated: 1438366957
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Building_Probe_01.lxe
+    100002: Camera
+    100004: Chromey
+    100006: //RootNode
+    100008: Constant__Texture_
+    100010: Directional_Light
+    100012: Directional_Light__2_
+    100014: Flow_Bozo__Texture_
+    100016: Gradient__240___Texture_
+    100018: Gradient__244___Texture_
+    100020: Gradient__249___Texture_
+    100022: Image__building_probe__Texture_
+    100024: Locator
+    100026: Mesh
+    100028: Noise__76___Texture_
+    100030: Polished_Silver.lxp__3_
+    100032: Puffy_Clouds__Texture_
+    100034: Render
+    100036: Strata__Texture_
+    100038: Texture_Group
+    100040: Texture_Group__2_
+    100042: Volume
+    400000: Building_Probe_01.lxe
+    400002: Camera
+    400004: Chromey
+    400006: //RootNode
+    400008: Constant__Texture_
+    400010: Directional_Light
+    400012: Directional_Light__2_
+    400014: Flow_Bozo__Texture_
+    400016: Gradient__240___Texture_
+    400018: Gradient__244___Texture_
+    400020: Gradient__249___Texture_
+    400022: Image__building_probe__Texture_
+    400024: Locator
+    400026: Mesh
+    400028: Noise__76___Texture_
+    400030: Polished_Silver.lxp__3_
+    400032: Puffy_Clouds__Texture_
+    400034: Render
+    400036: Strata__Texture_
+    400038: Texture_Group
+    400040: Texture_Group__2_
+    400042: Volume
+    2300000: Chromey
+    2300002: Mesh
+    3300000: Chromey
+    3300002: Mesh
+    4300000: Chromey
+    4300002: Mesh
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
