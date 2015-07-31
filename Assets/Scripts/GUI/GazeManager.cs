@@ -7,6 +7,7 @@ public class GazeManager : MonoBehaviour {
 	private int scannableLayerMask;
 	private Ray ray;
     private bool _casting = true;
+    private bool _inSector = false;
     
     private SelectionReaction selectionReaction;
 	private HighlightReaction highlightReaction;
@@ -19,14 +20,19 @@ public class GazeManager : MonoBehaviour {
         SelectionReaction.OnSelect -= TimeOut;
     }
 
-    IEnumerator CoolDown() {
+    IEnumerator CoolDown(float time) {
         _casting = false;
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(time);
         _casting = true;
     }
 
     void TimeOut(Sector sect) {
-        StartCoroutine("CoolDown");
+        if(_inSector) {
+            StartCoroutine(CoolDown(2.0f));
+        } else {
+            StartCoroutine(CoolDown(6.0f));
+        }
+        _inSector = !_inSector;
     }
 
 	void Start(){

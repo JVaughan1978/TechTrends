@@ -6,7 +6,7 @@ using System.Collections;
 public class PinTextToGameObject : MonoBehaviour {
 
 	public GameObject pinnedObject;
-	public float zOffset = 0;	
+    public Vector3 offset = Vector3.zero;
 
 	// Use this for initialization
 	void Start () {				
@@ -20,6 +20,6 @@ public class PinTextToGameObject : MonoBehaviour {
         transform.localPosition = new Vector3(pinnedObject.transform.position.x, pinnedObject.transform.position.y,
                                                              pinnedObject.transform.position.z);
 
-        transform.Translate(0f, 0f, zOffset, Space.Self);
+        transform.Translate(offset.x, offset.y, offset.z, Space.Self);
 	}
 }
