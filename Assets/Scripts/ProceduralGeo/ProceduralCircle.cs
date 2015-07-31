@@ -17,10 +17,9 @@ public class ProceduralCircle : MonoBehaviour {
 			transform.localScale = new Vector3(_radius, _radius, _radius);
 		}
 	}
-
-	//public float circArea = 1.0f;
+	
 	private float _area = 0.0f;
-	//private float _lastArea = 0.0f;
+	
 	public float Area {
 		get{
 			return _radius;
@@ -34,8 +33,7 @@ public class ProceduralCircle : MonoBehaviour {
 
 	private int _lastCircleVerts = 0;
 	public Material material;
-
-	// Use this for initialization
+    	
 	void Start() {
 		_lastCircleVerts = circleVerts;
 
@@ -89,16 +87,13 @@ public class ProceduralCircle : MonoBehaviour {
 		circle.RecalculateNormals ();
 
 		return circle;
-	}
+	}	
 	
-	// Update is called once per frame
 	void Update() {
-
 		if (_lastCircleVerts != circleVerts) {
 			this.GetComponent<MeshFilter>().mesh = MakeCircle(circleVerts);
 		}
 
-		_lastCircleVerts = circleVerts;
-		//_lastArea = _area;
+		_lastCircleVerts = circleVerts;		
 	}
 }

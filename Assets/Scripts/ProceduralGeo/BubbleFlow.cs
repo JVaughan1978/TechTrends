@@ -390,8 +390,7 @@ public class BubbleFlow : MonoBehaviour {
 
 		maxX += Mathf.Abs(minX);
 		maxY += Mathf.Abs(minY);
-		centroidRadius = (maxX > maxY) ? maxX : maxY;
-		//centroidRadius /= 1.8f;
+		centroidRadius = (maxX > maxY) ? maxX : maxY;		
 	}
 
 	private void CreateBackdrop(){
@@ -416,10 +415,8 @@ public class BubbleFlow : MonoBehaviour {
 
 	private void SetPathAnimation(){
 		List<Vector3> path = new List<Vector3>();
-		for (int i = 0; i < bubbles.Count; i++) {
-			//create a Vector3 of paths for each bubble
-			path.Add(bubbles[i].transform.localPosition);
-			//create a PathAnimation object for each bubble
+		for (int i = 0; i < bubbles.Count; i++) {			
+			path.Add(bubbles[i].transform.localPosition);			
 			PathAnimation pa = bubbles[i].AddComponent<PathAnimation>();
 			pa.speed = animationSpeed;
 			pa.SetControlPoints(path);
@@ -432,26 +429,8 @@ public class BubbleFlow : MonoBehaviour {
 			bub.transform.localPosition = zeroish;
 		}
 	}
-
-	// Update is called once per frame
+	
 	void Update () {
-        /*
-		if (Input.GetKeyUp (KeyCode.Space)) {
-			if(bubbles.Count > 0){
-				DestroyAllChildren();
-			} else {
-				int tt = GetTrendingTopicsDictionary();
-
-				if(tt == 1){
-					CreateBubbles(trendingTopics);			
-					CalculateCentroid();
-					CreateBackdrop();
-					Recenter();
-					SetPathAnimation();
-					CenterObjects();
-				}
-			}
-		}*/
 	}
 
 	void DestroyAllChildren(){
@@ -475,7 +454,6 @@ public class BubbleFlow : MonoBehaviour {
 		centroidRadius = 0.0f;
 	}
 
-	void OnDrawGizmos(){
-		//Gizmos.DrawWireSphere(centroid, centroidRadius);
+	void OnDrawGizmos(){		
 	}
 }

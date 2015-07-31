@@ -9,10 +9,8 @@ public class TT_TextTools : MonoBehaviour {
 		public string abbreviated;
 		public string initialed;
 	}
-
-	//Inspector facing
-	public TT_Text[] TT_Dictionary = new TT_Text[0];
-	//Data facing
+	
+	public TT_Text[] TT_Dictionary = new TT_Text[0];	
 	private static TT_Text[] TT_Internal = new TT_Text[0];
 
 	public static string GetAbbreviatedName(string name){

@@ -40,11 +40,10 @@ public class Highlight : MonoBehaviour {
 		if (gameObject.name == broadcastName) {
             _highlighted = false;
 		}
-	}  
-    
-	// Update is called once per frame
+	}      
+	
 	void Update () {
-        //material swapping
+        //NOT IMPLEMENTED: material swapping
         if(_highlighted != _lasthighlight) { 
            // _positionSet = false;
         }

@@ -50,14 +50,12 @@ public class HighlightTextReplacer : MonoBehaviour {
         _thisText.text = "";
         yield return null;
     }
-
-	// Use this for initialization
+	
 	void Start () {
         _thisText = GetComponent<Text>();
         _dataObject = GameObject.Find("DataObject");
-	}
+	}	
 	
-	// Update is called once per frame
 	void Update () {     
         if(_deselectedEvent && !_highlightedEvent) {
             if(_thisText != null) {

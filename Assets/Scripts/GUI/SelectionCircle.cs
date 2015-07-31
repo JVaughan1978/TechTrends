@@ -68,8 +68,7 @@ public class SelectionCircle : MonoBehaviour {
 		    _currentMaterial = r.material;
         }
     }
-
-	// Update is called once per frame
+	
 	void Update () {
 	
 	}

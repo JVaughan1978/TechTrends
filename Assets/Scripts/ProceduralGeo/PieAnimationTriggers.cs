@@ -40,15 +40,13 @@ public class PieAnimationTriggers : MonoBehaviour {
 	void Mode(bool check) {
 		animator.SetBool ("DetailView", _toggle);
 		_toggle = !_toggle;
-	}
-	                 
-	// Use this for initialization
+	}	                 
+	
 	void Start () {
 		animator = GetComponent<Animator>();
 		sr = GetComponent<SelectionReaction>();
-	}
+	}	
 	
-	// Update is called once per frame
 	void Update () {
 	
 	}

@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ProceduralCircleClipped : MonoBehaviour {
-
-	public bool jDebug = true; 
+public class ProceduralCircleClipped : MonoBehaviour {	
 
 	[Range(6,250)]
 	public int totalVerts = 24;
@@ -18,8 +16,7 @@ public class ProceduralCircleClipped : MonoBehaviour {
 	private float _lastSegmentPercent = 0f;
 
 	public Material material;
-	
-	// Use this for initialization
+		
 	void Start() {
 		_lastTotalVerts = totalVerts;
 		_lastSegmentVerts = segmentVerts;
@@ -37,7 +34,6 @@ public class ProceduralCircleClipped : MonoBehaviour {
 	}
 	
 	Mesh MakeClippedCircle(int numVerts, int lastVert, float innerScale){
-
 		//innerScale is clamped 0-1 and currently we don't support non-uniform scale
 		innerScale = Mathf.Clamp01(innerScale);
 
@@ -97,16 +93,6 @@ public class ProceduralCircleClipped : MonoBehaviour {
 			}
 		}
 
-		if(jDebug) {
-			for (int i = 1; i < vertsFinal.Length; i++) {
-				//Debug.Log ("vertsFinal.Length = " + vertsFinal.Length);
-				if (i == 1)
-					Debug.Log (vertsFinal [0]);
-				//Debug.Log (vertsFinal[i] + " " + i);
-				//Debug.DrawLine (new Vector3 (vertsFinal[i - 1].x, vertsFinal[i - 1].y, vertsFinal [i - 1].z), new Vector3 (vertsFinal[i].x, vertsFinal[i].y, vertsFinal[i].z), Color.green, 15, false);
-			}
-		}
-
 		for (int i = 0; i < uvsFinal.Length; i++) {
 			if( i % 2 == 0 ) {
 				uvsFinal[i] = uvsInner[(i / 2)];
@@ -141,10 +127,7 @@ public class ProceduralCircleClipped : MonoBehaviour {
 		
 		return circle;
 	}
-	
-	
-	
-	// Update is called once per frame
+
 	void Update() {
 		if (_lastTotalVerts != totalVerts || 
 		    _lastSegmentVerts != segmentVerts ||

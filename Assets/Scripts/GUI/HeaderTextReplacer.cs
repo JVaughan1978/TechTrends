@@ -27,16 +27,10 @@ public class HeaderTextReplacer : MonoBehaviour {
 	}
 
 	void Start(){
-		_text = GetComponent<Text>();
-		/*
-		string dt = "23-07-2015";
-		string path = Application.persistentDataPath + "_Data-" + dt + ".xml";
-
-		_text.text = path;*/
+		_text = GetComponent<Text>();		
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update () {	
 	}
 }
