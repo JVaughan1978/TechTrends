@@ -16,8 +16,7 @@ public class PieDelayedEnable : MonoBehaviour {
     private float _time = 0;
     private float _lastStartTime = 0;
     private bool _allStarted = false;
-
-	// Update is called once per frame
+    	
     void Start() {
         foreach (DelayedStart ds in startTimes) {
             if (ds.startTime > _lastStartTime) { _lastStartTime = ds.startTime; }

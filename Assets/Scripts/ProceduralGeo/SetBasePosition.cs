@@ -28,7 +28,6 @@ public class SetBasePosition : MonoBehaviour {
         }
 	}
 
-	void Update () {
-	
+	void Update () {	
 	}
 }

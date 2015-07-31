@@ -49,11 +49,11 @@ public class PathAnimation : MonoBehaviour {
 		for (int i = _zCurve.length; i > 0; i--) {
 			_zCurve.RemoveKey(i);
 		}
-		//may need to create an array of keyframe times based on the vector magnitude of each point
+		
 		//read the values from controlPoints
 		for(int i = 0; i < controlPoints.Count; i++){
-			Keyframe key = new Keyframe(); //create a key set someboiler plate values
-			key.time = (float)i/((float)controlPoints.Count-1.0f); //probably a hack
+			Keyframe key = new Keyframe(); 
+			key.time = (float)i/((float)controlPoints.Count-1.0f);
 			key.tangentMode = 1; 
 			key.inTangent = 0f; 
 			key.outTangent = 0f; 
@@ -84,14 +84,13 @@ public class PathAnimation : MonoBehaviour {
 		float time = 0f;
 		float start = 0f;
 		float end = 1.0f;
-
-		//Debug.Log (this.name + " is going to path animate");
+		
 		while (time < duration) {
 			if(!_paused){
 				time += Time.deltaTime;
-				if( time > duration) { time = duration; } //cap the time
+				if( time > duration) { time = duration; } 
 				
-				_clipPosition = Easing.ExpoEaseInOut(time, start, end, duration); //this will change later once I finish implementing ease
+				_clipPosition = Easing.ExpoEaseInOut(time, start, end, duration);
 
 				Vector3 apply = new Vector3(_xCurve.Evaluate(_clipPosition),
 				                            _yCurve.Evaluate(_clipPosition),

@@ -131,11 +131,5 @@ public class PieChart : MonoBehaviour {
 	}    
 
 	void Update () {
-        /*
-		if (Input.GetKeyUp (KeyCode.Space)) {
-			if(pieSlices.Count == 0){
-				CreateSlices(trendingTopics);
-			}
-		}*/	
 	}
 }

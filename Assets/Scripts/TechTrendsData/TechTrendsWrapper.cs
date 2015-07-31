@@ -87,36 +87,7 @@ public class TechTrendsWrapper : MonoBehaviour {
 		ttd = newTTD;
 		isLoaded = true;
 	}
-
-	// Update is called once per frame
-	void Update () {/*
-		if (Input.GetKeyUp (KeyCode.F3)) {
-			SetTechTrendsDataFromInspector(0);
-		}
-
-		if (Input.GetKeyUp (KeyCode.F5)) {
-			string dt = DateTime.Now.ToString("dd-MM-yyyy");
-			string path = Application.persistentDataPath + "_Data-" + dt + ".xml";
-			ttd[0].Save(path);
-			Debug.Log ("XML written at " + path);
-		}
-
-		if (Input.GetKeyUp (KeyCode.F9)) {
-			TechTrendsData[] newTTD = new TechTrendsData[loadPaths.Length];
-			for(int i = 0; i < loadPaths.Length; i++) {
-				newTTD[i] = TechTrendsData.Load(loadPaths[i]);
-			}
-			ttd = newTTD;
-		}
-
-		if (Input.GetKeyUp (KeyCode.F10)) {
-			if(ttd[0] != null){
-				Debug.Log ("Got a data object");
-				if(ttd[0].totalData[0].dataPoints != null) {
-					Debug.Log ("Got " + ttd[0].totalData[0].dataPoints.Count + " automotive data");					
-				}
-			}
-		}*/
-		//Time to really automate this stuff
+	
+	void Update () {
 	}
 }

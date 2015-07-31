@@ -12,13 +12,11 @@ public class SectorTexture : MonoBehaviour {
 		Renderer r = gameObject.GetComponent<Renderer>();
 		r.material = mats[(int)sector];
 	}
-
-	// Use this for initialization
+	
 	void Start () {
 		SetMaterial();
 	}
-	
-	// Update is called once per frame
+		
 	void Update () {
 		if (_lastSector != sector) {
 			SetMaterial();
