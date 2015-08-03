@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 7e7227c8e6f40914987a34b6ed4315e7
+timeCreated: 1438607953
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: 2ndFloor
+    100002: ArchMesh
+    100004: Brushed Galvanized.lxp3
+    100006: Camera
+    100008: Chairs
+    100010: CloudBase
+    100012: Columns2
+    100014: daytime
+    100016: Floor1
+    100018: Floor2
+    100020: FloorBlue
+    100022: //RootNode
+    100024: Light2
+    100026: Light3
+    100028: Matte Aluminum.lxp2
+    100030: Outdoor Spherical 01.lxe
+    100032: Panel1
+    100034: RightWall
+    100036: Steps1
+    100038: Sun
+    100040: Tables
+    100042: Texture Group
+    100044: Texture Group2
+    100046: VR_SET
+    100048: Wall2
+    100050: Wall3
+    100052: Wall4
+    100054: Wall5
+    400000: 2ndFloor
+    400002: ArchMesh
+    400004: Brushed Galvanized.lxp3
+    400006: Camera
+    400008: Chairs
+    400010: CloudBase
+    400012: Columns2
+    400014: daytime
+    400016: Floor1
+    400018: Floor2
+    400020: FloorBlue
+    400022: //RootNode
+    400024: Light2
+    400026: Light3
+    400028: Matte Aluminum.lxp2
+    400030: Outdoor Spherical 01.lxe
+    400032: Panel1
+    400034: RightWall
+    400036: Steps1
+    400038: Sun
+    400040: Tables
+    400042: Texture Group
+    400044: Texture Group2
+    400046: VR_SET
+    400048: Wall2
+    400050: Wall3
+    400052: Wall4
+    400054: Wall5
+    2300000: 2ndFloor
+    2300002: ArchMesh
+    2300004: Chairs
+    2300006: CloudBase
+    2300008: Columns2
+    2300010: Floor1
+    2300012: Floor2
+    2300014: FloorBlue
+    2300016: Light2
+    2300018: Light3
+    2300020: Panel1
+    2300022: RightWall
+    2300024: Steps1
+    2300026: Tables
+    2300028: Wall2
+    2300030: Wall3
+    2300032: Wall4
+    2300034: Wall5
+    3300000: 2ndFloor
+    3300002: ArchMesh
+    3300004: Chairs
+    3300006: CloudBase
+    3300008: Columns2
+    3300010: Floor1
+    3300012: Floor2
+    3300014: FloorBlue
+    3300016: Light2
+    3300018: Light3
+    3300020: Panel1
+    3300022: RightWall
+    3300024: Steps1
+    3300026: Tables
+    3300028: Wall2
+    3300030: Wall3
+    3300032: Wall4
+    3300034: Wall5
+    4300000: Panel1
+    4300002: Light2
+    4300004: Light3
+    4300006: 2ndFloor
+    4300008: ArchMesh
+    4300010: Chairs
+    4300012: CloudBase
+    4300014: Columns2
+    4300016: FloorBlue
+    4300018: Floor1
+    4300020: Floor2
+    4300022: RightWall
+    4300024: Steps1
+    4300026: Tables
+    4300028: Wall2
+    4300030: Wall3
+    4300032: Wall4
+    4300034: Wall5
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
