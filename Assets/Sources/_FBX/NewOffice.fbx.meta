@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: b2bce365edba1794b82b85c73623fc5d
+timeCreated: 1438630644
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Area Light
+    100002: Area Light2
+    100004: Area Light3
+    100006: Area Light4
+    100008: Area Light5
+    100010: Area Light6
+    100012: Base
+    100014: Camera
+    100016: Directional Light
+    100018: Glass
+    100020: Group Locator
+    100022: Mesh
+    100024: //RootNode
+    100026: Point Light
+    100028: Point Light2
+    100030: Point Light3
+    100032: Point Light4
+    100034: Point Light5
+    100036: Sconce
+    100038: Simplified_ServerRack
+    100040: Simplified_ServerRack10
+    100042: Simplified_ServerRack11
+    100044: Simplified_ServerRack12
+    100046: Simplified_ServerRack13
+    100048: Simplified_ServerRack14
+    100050: Simplified_ServerRack15
+    100052: Simplified_ServerRack16
+    100054: Simplified_ServerRack17
+    100056: Simplified_ServerRack18
+    100058: Simplified_ServerRack19
+    100060: Simplified_ServerRack2
+    100062: Simplified_ServerRack20
+    100064: Simplified_ServerRack21
+    100066: Simplified_ServerRack22
+    100068: Simplified_ServerRack23
+    100070: Simplified_ServerRack24
+    100072: Simplified_ServerRack25
+    100074: Simplified_ServerRack26
+    100076: Simplified_ServerRack27
+    100078: Simplified_ServerRack28
+    100080: Simplified_ServerRack29
+    100082: Simplified_ServerRack3
+    100084: Simplified_ServerRack30
+    100086: Simplified_ServerRack31
+    100088: Simplified_ServerRack32
+    100090: Simplified_ServerRack33
+    100092: Simplified_ServerRack34
+    100094: Simplified_ServerRack35
+    100096: Simplified_ServerRack36
+    100098: Simplified_ServerRack37
+    100100: Simplified_ServerRack38
+    100102: Simplified_ServerRack39
+    100104: Simplified_ServerRack4
+    100106: Simplified_ServerRack40
+    100108: Simplified_ServerRack41
+    100110: Simplified_ServerRack42
+    100112: Simplified_ServerRack43
+    100114: Simplified_ServerRack44
+    100116: Simplified_ServerRack45
+    100118: Simplified_ServerRack46
+    100120: Simplified_ServerRack47
+    100122: Simplified_ServerRack48
+    100124: Simplified_ServerRack49
+    100126: Simplified_ServerRack5
+    100128: Simplified_ServerRack50
+    100130: Simplified_ServerRack51
+    100132: Simplified_ServerRack52
+    100134: Simplified_ServerRack53
+    100136: Simplified_ServerRack54
+    100138: Simplified_ServerRack55
+    100140: Simplified_ServerRack56
+    100142: Simplified_ServerRack57
+    100144: Simplified_ServerRack58
+    100146: Simplified_ServerRack59
+    100148: Simplified_ServerRack6
+    100150: Simplified_ServerRack60
+    100152: Simplified_ServerRack7
+    100154: Simplified_ServerRack8
+    100156: Simplified_ServerRack9
+    400000: Area Light
+    400002: Area Light2
+    400004: Area Light3
+    400006: Area Light4
+    400008: Area Light5
+    400010: Area Light6
+    400012: Base
+    400014: Camera
+    400016: Directional Light
+    400018: Glass
+    400020: Group Locator
+    400022: Mesh
+    400024: //RootNode
+    400026: Point Light
+    400028: Point Light2
+    400030: Point Light3
+    400032: Point Light4
+    400034: Point Light5
+    400036: Sconce
+    400038: Simplified_ServerRack
+    400040: Simplified_ServerRack10
+    400042: Simplified_ServerRack11
+    400044: Simplified_ServerRack12
+    400046: Simplified_ServerRack13
+    400048: Simplified_ServerRack14
+    400050: Simplified_ServerRack15
+    400052: Simplified_ServerRack16
+    400054: Simplified_ServerRack17
+    400056: Simplified_ServerRack18
+    400058: Simplified_ServerRack19
+    400060: Simplified_ServerRack2
+    400062: Simplified_ServerRack20
+    400064: Simplified_ServerRack21
+    400066: Simplified_ServerRack22
+    400068: Simplified_ServerRack23
+    400070: Simplified_ServerRack24
+    400072: Simplified_ServerRack25
+    400074: Simplified_ServerRack26
+    400076: Simplified_ServerRack27
+    400078: Simplified_ServerRack28
+    400080: Simplified_ServerRack29
+    400082: Simplified_ServerRack3
+    400084: Simplified_ServerRack30
+    400086: Simplified_ServerRack31
+    400088: Simplified_ServerRack32
+    400090: Simplified_ServerRack33
+    400092: Simplified_ServerRack34
+    400094: Simplified_ServerRack35
+    400096: Simplified_ServerRack36
+    400098: Simplified_ServerRack37
+    400100: Simplified_ServerRack38
+    400102: Simplified_ServerRack39
+    400104: Simplified_ServerRack4
+    400106: Simplified_ServerRack40
+    400108: Simplified_ServerRack41
+    400110: Simplified_ServerRack42
+    400112: Simplified_ServerRack43
+    400114: Simplified_ServerRack44
+    400116: Simplified_ServerRack45
+    400118: Simplified_ServerRack46
+    400120: Simplified_ServerRack47
+    400122: Simplified_ServerRack48
+    400124: Simplified_ServerRack49
+    400126: Simplified_ServerRack5
+    400128: Simplified_ServerRack50
+    400130: Simplified_ServerRack51
+    400132: Simplified_ServerRack52
+    400134: Simplified_ServerRack53
+    400136: Simplified_ServerRack54
+    400138: Simplified_ServerRack55
+    400140: Simplified_ServerRack56
+    400142: Simplified_ServerRack57
+    400144: Simplified_ServerRack58
+    400146: Simplified_ServerRack59
+    400148: Simplified_ServerRack6
+    400150: Simplified_ServerRack60
+    400152: Simplified_ServerRack7
+    400154: Simplified_ServerRack8
+    400156: Simplified_ServerRack9
+    2300000: Base
+    2300002: Glass
+    2300004: Mesh
+    2300006: Sconce
+    2300008: Simplified_ServerRack
+    2300010: Simplified_ServerRack10
+    2300012: Simplified_ServerRack11
+    2300014: Simplified_ServerRack12
+    2300016: Simplified_ServerRack13
+    2300018: Simplified_ServerRack14
+    2300020: Simplified_ServerRack15
+    2300022: Simplified_ServerRack16
+    2300024: Simplified_ServerRack17
+    2300026: Simplified_ServerRack18
+    2300028: Simplified_ServerRack19
+    2300030: Simplified_ServerRack2
+    2300032: Simplified_ServerRack20
+    2300034: Simplified_ServerRack21
+    2300036: Simplified_ServerRack22
+    2300038: Simplified_ServerRack23
+    2300040: Simplified_ServerRack24
+    2300042: Simplified_ServerRack25
+    2300044: Simplified_ServerRack26
+    2300046: Simplified_ServerRack27
+    2300048: Simplified_ServerRack28
+    2300050: Simplified_ServerRack29
+    2300052: Simplified_ServerRack3
+    2300054: Simplified_ServerRack30
+    2300056: Simplified_ServerRack31
+    2300058: Simplified_ServerRack32
+    2300060: Simplified_ServerRack33
+    2300062: Simplified_ServerRack34
+    2300064: Simplified_ServerRack35
+    2300066: Simplified_ServerRack36
+    2300068: Simplified_ServerRack37
+    2300070: Simplified_ServerRack38
+    2300072: Simplified_ServerRack39
+    2300074: Simplified_ServerRack4
+    2300076: Simplified_ServerRack40
+    2300078: Simplified_ServerRack41
+    2300080: Simplified_ServerRack42
+    2300082: Simplified_ServerRack43
+    2300084: Simplified_ServerRack44
+    2300086: Simplified_ServerRack45
+    2300088: Simplified_ServerRack46
+    2300090: Simplified_ServerRack47
+    2300092: Simplified_ServerRack48
+    2300094: Simplified_ServerRack49
+    2300096: Simplified_ServerRack5
+    2300098: Simplified_ServerRack50
+    2300100: Simplified_ServerRack51
+    2300102: Simplified_ServerRack52
+    2300104: Simplified_ServerRack53
+    2300106: Simplified_ServerRack54
+    2300108: Simplified_ServerRack55
+    2300110: Simplified_ServerRack56
+    2300112: Simplified_ServerRack57
+    2300114: Simplified_ServerRack58
+    2300116: Simplified_ServerRack59
+    2300118: Simplified_ServerRack6
+    2300120: Simplified_ServerRack60
+    2300122: Simplified_ServerRack7
+    2300124: Simplified_ServerRack8
+    2300126: Simplified_ServerRack9
+    2300128: //RootNode
+    3300000: Base
+    3300002: Glass
+    3300004: Mesh
+    3300006: Sconce
+    3300008: Simplified_ServerRack
+    3300010: Simplified_ServerRack10
+    3300012: Simplified_ServerRack11
+    3300014: Simplified_ServerRack12
+    3300016: Simplified_ServerRack13
+    3300018: Simplified_ServerRack14
+    3300020: Simplified_ServerRack15
+    3300022: Simplified_ServerRack16
+    3300024: Simplified_ServerRack17
+    3300026: Simplified_ServerRack18
+    3300028: Simplified_ServerRack19
+    3300030: Simplified_ServerRack2
+    3300032: Simplified_ServerRack20
+    3300034: Simplified_ServerRack21
+    3300036: Simplified_ServerRack22
+    3300038: Simplified_ServerRack23
+    3300040: Simplified_ServerRack24
+    3300042: Simplified_ServerRack25
+    3300044: Simplified_ServerRack26
+    3300046: Simplified_ServerRack27
+    3300048: Simplified_ServerRack28
+    3300050: Simplified_ServerRack29
+    3300052: Simplified_ServerRack3
+    3300054: Simplified_ServerRack30
+    3300056: Simplified_ServerRack31
+    3300058: Simplified_ServerRack32
+    3300060: Simplified_ServerRack33
+    3300062: Simplified_ServerRack34
+    3300064: Simplified_ServerRack35
+    3300066: Simplified_ServerRack36
+    3300068: Simplified_ServerRack37
+    3300070: Simplified_ServerRack38
+    3300072: Simplified_ServerRack39
+    3300074: Simplified_ServerRack4
+    3300076: Simplified_ServerRack40
+    3300078: Simplified_ServerRack41
+    3300080: Simplified_ServerRack42
+    3300082: Simplified_ServerRack43
+    3300084: Simplified_ServerRack44
+    3300086: Simplified_ServerRack45
+    3300088: Simplified_ServerRack46
+    3300090: Simplified_ServerRack47
+    3300092: Simplified_ServerRack48
+    3300094: Simplified_ServerRack49
+    3300096: Simplified_ServerRack5
+    3300098: Simplified_ServerRack50
+    3300100: Simplified_ServerRack51
+    3300102: Simplified_ServerRack52
+    3300104: Simplified_ServerRack53
+    3300106: Simplified_ServerRack54
+    3300108: Simplified_ServerRack55
+    3300110: Simplified_ServerRack56
+    3300112: Simplified_ServerRack57
+    3300114: Simplified_ServerRack58
+    3300116: Simplified_ServerRack59
+    3300118: Simplified_ServerRack6
+    3300120: Simplified_ServerRack60
+    3300122: Simplified_ServerRack7
+    3300124: Simplified_ServerRack8
+    3300126: Simplified_ServerRack9
+    3300128: //RootNode
+    4300000: Mesh
+    4300002: Glass
+    4300004: Simplified_ServerRack30
+    4300006: Sconce
+    4300008: Simplified_ServerRack31
+    4300010: Simplified_ServerRack54
+    4300012: Simplified_ServerRack32
+    4300014: Simplified_ServerRack56
+    4300016: Simplified_ServerRack33
+    4300018: Simplified_ServerRack58
+    4300020: Simplified_ServerRack34
+    4300022: Simplified_ServerRack59
+    4300024: Simplified_ServerRack35
+    4300026: Simplified_ServerRack53
+    4300028: Simplified_ServerRack36
+    4300030: Simplified_ServerRack60
+    4300032: Simplified_ServerRack37
+    4300034: Simplified_ServerRack57
+    4300036: Simplified_ServerRack38
+    4300038: Simplified_ServerRack55
+    4300040: Simplified_ServerRack39
+    4300042: Simplified_ServerRack46
+    4300044: Simplified_ServerRack40
+    4300046: Simplified_ServerRack47
+    4300048: Simplified_ServerRack41
+    4300050: Simplified_ServerRack48
+    4300052: Simplified_ServerRack42
+    4300054: Simplified_ServerRack49
+    4300056: Simplified_ServerRack43
+    4300058: Simplified_ServerRack50
+    4300060: Simplified_ServerRack44
+    4300062: Simplified_ServerRack51
+    4300064: Simplified_ServerRack45
+    4300066: Simplified_ServerRack52
+    4300068: Simplified_ServerRack
+    4300070: Simplified_ServerRack23
+    4300072: Simplified_ServerRack2
+    4300074: Simplified_ServerRack16
+    4300076: Simplified_ServerRack3
+    4300078: Simplified_ServerRack17
+    4300080: Simplified_ServerRack4
+    4300082: Simplified_ServerRack18
+    4300084: Simplified_ServerRack5
+    4300086: Simplified_ServerRack19
+    4300088: Simplified_ServerRack6
+    4300090: Simplified_ServerRack20
+    4300092: Simplified_ServerRack7
+    4300094: Simplified_ServerRack21
+    4300096: Simplified_ServerRack8
+    4300098: Simplified_ServerRack22
+    4300100: Simplified_ServerRack9
+    4300102: Simplified_ServerRack24
+    4300104: Simplified_ServerRack10
+    4300106: Simplified_ServerRack25
+    4300108: Simplified_ServerRack11
+    4300110: Simplified_ServerRack26
+    4300112: Simplified_ServerRack12
+    4300114: Simplified_ServerRack27
+    4300116: Simplified_ServerRack13
+    4300118: Simplified_ServerRack28
+    4300120: Simplified_ServerRack14
+    4300122: Simplified_ServerRack29
+    4300124: Simplified_ServerRack15
+    4300126: Base
+    4300128: NewOffice
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
