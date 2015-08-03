@@ -6,9 +6,17 @@ ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Camera
+    100004: Directional Light
+    100006: KPMG_LowPoly
     400000: //RootNode
+    400002: Camera
+    400004: Directional Light
+    400006: KPMG_LowPoly
     2300000: //RootNode
+    2300002: KPMG_LowPoly
     3300000: //RootNode
+    3300002: KPMG_LowPoly
     4300000: KPMG_LowPoly
     7400000: Take 001
     9500000: //RootNode
@@ -51,10 +59,10 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 25
+    normalSmoothAngle: 30
     splitTangentsAcrossUV: 1
-    normalImportMode: 1
-    tangentImportMode: 1
+    normalImportMode: 0
+    tangentImportMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
