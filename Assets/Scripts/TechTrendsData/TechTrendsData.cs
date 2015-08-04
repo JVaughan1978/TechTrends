@@ -32,7 +32,7 @@ public class TechTrendsData {
 	
 	public DataSet[] totalData = new DataSet[0];
     //private TextAsset text = "";
-    private WWW xmlData;
+    //private WWW xmlData;
 
 	public void ClearAll(){
 		foreach (DataSet ds in totalData) {
