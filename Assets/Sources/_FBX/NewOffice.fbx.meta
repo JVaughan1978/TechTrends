@@ -88,6 +88,11 @@ ModelImporter:
     100160: Office
     100162: OpenFloorPlan
     100164: ServerRoom
+    100166: Exterior
+    100168: Facebook
+    100170: Google
+    100172: LinkedIn
+    100174: Twitter
     400000: Area Light
     400002: Area Light2
     400004: Area Light3
@@ -171,6 +176,11 @@ ModelImporter:
     400160: Office
     400162: OpenFloorPlan
     400164: ServerRoom
+    400166: Exterior
+    400168: Facebook
+    400170: Google
+    400172: LinkedIn
+    400174: Twitter
     2300000: Base
     2300002: Glass
     2300004: Mesh
@@ -240,6 +250,11 @@ ModelImporter:
     2300132: Office
     2300134: OpenFloorPlan
     2300136: ServerRoom
+    2300138: Exterior
+    2300140: Facebook
+    2300142: Google
+    2300144: LinkedIn
+    2300146: Twitter
     3300000: Base
     3300002: Glass
     3300004: Mesh
@@ -309,6 +324,11 @@ ModelImporter:
     3300132: Office
     3300134: OpenFloorPlan
     3300136: ServerRoom
+    3300138: Exterior
+    3300140: Facebook
+    3300142: Google
+    3300144: LinkedIn
+    3300146: Twitter
     4300000: Mesh
     4300002: Glass
     4300004: Simplified_ServerRack30
@@ -377,6 +397,11 @@ ModelImporter:
     4300130: Office
     4300132: OpenFloorPlan
     4300134: ServerRoom
+    4300136: Exterior
+    4300138: Twitter
+    4300140: Facebook
+    4300142: Google
+    4300144: LinkedIn
   materials:
     importMaterials: 1
     materialName: 0
