@@ -85,6 +85,36 @@ ModelImporter:
     100154: Simplified_ServerRack__7_
     100156: Simplified_ServerRack__8_
     100158: Simplified_ServerRack__9_
+    100160: _NO_EXPORT_SHADOWS_
+    100162: Area_Light__10_
+    100164: Area_Light__11_
+    100166: Area_Light__12_
+    100168: Area_Light__13_
+    100170: Area_Light__14_
+    100172: Area_Light__15_
+    100174: Area_Light__7_
+    100176: Area_Light__8_
+    100178: Area_Light__9_
+    100180: Brushed_Aluminum.lxp
+    100182: BrushedSteel__Image___2___Texture_
+    100184: BrushedSteel__Image___Texture_
+    100186: Exterior
+    100188: ExteriorPortion
+    100190: Facebook
+    100192: Google
+    100194: Hardwood_Floor.lxp
+    100196: hardwoodfloor__Image___Texture_
+    100198: hardwoodfloor_bump__Image___Texture_
+    100200: Interior
+    100202: InteriorLights
+    100204: LinkedIn
+    100206: Office
+    100208: OpenFloorPlan
+    100210: Point_Light__6_
+    100212: ServerRoom
+    100214: Sun
+    100216: Texture_Group
+    100218: Twitter
     400000: Area_Light
     400002: Area_Light__2_
     400004: Area_Light__3_
@@ -165,6 +195,36 @@ ModelImporter:
     400154: Simplified_ServerRack__7_
     400156: Simplified_ServerRack__8_
     400158: Simplified_ServerRack__9_
+    400160: _NO_EXPORT_SHADOWS_
+    400162: Area_Light__10_
+    400164: Area_Light__11_
+    400166: Area_Light__12_
+    400168: Area_Light__13_
+    400170: Area_Light__14_
+    400172: Area_Light__15_
+    400174: Area_Light__7_
+    400176: Area_Light__8_
+    400178: Area_Light__9_
+    400180: Brushed_Aluminum.lxp
+    400182: BrushedSteel__Image___2___Texture_
+    400184: BrushedSteel__Image___Texture_
+    400186: Exterior
+    400188: ExteriorPortion
+    400190: Facebook
+    400192: Google
+    400194: Hardwood_Floor.lxp
+    400196: hardwoodfloor__Image___Texture_
+    400198: hardwoodfloor_bump__Image___Texture_
+    400200: Interior
+    400202: InteriorLights
+    400204: LinkedIn
+    400206: Office
+    400208: OpenFloorPlan
+    400210: Point_Light__6_
+    400212: ServerRoom
+    400214: Sun
+    400216: Texture_Group
+    400218: Twitter
     2300000: Base
     2300002: Glass
     2300004: Mesh
@@ -229,6 +289,15 @@ ModelImporter:
     2300122: Simplified_ServerRack__7_
     2300124: Simplified_ServerRack__8_
     2300126: Simplified_ServerRack__9_
+    2300128: _NO_EXPORT_SHADOWS_
+    2300130: Exterior
+    2300132: Facebook
+    2300134: Google
+    2300136: LinkedIn
+    2300138: Office
+    2300140: OpenFloorPlan
+    2300142: ServerRoom
+    2300144: Twitter
     3300000: Base
     3300002: Glass
     3300004: Mesh
@@ -293,6 +362,15 @@ ModelImporter:
     3300122: Simplified_ServerRack__7_
     3300124: Simplified_ServerRack__8_
     3300126: Simplified_ServerRack__9_
+    3300128: _NO_EXPORT_SHADOWS_
+    3300130: Exterior
+    3300132: Facebook
+    3300134: Google
+    3300136: LinkedIn
+    3300138: Office
+    3300140: OpenFloorPlan
+    3300142: ServerRoom
+    3300144: Twitter
     4300000: Mesh
     4300002: Glass
     4300004: Simplified_ServerRack__30_
@@ -357,6 +435,15 @@ ModelImporter:
     4300122: Simplified_ServerRack__29_
     4300124: Simplified_ServerRack__15_
     4300126: Base
+    4300128: Exterior
+    4300130: _NO_EXPORT_SHADOWS_
+    4300132: Twitter
+    4300134: Facebook
+    4300136: Google
+    4300138: LinkedIn
+    4300140: ServerRoom
+    4300142: OpenFloorPlan
+    4300144: Office
     9500000: //RootNode
   materials:
     importMaterials: 1
