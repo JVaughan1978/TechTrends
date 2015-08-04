@@ -84,6 +84,10 @@ ModelImporter:
     100152: Simplified_ServerRack7
     100154: Simplified_ServerRack8
     100156: Simplified_ServerRack9
+    100158: NewOffice
+    100160: Office
+    100162: OpenFloorPlan
+    100164: ServerRoom
     400000: Area Light
     400002: Area Light2
     400004: Area Light3
@@ -163,6 +167,10 @@ ModelImporter:
     400152: Simplified_ServerRack7
     400154: Simplified_ServerRack8
     400156: Simplified_ServerRack9
+    400158: NewOffice
+    400160: Office
+    400162: OpenFloorPlan
+    400164: ServerRoom
     2300000: Base
     2300002: Glass
     2300004: Mesh
@@ -228,6 +236,10 @@ ModelImporter:
     2300124: Simplified_ServerRack8
     2300126: Simplified_ServerRack9
     2300128: //RootNode
+    2300130: NewOffice
+    2300132: Office
+    2300134: OpenFloorPlan
+    2300136: ServerRoom
     3300000: Base
     3300002: Glass
     3300004: Mesh
@@ -293,6 +305,10 @@ ModelImporter:
     3300124: Simplified_ServerRack8
     3300126: Simplified_ServerRack9
     3300128: //RootNode
+    3300130: NewOffice
+    3300132: Office
+    3300134: OpenFloorPlan
+    3300136: ServerRoom
     4300000: Mesh
     4300002: Glass
     4300004: Simplified_ServerRack30
@@ -358,6 +374,9 @@ ModelImporter:
     4300124: Simplified_ServerRack15
     4300126: Base
     4300128: NewOffice
+    4300130: Office
+    4300132: OpenFloorPlan
+    4300134: ServerRoom
   materials:
     importMaterials: 1
     materialName: 0
