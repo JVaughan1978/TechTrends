@@ -127,8 +127,8 @@ public class BubbleFlow : MonoBehaviour {
             txt.text = entry.Key + " : " + entry.Value;
             txt.font = bubbleFont;
             txt.alignment = TextAnchor.MiddleCenter;
-            txt.fontSize = 8;
-            txt.color = new Color((206f / 255f), (206f / 255f), (206f / 255f));
+            txt.fontSize = 9;
+            txt.color = new Color(1.0f, 1.0f, 1.0f);
             
             RectTransform rt = bubbleText.GetComponent<RectTransform>();
             rt.sizeDelta = new Vector2(360f, 60f);

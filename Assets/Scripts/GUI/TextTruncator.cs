@@ -119,7 +119,7 @@ public class TextTruncator : MonoBehaviour {
                     _currentName = SetDisplayString(22, true);
                     _text.text = _currentName;
                 }
-                _text.color = new Vector4((183f / 255f), (179f / 255f), (168f / 255f), 1.0f);
+                _text.color = new Vector4(1f, 1f, 1f, 1f);
                 _highlightedEvent = false;
             }
         }        
