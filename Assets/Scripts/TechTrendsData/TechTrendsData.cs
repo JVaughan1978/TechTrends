@@ -31,7 +31,7 @@ public class TechTrendsData {
 	}
 	
 	public DataSet[] totalData = new DataSet[0];
-    private TextAsset text = "";
+    //private TextAsset text = "";
     private WWW xmlData;
 
 	public void ClearAll(){
@@ -54,17 +54,16 @@ public class TechTrendsData {
 		}
 	}
 
-    IEnumerator FetchXML(string url) {
+    /*IEnumerator FetchXML(string url) {
         WWW newXML = new WWW(url);
         yield return newXML;
         text = (TextAsset)newXML;
-    }
+    }*/
 
 	public static TechTrendsData Load(string path){
-		XmlDocument xmldoc = new XmlDocument();
-        //Here's where I have to switch this over to WWW and url based fetches
-        //TextAsset textAsset = (TextAsset)Resources.Load(path, typeof(TextAsset));
-		//xmldoc.LoadXml (textAsset.text);
+		XmlDocument xmldoc = new XmlDocument();       
+        TextAsset textAsset = (TextAsset)Resources.Load(path, typeof(TextAsset));
+		xmldoc.LoadXml (textAsset.text);
 
 		XmlSerializer serializer = new XmlSerializer(typeof(TechTrendsData));		
 		using (XmlReader reader = new XmlNodeReader(xmldoc)) {
