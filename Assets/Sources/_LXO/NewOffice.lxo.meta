@@ -280,6 +280,70 @@ ModelImporter:
     100544: Tall_KPMG_Building__2__MeshPart1
     100546: Tenement__2_
     100548: Twitter__2_
+    100550: _mixed___Texture___111_
+    100552: _mixed___Texture___61_
+    100554: Agate__10___Texture_
+    100556: Agate__11___Texture_
+    100558: Agate__12___Texture_
+    100560: Agate__9___Texture_
+    100562: brick_morter_mask__Image___Texture_
+    100564: brick_variation_mask__Image___Texture_
+    100566: Brushed_Steel.lxp__2_
+    100568: BrushedSteel__Image___3___Texture_
+    100570: BrushedSteel__Image___4___Texture_
+    100572: Cellular__2___Texture_
+    100574: Cellular__Texture_
+    100576: Concrete01__2___Image___20___Texture_
+    100578: Concrete01__2___Image___22___Texture_
+    100580: Concrete01__2___Image___25___Texture_
+    100582: Condos2
+    100584: flemish_brick_bump__Image___2___Texture_
+    100586: flemish_brick_bump__Image___3___Texture_
+    100588: flemish_brick_bump__Image___Texture_
+    100590: Gradient__118___Texture_
+    100592: Gradient__119___Texture_
+    100594: Gradient__120___Texture_
+    100596: HighRiseApts2
+    100598: Noise__43___Texture_
+    100600: Noise__4___Texture_
+    100602: Noise__5___Texture_
+    100604: Slate_01.lxp
+    100606: OldenBake
+    100608: HR_Chair
+    100610: 3DGM_chair_01__Image___Texture_
+    100612: 3DGM_chair_02__Image___Texture_
+    100614: 3DGM_closet_01__Image___Texture_
+    100616: 3DGM_coffee_machine_01__Image___Texture_
+    100618: 3DGM_copier_01__Image___Texture_
+    100620: 3DGM_copier_bump_01__Image___Texture_
+    100622: 3DGM_desk_02__Image___Texture_
+    100624: 3DGM_dressoir_02__Image___Texture_
+    100626: 3DGM_laptop_01__Image___Texture_
+    100628: 3DGM_laptop_01_bump__Image___Texture_
+    100630: 3DGM_modern_computer_01__Image___Texture_
+    100632: 3DGM_modern_computer_bump_01__Image___Texture_
+    100634: 3DGM_modern_computer_spec_01__Image___Texture_
+    100636: 3DGM_plant_big_01__Image___Texture_
+    100638: 3DGM_plant_trans_01__Image___Texture_
+    100640: 3DGM_printer_01__Image___Texture_
+    100642: 3DGM_shredder_01__Image___Texture_
+    100644: Imported_OBJ_Object
+    100646: Imported_OBJ_Object__2_
+    100648: Imported_OBJ_Object__3_
+    100650: lamp_standing_04__Image___Texture_
+    100652: ordners_01__Image___Texture_
+    100654: phone_01__Image___Texture_
+    100656: SET_04
+    100658: tape_dispencer_01__Image___Texture_
+    100660: Door_01.lxl
+    100662: Gradient__447___Texture_
+    100664: Gradient__449___Texture_
+    100666: Polished_Oak_2D__2_
+    100668: polished_rosewood__Image___Texture_
+    100670: Table
+    100672: Table__2_
+    100674: Texture_Group__3_
+    100676: Varnished_Rosewood.lxp
     400000: Area_Light
     400002: Area_Light__2_
     400004: Area_Light__3_
@@ -555,6 +619,70 @@ ModelImporter:
     400544: Tall_KPMG_Building__2__MeshPart1
     400546: Tenement__2_
     400548: Twitter__2_
+    400550: _mixed___Texture___111_
+    400552: _mixed___Texture___61_
+    400554: Agate__10___Texture_
+    400556: Agate__11___Texture_
+    400558: Agate__12___Texture_
+    400560: Agate__9___Texture_
+    400562: brick_morter_mask__Image___Texture_
+    400564: brick_variation_mask__Image___Texture_
+    400566: Brushed_Steel.lxp__2_
+    400568: BrushedSteel__Image___3___Texture_
+    400570: BrushedSteel__Image___4___Texture_
+    400572: Cellular__2___Texture_
+    400574: Cellular__Texture_
+    400576: Concrete01__2___Image___20___Texture_
+    400578: Concrete01__2___Image___22___Texture_
+    400580: Concrete01__2___Image___25___Texture_
+    400582: Condos2
+    400584: flemish_brick_bump__Image___2___Texture_
+    400586: flemish_brick_bump__Image___3___Texture_
+    400588: flemish_brick_bump__Image___Texture_
+    400590: Gradient__118___Texture_
+    400592: Gradient__119___Texture_
+    400594: Gradient__120___Texture_
+    400596: HighRiseApts2
+    400598: Noise__43___Texture_
+    400600: Noise__4___Texture_
+    400602: Noise__5___Texture_
+    400604: Slate_01.lxp
+    400606: OldenBake
+    400608: HR_Chair
+    400610: 3DGM_chair_01__Image___Texture_
+    400612: 3DGM_chair_02__Image___Texture_
+    400614: 3DGM_closet_01__Image___Texture_
+    400616: 3DGM_coffee_machine_01__Image___Texture_
+    400618: 3DGM_copier_01__Image___Texture_
+    400620: 3DGM_copier_bump_01__Image___Texture_
+    400622: 3DGM_desk_02__Image___Texture_
+    400624: 3DGM_dressoir_02__Image___Texture_
+    400626: 3DGM_laptop_01__Image___Texture_
+    400628: 3DGM_laptop_01_bump__Image___Texture_
+    400630: 3DGM_modern_computer_01__Image___Texture_
+    400632: 3DGM_modern_computer_bump_01__Image___Texture_
+    400634: 3DGM_modern_computer_spec_01__Image___Texture_
+    400636: 3DGM_plant_big_01__Image___Texture_
+    400638: 3DGM_plant_trans_01__Image___Texture_
+    400640: 3DGM_printer_01__Image___Texture_
+    400642: 3DGM_shredder_01__Image___Texture_
+    400644: Imported_OBJ_Object
+    400646: Imported_OBJ_Object__2_
+    400648: Imported_OBJ_Object__3_
+    400650: lamp_standing_04__Image___Texture_
+    400652: ordners_01__Image___Texture_
+    400654: phone_01__Image___Texture_
+    400656: SET_04
+    400658: tape_dispencer_01__Image___Texture_
+    400660: Door_01.lxl
+    400662: Gradient__447___Texture_
+    400664: Gradient__449___Texture_
+    400666: Polished_Oak_2D__2_
+    400668: polished_rosewood__Image___Texture_
+    400670: Table
+    400672: Table__2_
+    400674: Texture_Group__3_
+    400676: Varnished_Rosewood.lxp
     2300000: Base
     2300002: Glass
     2300004: Mesh
@@ -686,6 +814,16 @@ ModelImporter:
     2300256: Tall_KPMG_Building__2__MeshPart1
     2300258: Tenement__2_
     2300260: Twitter__2_
+    2300262: Condos2
+    2300264: HighRiseApts2
+    2300266: OldenBake
+    2300268: HR_Chair
+    2300270: Imported_OBJ_Object
+    2300272: Imported_OBJ_Object__2_
+    2300274: Imported_OBJ_Object__3_
+    2300276: Door_01.lxl
+    2300278: Table
+    2300280: Table__2_
     3300000: Base
     3300002: Glass
     3300004: Mesh
@@ -817,6 +955,16 @@ ModelImporter:
     3300256: Tall_KPMG_Building__2__MeshPart1
     3300258: Tenement__2_
     3300260: Twitter__2_
+    3300262: Condos2
+    3300264: HighRiseApts2
+    3300266: OldenBake
+    3300268: HR_Chair
+    3300270: Imported_OBJ_Object
+    3300272: Imported_OBJ_Object__2_
+    3300274: Imported_OBJ_Object__3_
+    3300276: Door_01.lxl
+    3300278: Table
+    3300280: Table__2_
     4300000: Mesh
     4300002: Glass
     4300004: Simplified_ServerRack__30_
@@ -948,6 +1096,16 @@ ModelImporter:
     4300256: Facebook__2_
     4300258: Google__2_
     4300260: LinkedIn__2_
+    4300262: HighRiseApts2
+    4300264: Condos2
+    4300266: OldenBake
+    4300268: HR_Chair
+    4300270: Imported_OBJ_Object
+    4300272: Imported_OBJ_Object__2_
+    4300274: Imported_OBJ_Object__3_
+    4300276: Door_01.lxl
+    4300278: Table
+    4300280: Table__2_
     9500000: //RootNode
   materials:
     importMaterials: 1
