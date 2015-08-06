@@ -142,6 +142,44 @@ ModelImporter:
     100268: Texture Group
     100270: Texture Group2
     100272: Wrought Steel.lxp3
+    100274: _NO_EXPORT_SHADOWS_2
+    100276: AstorBuilding2
+    100278: Condos2
+    100280: CountyBuilding2
+    100282: CountyBuilding2_MeshPart0
+    100284: CountyBuilding2_MeshPart1
+    100286: Excelsior2
+    100288: ExteriorHighRes2
+    100290: Facebook2
+    100292: Google2
+    100294: HighRiseApts2
+    100296: Hotel2
+    100298: HR_Chair
+    100300: Interior
+    100302: Leed40002
+    100304: Leed40002_MeshPart0
+    100306: Leed40002_MeshPart1
+    100308: Leed40002_MeshPart2
+    100310: Leed40002_MeshPart3
+    100312: LinkedIn2
+    100314: MixedUse2
+    100316: OfficeObjects
+    100318: OfficeSpace2
+    100320: OldenBuilding2
+    100322: PixelBuilding2
+    100324: RivalAccountants2
+    100326: RivalAccountants2_MeshPart0
+    100328: RivalAccountants2_MeshPart1
+    100330: RoundBuilding2
+    100332: serverRack
+    100334: Sun
+    100336: Table
+    100338: Table2
+    100340: Tall_KPMG_Building2
+    100342: Tall_KPMG_Building2_MeshPart0
+    100344: Tall_KPMG_Building2_MeshPart1
+    100346: Tenement2
+    100348: Twitter2
     400000: Area Light
     400002: Area Light2
     400004: Area Light3
@@ -279,6 +317,44 @@ ModelImporter:
     400268: Texture Group
     400270: Texture Group2
     400272: Wrought Steel.lxp3
+    400274: _NO_EXPORT_SHADOWS_2
+    400276: AstorBuilding2
+    400278: Condos2
+    400280: CountyBuilding2
+    400282: CountyBuilding2_MeshPart0
+    400284: CountyBuilding2_MeshPart1
+    400286: Excelsior2
+    400288: ExteriorHighRes2
+    400290: Facebook2
+    400292: Google2
+    400294: HighRiseApts2
+    400296: Hotel2
+    400298: HR_Chair
+    400300: Interior
+    400302: Leed40002
+    400304: Leed40002_MeshPart0
+    400306: Leed40002_MeshPart1
+    400308: Leed40002_MeshPart2
+    400310: Leed40002_MeshPart3
+    400312: LinkedIn2
+    400314: MixedUse2
+    400316: OfficeObjects
+    400318: OfficeSpace2
+    400320: OldenBuilding2
+    400322: PixelBuilding2
+    400324: RivalAccountants2
+    400326: RivalAccountants2_MeshPart0
+    400328: RivalAccountants2_MeshPart1
+    400330: RoundBuilding2
+    400332: serverRack
+    400334: Sun
+    400336: Table
+    400338: Table2
+    400340: Tall_KPMG_Building2
+    400342: Tall_KPMG_Building2_MeshPart0
+    400344: Tall_KPMG_Building2_MeshPart1
+    400346: Tenement2
+    400348: Twitter2
     2300000: Base
     2300002: Glass
     2300004: Mesh
@@ -379,6 +455,37 @@ ModelImporter:
     2300194: Tall_KPMG_Building_MeshPart0
     2300196: Tall_KPMG_Building_MeshPart1
     2300198: Tenement
+    2300200: _NO_EXPORT_SHADOWS_2
+    2300202: AstorBuilding2
+    2300204: Condos2
+    2300206: CountyBuilding2_MeshPart0
+    2300208: CountyBuilding2_MeshPart1
+    2300210: Excelsior2
+    2300212: Facebook2
+    2300214: Google2
+    2300216: HighRiseApts2
+    2300218: Hotel2
+    2300220: HR_Chair
+    2300222: Leed40002_MeshPart0
+    2300224: Leed40002_MeshPart1
+    2300226: Leed40002_MeshPart2
+    2300228: Leed40002_MeshPart3
+    2300230: LinkedIn2
+    2300232: MixedUse2
+    2300234: OfficeObjects
+    2300236: OfficeSpace2
+    2300238: OldenBuilding2
+    2300240: PixelBuilding2
+    2300242: RivalAccountants2_MeshPart0
+    2300244: RivalAccountants2_MeshPart1
+    2300246: RoundBuilding2
+    2300248: serverRack
+    2300250: Table
+    2300252: Table2
+    2300254: Tall_KPMG_Building2_MeshPart0
+    2300256: Tall_KPMG_Building2_MeshPart1
+    2300258: Tenement2
+    2300260: Twitter2
     3300000: Base
     3300002: Glass
     3300004: Mesh
@@ -479,6 +586,37 @@ ModelImporter:
     3300194: Tall_KPMG_Building_MeshPart0
     3300196: Tall_KPMG_Building_MeshPart1
     3300198: Tenement
+    3300200: _NO_EXPORT_SHADOWS_2
+    3300202: AstorBuilding2
+    3300204: Condos2
+    3300206: CountyBuilding2_MeshPart0
+    3300208: CountyBuilding2_MeshPart1
+    3300210: Excelsior2
+    3300212: Facebook2
+    3300214: Google2
+    3300216: HighRiseApts2
+    3300218: Hotel2
+    3300220: HR_Chair
+    3300222: Leed40002_MeshPart0
+    3300224: Leed40002_MeshPart1
+    3300226: Leed40002_MeshPart2
+    3300228: Leed40002_MeshPart3
+    3300230: LinkedIn2
+    3300232: MixedUse2
+    3300234: OfficeObjects
+    3300236: OfficeSpace2
+    3300238: OldenBuilding2
+    3300240: PixelBuilding2
+    3300242: RivalAccountants2_MeshPart0
+    3300244: RivalAccountants2_MeshPart1
+    3300246: RoundBuilding2
+    3300248: serverRack
+    3300250: Table
+    3300252: Table2
+    3300254: Tall_KPMG_Building2_MeshPart0
+    3300256: Tall_KPMG_Building2_MeshPart1
+    3300258: Tenement2
+    3300260: Twitter2
     4300000: Mesh
     4300002: Glass
     4300004: Simplified_ServerRack30
@@ -578,6 +716,37 @@ ModelImporter:
     4300192: ServerRoom2
     4300194: OpenFloorPlan2
     4300196: Office2
+    4300198: OfficeObjects
+    4300200: serverRack
+    4300202: Table
+    4300204: Table2
+    4300206: HR_Chair
+    4300208: RivalAccountants2_MeshPart0
+    4300210: RivalAccountants2_MeshPart1
+    4300212: HighRiseApts2
+    4300214: Condos2
+    4300216: OldenBuilding2
+    4300218: CountyBuilding2_MeshPart0
+    4300220: CountyBuilding2_MeshPart1
+    4300222: Hotel2
+    4300224: Tenement2
+    4300226: Excelsior2
+    4300228: MixedUse2
+    4300230: OfficeSpace2
+    4300232: AstorBuilding2
+    4300234: RoundBuilding2
+    4300236: Tall_KPMG_Building2_MeshPart0
+    4300238: Tall_KPMG_Building2_MeshPart1
+    4300240: PixelBuilding2
+    4300242: Leed40002_MeshPart0
+    4300244: Leed40002_MeshPart1
+    4300246: Leed40002_MeshPart2
+    4300248: Leed40002_MeshPart3
+    4300250: _NO_EXPORT_SHADOWS_2
+    4300252: Twitter2
+    4300254: Facebook2
+    4300256: Google2
+    4300258: LinkedIn2
   materials:
     importMaterials: 1
     materialName: 0
