@@ -344,6 +344,37 @@ ModelImporter:
     100672: Table__2_
     100674: Texture_Group__3_
     100676: Varnished_Rosewood.lxp
+    100678: Condos2__2_
+    100680: HighRiseApts2__2_
+    100682: OfficeObjects
+    100684: serverRack
+    100686: serverRack__Image___Texture_
+    100688: _mixed___Texture___4_
+    100690: DGM_chair_01__Image___Texture_
+    100692: DGM_chair_02__Image___Texture_
+    100694: DGM_closet_01__Image___Texture_
+    100696: DGM_coffee_machine_01__Image___Texture_
+    100698: DGM_desk_02__Image___Texture_
+    100700: DGM_dressoir_02__Image___Texture_
+    100702: DGM_laptop_01__Image___Texture_
+    100704: DGM_laptop_01_illm__Image___2___Texture_
+    100706: DGM_laptop_01_illm__Image___Texture_
+    100708: DGM_modern_computer_01__Image___Texture_
+    100710: DGM_modern_computer_01_illm__Image___2___Texture_
+    100712: DGM_modern_computer_01_illm__Image___Texture_
+    100714: DGM_printer_01__Image___Texture_
+    100716: DGM_shredder_01__Image___Texture_
+    100718: Enter_IOR_between_0-90_Here__Texture_
+    100720: Gradient_Correction_Curve__Texture_
+    100722: GroundPlane
+    100724: Hex_Tile__Texture_
+    100726: LightBox
+    100728: No_EXPORT_REFL_STANDIN
+    100730: phone_01_illm__Image___2___Texture_
+    100732: phone_01_illm__Image___Texture_
+    100734: Polyethylene_Terephthalate__PET_.lxp__2_
+    100736: Roughness__Texture_
+    100738: Server_illm__Image___Texture_
     400000: Area_Light
     400002: Area_Light__2_
     400004: Area_Light__3_
@@ -683,6 +714,37 @@ ModelImporter:
     400672: Table__2_
     400674: Texture_Group__3_
     400676: Varnished_Rosewood.lxp
+    400678: Condos2__2_
+    400680: HighRiseApts2__2_
+    400682: OfficeObjects
+    400684: serverRack
+    400686: serverRack__Image___Texture_
+    400688: _mixed___Texture___4_
+    400690: DGM_chair_01__Image___Texture_
+    400692: DGM_chair_02__Image___Texture_
+    400694: DGM_closet_01__Image___Texture_
+    400696: DGM_coffee_machine_01__Image___Texture_
+    400698: DGM_desk_02__Image___Texture_
+    400700: DGM_dressoir_02__Image___Texture_
+    400702: DGM_laptop_01__Image___Texture_
+    400704: DGM_laptop_01_illm__Image___2___Texture_
+    400706: DGM_laptop_01_illm__Image___Texture_
+    400708: DGM_modern_computer_01__Image___Texture_
+    400710: DGM_modern_computer_01_illm__Image___2___Texture_
+    400712: DGM_modern_computer_01_illm__Image___Texture_
+    400714: DGM_printer_01__Image___Texture_
+    400716: DGM_shredder_01__Image___Texture_
+    400718: Enter_IOR_between_0-90_Here__Texture_
+    400720: Gradient_Correction_Curve__Texture_
+    400722: GroundPlane
+    400724: Hex_Tile__Texture_
+    400726: LightBox
+    400728: No_EXPORT_REFL_STANDIN
+    400730: phone_01_illm__Image___2___Texture_
+    400732: phone_01_illm__Image___Texture_
+    400734: Polyethylene_Terephthalate__PET_.lxp__2_
+    400736: Roughness__Texture_
+    400738: Server_illm__Image___Texture_
     2300000: Base
     2300002: Glass
     2300004: Mesh
@@ -824,6 +886,17 @@ ModelImporter:
     2300276: Door_01.lxl
     2300278: Table
     2300280: Table__2_
+    2300282: Condos2__2_
+    2300284: CountyBuilding
+    2300286: HighRiseApts2__2_
+    2300288: Leed4000
+    2300290: OfficeObjects
+    2300292: RivalAccountants
+    2300294: serverRack
+    2300296: Tall_KPMG_Building
+    2300298: GroundPlane
+    2300300: LightBox
+    2300302: No_EXPORT_REFL_STANDIN
     3300000: Base
     3300002: Glass
     3300004: Mesh
@@ -965,6 +1038,17 @@ ModelImporter:
     3300276: Door_01.lxl
     3300278: Table
     3300280: Table__2_
+    3300282: Condos2__2_
+    3300284: CountyBuilding
+    3300286: HighRiseApts2__2_
+    3300288: Leed4000
+    3300290: OfficeObjects
+    3300292: RivalAccountants
+    3300294: serverRack
+    3300296: Tall_KPMG_Building
+    3300298: GroundPlane
+    3300300: LightBox
+    3300302: No_EXPORT_REFL_STANDIN
     4300000: Mesh
     4300002: Glass
     4300004: Simplified_ServerRack__30_
@@ -1106,6 +1190,17 @@ ModelImporter:
     4300276: Door_01.lxl
     4300278: Table
     4300280: Table__2_
+    4300282: RivalAccountants
+    4300284: HighRiseApts2__2_
+    4300286: Condos2__2_
+    4300288: CountyBuilding
+    4300290: Leed4000
+    4300292: Tall_KPMG_Building
+    4300294: OfficeObjects
+    4300296: serverRack
+    4300298: LightBox
+    4300300: GroundPlane
+    4300302: No_EXPORT_REFL_STANDIN
     9500000: //RootNode
   materials:
     importMaterials: 1
