@@ -1,0 +1,184 @@
+# MTL written from D:\Projects\Git\TechTrends\Assets\Sources\_FBX\OfficeBaked.obj
+newmtl AstorBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\AstorBuilding(2)_FinalColorOutput_1001.png
+newmtl CondoBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\Condos2_FinalColorOutput_1001.png
+newmtl CountyBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\CountyBuilding(2)_FinalColorOutput_1001.png
+newmtl ExcelsiorBake
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\Excelsior(2)_FinalColorOutput_1001.png
+newmtl HRChairBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\HR_Chair_FinalColorOutput_1001.png
+newmtl HighRiseBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\HighRiseApts2_FinalColorOutput_1001.png
+newmtl HotelBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\Hotel(2)_FinalColorOutput_1001.png
+newmtl KPMG_Baked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\Tall_KPMG_Building(2)_FinalColorOutput_1001.png
+newmtl Leed4kBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\Leed4000(2)_FinalColorOutput_1001.png
+newmtl MixedTxtBake
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\MixedUse(2)_FinalColorOutput_1001.png
+newmtl OffBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\OfficeSpace(2)_FinalColorOutput_1001.png
+newmtl OfficeBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\Office_FinalColorOutput_1001.png
+newmtl OfficeObjectsBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\OfficeObjects_FinalColorOutput_1001.png
+newmtl OldenBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\OldenBuilding(2)_FinalColorOutput_1001.png
+newmtl OpenFloorPlanBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\OpenFloorPlan_FinalColorOutput_1001.png
+newmtl Pixel_Baked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\PixelBuilding(2)_FinalColorOutput_1001.png
+newmtl RivalAccountBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\RivalAccountants(2)_FinalColorOutput_1001.png
+newmtl RoundBldBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\RoundBuilding(2)_FinalColorOutput_1001.png
+newmtl RoundExtBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\RoundBuildingExtension_FinalColorOutput_1001.png
+newmtl ServerBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\SeverSpace_FinalColorOutput_1001.png
+newmtl TableBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\Table_FinalColorOutput_1001.png
+newmtl TallBuildingMetal
+Kd 0.24 0.138342 0.102982
+Ns 128
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.7 0.7 0.7
+newmtl TenementBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd D:\Projects\Git\TechTrends\Assets\Sources\Bakes\PreTrans\Tenement(2)_FinalColorOutput_1001.png
