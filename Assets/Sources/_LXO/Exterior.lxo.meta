@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 2d6cdd420d39a6641872d56462de547e
+timeCreated: 1439222318
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AstorBuilding
+    100002: Condos
+    100004: CountyBuilding
+    100006: Excelsior
+    100008: //RootNode
+    100010: ExteriorLowRes
+    100012: HighRiseApts
+    100014: Hotel
+    100016: Leed4000
+    100018: MixedUse
+    100020: OfficeSpace
+    100022: Olden
+    100024: PixelBuilding
+    100026: Render
+    100028: RivalAccountants
+    100030: RoundBuilding
+    100032: RoundExt
+    100034: Tall_KPMG_Building
+    100036: Tenement
+    400000: AstorBuilding
+    400002: Condos
+    400004: CountyBuilding
+    400006: Excelsior
+    400008: //RootNode
+    400010: ExteriorLowRes
+    400012: HighRiseApts
+    400014: Hotel
+    400016: Leed4000
+    400018: MixedUse
+    400020: OfficeSpace
+    400022: Olden
+    400024: PixelBuilding
+    400026: Render
+    400028: RivalAccountants
+    400030: RoundBuilding
+    400032: RoundExt
+    400034: Tall_KPMG_Building
+    400036: Tenement
+    2300000: AstorBuilding
+    2300002: Condos
+    2300004: CountyBuilding
+    2300006: Excelsior
+    2300008: HighRiseApts
+    2300010: Hotel
+    2300012: Leed4000
+    2300014: MixedUse
+    2300016: OfficeSpace
+    2300018: Olden
+    2300020: PixelBuilding
+    2300022: RivalAccountants
+    2300024: RoundBuilding
+    2300026: RoundExt
+    2300028: Tall_KPMG_Building
+    2300030: Tenement
+    3300000: AstorBuilding
+    3300002: Condos
+    3300004: CountyBuilding
+    3300006: Excelsior
+    3300008: HighRiseApts
+    3300010: Hotel
+    3300012: Leed4000
+    3300014: MixedUse
+    3300016: OfficeSpace
+    3300018: Olden
+    3300020: PixelBuilding
+    3300022: RivalAccountants
+    3300024: RoundBuilding
+    3300026: RoundExt
+    3300028: Tall_KPMG_Building
+    3300030: Tenement
+    4300000: MixedUse
+    4300002: Tenement
+    4300004: AstorBuilding
+    4300006: RivalAccountants
+    4300008: HighRiseApts
+    4300010: Condos
+    4300012: Olden
+    4300014: CountyBuilding
+    4300016: Hotel
+    4300018: RoundBuilding
+    4300020: RoundExt
+    4300022: OfficeSpace
+    4300024: Leed4000
+    4300026: Tall_KPMG_Building
+    4300028: Excelsior
+    4300030: PixelBuilding
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

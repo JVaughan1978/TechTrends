@@ -294,6 +294,69 @@ ModelImporter:
     100572: windows_11x20_C_white_stripes__Image___2___Texture_
     100574: windows_11x20_C_white_stripes__Image___Texture_
     100576: Wrought_Steel.lxp__3_
+    100578: _mixed___Texture___5_
+    100580: _mixed___Texture___7_
+    100582: _mixed___Texture___8_
+    100584: AstorBuilding_2__FinalColorOutput_1001__Image___Texture_
+    100586: AstorBuilding_Diffcolor_1001__Image___Texture_
+    100588: brick_morter_mask__Image___2___Texture_
+    100590: Cellular__3___Texture_
+    100592: Cellular__4___Texture_
+    100594: Condos
+    100596: Condos2_FinalColorOutput_1001__Image___Texture_
+    100598: Condos_Diffcolor_1001__Image___Texture_
+    100600: CountyBuilding_2__FinalColorOutput_1001__Image___Texture_
+    100602: CountyBuilding_Diffcolor_1001__Image___Texture_
+    100604: Excelsior_2__FinalColorOutput_1001__Image___Texture_
+    100606: flemish_brick_bump__Image___4___Texture_
+    100608: flemish_brick_bump__Image___5___Texture_
+    100610: flemish_brick_bump__Image___6___Texture_
+    100612: Gradient__10___Texture_
+    100614: Gradient__11___Texture_
+    100616: Gradient__2___Texture_
+    100618: Gradient__3___Texture_
+    100620: Gradient__4___Texture_
+    100622: Gradient__7___Texture_
+    100624: Gradient__8___Texture_
+    100626: Gradient__9___Texture_
+    100628: Gradient__Texture_
+    100630: HighRiseApts
+    100632: HighRiseApts2_FinalColorOutput_1001__Image___Texture_
+    100634: HighRiseApts_Diffcolor_1001__Image___Texture_
+    100636: Hotel_2__FinalColorOutput_1001__Image___Texture_
+    100638: Hotel_Diffcolor_1001__Image___Texture_
+    100640: Leed4000_2__FinalColorOutput_1001__Image___Texture_
+    100642: limestone__Image___Texture_
+    100644: MixedUse_2__FinalColorOutput_1001__Image___Texture_
+    100646: MixedUse_Diffcolor_1001__Image___Texture_
+    100648: Noise__10___Texture_
+    100650: Noise__11___Texture_
+    100652: Noise__12___Texture_
+    100654: Noise__13___Texture_
+    100656: Noise__14___Texture_
+    100658: Noise__15___Texture_
+    100660: Noise__6___Texture_
+    100662: Noise__7___Texture_
+    100664: Noise__8___Texture_
+    100666: Noise__9___Texture_
+    100668: OfficeSpace_2__FinalColorOutput_1001__Image___Texture_
+    100670: Olden
+    100672: Olden_Diffcolor_1001__Image___Texture_
+    100674: OldenBuilding_2__FinalColorOutput_1001__Image___Texture_
+    100676: PixelBuilding_2__FinalColorOutput_1001__Image___Texture_
+    100678: RivalAccountants_2__FinalColorOutput_1001__Image___Texture_
+    100680: RivalAccountants_Diffcolor_1001__Image___Texture_
+    100682: rough_bump__2___Image___Texture_
+    100684: RoundBuilding_2__FinalColorOutput_1001__Image___Texture_
+    100686: RoundBuilding_Diffcolor_1001__Image___Texture_
+    100688: RoundBuildingExtension_FinalColorOutput_1001__Image___Texture_
+    100690: RoundExt
+    100692: RoundExt_Diffcolor_1001__Image___Texture_
+    100694: sand_bump__Image___Texture_
+    100696: Tall_KPMG_Building_2__FinalColorOutput_1001__Image___Texture_
+    100698: Tenement_2__FinalColorOutput_1001__Image___Texture_
+    100700: Tenement_Diffcolor_1001__Image___Texture_
+    100702: windows_11x20_B__Image___Texture_
     400000: _mixed___Texture_
     400002: _mixed___Texture___111_
     400004: _mixed___Texture___141_
@@ -583,6 +646,69 @@ ModelImporter:
     400572: windows_11x20_C_white_stripes__Image___2___Texture_
     400574: windows_11x20_C_white_stripes__Image___Texture_
     400576: Wrought_Steel.lxp__3_
+    400578: _mixed___Texture___5_
+    400580: _mixed___Texture___7_
+    400582: _mixed___Texture___8_
+    400584: AstorBuilding_2__FinalColorOutput_1001__Image___Texture_
+    400586: AstorBuilding_Diffcolor_1001__Image___Texture_
+    400588: brick_morter_mask__Image___2___Texture_
+    400590: Cellular__3___Texture_
+    400592: Cellular__4___Texture_
+    400594: Condos
+    400596: Condos2_FinalColorOutput_1001__Image___Texture_
+    400598: Condos_Diffcolor_1001__Image___Texture_
+    400600: CountyBuilding_2__FinalColorOutput_1001__Image___Texture_
+    400602: CountyBuilding_Diffcolor_1001__Image___Texture_
+    400604: Excelsior_2__FinalColorOutput_1001__Image___Texture_
+    400606: flemish_brick_bump__Image___4___Texture_
+    400608: flemish_brick_bump__Image___5___Texture_
+    400610: flemish_brick_bump__Image___6___Texture_
+    400612: Gradient__10___Texture_
+    400614: Gradient__11___Texture_
+    400616: Gradient__2___Texture_
+    400618: Gradient__3___Texture_
+    400620: Gradient__4___Texture_
+    400622: Gradient__7___Texture_
+    400624: Gradient__8___Texture_
+    400626: Gradient__9___Texture_
+    400628: Gradient__Texture_
+    400630: HighRiseApts
+    400632: HighRiseApts2_FinalColorOutput_1001__Image___Texture_
+    400634: HighRiseApts_Diffcolor_1001__Image___Texture_
+    400636: Hotel_2__FinalColorOutput_1001__Image___Texture_
+    400638: Hotel_Diffcolor_1001__Image___Texture_
+    400640: Leed4000_2__FinalColorOutput_1001__Image___Texture_
+    400642: limestone__Image___Texture_
+    400644: MixedUse_2__FinalColorOutput_1001__Image___Texture_
+    400646: MixedUse_Diffcolor_1001__Image___Texture_
+    400648: Noise__10___Texture_
+    400650: Noise__11___Texture_
+    400652: Noise__12___Texture_
+    400654: Noise__13___Texture_
+    400656: Noise__14___Texture_
+    400658: Noise__15___Texture_
+    400660: Noise__6___Texture_
+    400662: Noise__7___Texture_
+    400664: Noise__8___Texture_
+    400666: Noise__9___Texture_
+    400668: OfficeSpace_2__FinalColorOutput_1001__Image___Texture_
+    400670: Olden
+    400672: Olden_Diffcolor_1001__Image___Texture_
+    400674: OldenBuilding_2__FinalColorOutput_1001__Image___Texture_
+    400676: PixelBuilding_2__FinalColorOutput_1001__Image___Texture_
+    400678: RivalAccountants_2__FinalColorOutput_1001__Image___Texture_
+    400680: RivalAccountants_Diffcolor_1001__Image___Texture_
+    400682: rough_bump__2___Image___Texture_
+    400684: RoundBuilding_2__FinalColorOutput_1001__Image___Texture_
+    400686: RoundBuilding_Diffcolor_1001__Image___Texture_
+    400688: RoundBuildingExtension_FinalColorOutput_1001__Image___Texture_
+    400690: RoundExt
+    400692: RoundExt_Diffcolor_1001__Image___Texture_
+    400694: sand_bump__Image___Texture_
+    400696: Tall_KPMG_Building_2__FinalColorOutput_1001__Image___Texture_
+    400698: Tenement_2__FinalColorOutput_1001__Image___Texture_
+    400700: Tenement_Diffcolor_1001__Image___Texture_
+    400702: windows_11x20_B__Image___Texture_
     2300000: _NO_EXPORT_SHADOWS___2_
     2300002: AstorBaked
     2300004: AstorBuilding
@@ -659,6 +785,10 @@ ModelImporter:
     2300146: Tenement__2_
     2300148: Tenement__3_
     2300150: Twitter__2_
+    2300152: Condos
+    2300154: HighRiseApts
+    2300156: Olden
+    2300158: RoundExt
     3300000: _NO_EXPORT_SHADOWS___2_
     3300002: AstorBaked
     3300004: AstorBuilding
@@ -735,6 +865,10 @@ ModelImporter:
     3300146: Tenement__2_
     3300148: Tenement__3_
     3300150: Twitter__2_
+    3300152: Condos
+    3300154: HighRiseApts
+    3300156: Olden
+    3300158: RoundExt
     4300000: RivalAccountants
     4300002: HighRiseApts2__2_
     4300004: Condos2__2_
@@ -811,6 +945,10 @@ ModelImporter:
     4300146: Tall_KPMG_Bake_MeshPart0
     4300148: Tall_KPMG_Bake_MeshPart1
     4300150: OfficeBaked
+    4300152: HighRiseApts
+    4300154: Condos
+    4300156: Olden
+    4300158: RoundExt
     9500000: //RootNode
   materials:
     importMaterials: 1
