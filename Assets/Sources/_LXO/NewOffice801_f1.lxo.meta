@@ -289,6 +289,12 @@ ModelImporter:
     100562: OfficeBake
     100564: Table_FinalColorOutput_1001__Image___Texture_
     100566: TableBake
+    100568: _none___Image___2___Texture_
+    100570: _none___Image___3___Texture_
+    100572: _none___Image___4___Texture_
+    100574: _none___Image___5___Texture_
+    100576: _none___Image___6___Texture_
+    100578: _none___Image___Texture_
     400000: _mixed___Texture_
     400002: _mixed___Texture___111_
     400004: _mixed___Texture___141_
@@ -573,6 +579,12 @@ ModelImporter:
     400562: OfficeBake
     400564: Table_FinalColorOutput_1001__Image___Texture_
     400566: TableBake
+    400568: _none___Image___2___Texture_
+    400570: _none___Image___3___Texture_
+    400572: _none___Image___4___Texture_
+    400574: _none___Image___5___Texture_
+    400576: _none___Image___6___Texture_
+    400578: _none___Image___Texture_
     2300000: _NO_EXPORT_SHADOWS___2_
     2300002: AstorBaked
     2300004: AstorBuilding
