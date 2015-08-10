@@ -295,6 +295,7 @@ ModelImporter:
     100574: _none___Image___5___Texture_
     100576: _none___Image___6___Texture_
     100578: _none___Image___Texture_
+    100580: serverRack_illum__Image___2___Texture_
     400000: _mixed___Texture_
     400002: _mixed___Texture___111_
     400004: _mixed___Texture___141_
@@ -585,6 +586,7 @@ ModelImporter:
     400574: _none___Image___5___Texture_
     400576: _none___Image___6___Texture_
     400578: _none___Image___Texture_
+    400580: serverRack_illum__Image___2___Texture_
     2300000: _NO_EXPORT_SHADOWS___2_
     2300002: AstorBaked
     2300004: AstorBuilding

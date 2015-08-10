@@ -8,9 +8,13 @@ ModelImporter:
     100000: //RootNode
     100002: GraphBase_geom
     100004: Graphs_geom
+    100006: Camera
+    100008: Directional Light
     400000: //RootNode
     400002: GraphBase_geom
     400004: Graphs_geom
+    400006: Camera
+    400008: Directional Light
     2300000: GraphBase_geom
     2300002: Graphs_geom
     3300000: GraphBase_geom
