@@ -296,6 +296,13 @@ ModelImporter:
     100576: _none___Image___6___Texture_
     100578: _none___Image___Texture_
     100580: serverRack_illum__Image___2___Texture_
+    100582: _mixed___Texture___5_
+    100584: _mixed___Texture___7_
+    100586: Brushed_Zinc.lxp
+    100588: BrushedSteel__Image___5___Texture_
+    100590: BrushedSteel__Image___6___Texture_
+    100592: Noise__6___Texture_
+    100594: Patinated_Brass.lxp__3_
     400000: _mixed___Texture_
     400002: _mixed___Texture___111_
     400004: _mixed___Texture___141_
@@ -587,6 +594,13 @@ ModelImporter:
     400576: _none___Image___6___Texture_
     400578: _none___Image___Texture_
     400580: serverRack_illum__Image___2___Texture_
+    400582: _mixed___Texture___5_
+    400584: _mixed___Texture___7_
+    400586: Brushed_Zinc.lxp
+    400588: BrushedSteel__Image___5___Texture_
+    400590: BrushedSteel__Image___6___Texture_
+    400592: Noise__6___Texture_
+    400594: Patinated_Brass.lxp__3_
     2300000: _NO_EXPORT_SHADOWS___2_
     2300002: AstorBaked
     2300004: AstorBuilding

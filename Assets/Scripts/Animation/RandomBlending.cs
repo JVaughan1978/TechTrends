@@ -4,12 +4,6 @@ using System.Collections;
 public class RandomBlending : MonoBehaviour {
 
     SkinnedMeshRenderer _smr;
-    Vector2 _blends = Vector2.zero;
-    //blend controls
-    private float bs_back = 0f;
-    private float bs_front = 0f;
-    private float bs_left = 0f;
-    private float bs_right = 0f;
 
     private int bs_down_lookup = 0;
     private int bs_up_lookup = 1;
@@ -22,10 +16,10 @@ public class RandomBlending : MonoBehaviour {
         Down,
         Left,
         Right
-    } 
+    }
 
     [System.Serializable]
-    public class BlendDirections{
+    public class BlendDirections {
         public BlendDirection blend;
         public int lookup;
     }
@@ -38,35 +32,35 @@ public class RandomBlending : MonoBehaviour {
     public float omegaX = 1.0f;
     public float omegaY = 0.5f;
     private float _index = 0;
-    private float x_mult = 0;
-    private float y_mult = 0;
+    public float x_mult = 0;
+    public float y_mult = 0;
 
 
     Vector2 SineOut() {
         _index += Time.deltaTime;
         float x = amplitudeX * Mathf.Cos(omegaX * _index);
-        float y = amplitudeY * Mathf.Sin(omegaY * _index);       
+        float y = amplitudeY * Mathf.Sin(omegaY * _index);
 
         Vector2 outVec = new Vector2(x, y);
         return outVec;
     }
 
-    void SetBlendShapes(Vector2 position) {        
+    void SetBlendShapes(Vector2 position) {
         if(position.x > 0) {
-            _smr.SetBlendShapeWeight(bs_right_lookup, position.x);            
-        } 
+            _smr.SetBlendShapeWeight(bs_right_lookup, position.x);
+        }
 
         if(position.x < 0) {
-            _smr.SetBlendShapeWeight(bs_left_lookup, position.x);            
-        } 
+            _smr.SetBlendShapeWeight(bs_left_lookup, position.x);
+        }
 
         if(position.y > 0) {
-            _smr.SetBlendShapeWeight(bs_up_lookup, position.y);            
+            _smr.SetBlendShapeWeight(bs_up_lookup, position.y);
         }
 
         if(position.y < 0) {
-            _smr.SetBlendShapeWeight(bs_down_lookup, position.x);            
-        }     
+            _smr.SetBlendShapeWeight(bs_down_lookup, position.x);
+        }
     }
 
     void SetBlendIndexes() {
@@ -98,8 +92,8 @@ public class RandomBlending : MonoBehaviour {
             Debug.LogError("Check your BlendCorrelations, they may not be assigned correctly and may cause incorrect animation.");
         }
     }
-    
-    void Start () {
+
+    void Start() {
         _smr = GetComponent<SkinnedMeshRenderer>();
         if(_smr == null) {
             this.enabled = false;
@@ -107,10 +101,10 @@ public class RandomBlending : MonoBehaviour {
         x_mult = Random.Range(0.75f, 1.25f);
         y_mult = Random.Range(0.75f, 1.25f);
         SetBlendIndexes();
-	}	
-	
-	void Update () {
+    }
+
+    void Update() {
         Vector2 current = SineOut();
         SetBlendShapes(current);
-	}
+    }
 }

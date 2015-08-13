@@ -103,7 +103,7 @@ public class PieChart : MonoBehaviour {
 			pieSlices.Add(go);
 
 			go.AddComponent<HighlightReaction>();
-			MeshCollider mc = go.AddComponent<MeshCollider>();
+			go.AddComponent<MeshCollider>();
 			go.AddComponent<CollisionHelper>();
 			go.layer = 8;
             go.AddComponent<Highlight>();

@@ -9,8 +9,7 @@ public class HighlightTextReplacer : MonoBehaviour {
     private string _text = "";
     private bool _highlightedEvent = false;
     private bool _deselectedEvent = false;
-    
-    private bool _sectorEvent = false;
+
     private Sector _sector = Sector.Automotive;
     private GameObject _dataObject;
     // YES THIS SHOULD REALLY NOT BE HERE.
@@ -73,7 +72,6 @@ public class HighlightTextReplacer : MonoBehaviour {
             _highlightedEvent = false;
         }
 	}
-
     private string GetText(){
         int _trendValue = 0;
         if(_data.TryGetValue(_text, out _trendValue)){

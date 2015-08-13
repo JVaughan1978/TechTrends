@@ -3,7 +3,7 @@ using System.Collections;
 
 public class HighlightReaction : MonoBehaviour {
 
-	private bool _highlighted = false;
+	public bool _highlighted = false;
 
 	public delegate void HighlightAction(string name);
 	public static event HighlightAction OnHighlight;

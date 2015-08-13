@@ -15,7 +15,6 @@ public class Highlight : MonoBehaviour {
 	private Vector3 _originalPos = Vector3.zero;
 	private Vector3 _highlightedPos = Vector3.zero;
 	private Material _originalMaterial;
-    private Vector3 two = new Vector3(2.0f, 2.0f, 2.0f);
 
 	void OnEnable(){
 		HighlightReaction.OnHighlight += Highlighted;
