@@ -54,12 +54,6 @@ public class TechTrendsData {
 		}
 	}
 
-    /*IEnumerator FetchXML(string url) {
-        WWW newXML = new WWW(url);
-        yield return newXML;
-        text = (TextAsset)newXML;
-    }*/
-
 	public static TechTrendsData Load(string path){
 		XmlDocument xmldoc = new XmlDocument();       
         TextAsset textAsset = (TextAsset)Resources.Load(path, typeof(TextAsset));
