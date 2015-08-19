@@ -11,7 +11,7 @@ public class TechTrendsJSONWrapper : MonoBehaviour {
     
     public string url = "http://owlcdn.net/kpmg/us/data.json";
     public string filename = "data.json";
-    public TextAsset textAsset = null;    
+    
     public RootObject data;
     public static bool JSON_LOAD_COMPLETE = false;
 
@@ -71,33 +71,21 @@ public class TechTrendsJSONWrapper : MonoBehaviour {
     IEnumerator WWWGet() {
         Debug.Log("Attempting to get Tech Trends Data.");
         WWW www = new WWW(url);
-        yield return www;
-        ConvertStringToTextAsset(www.text);
-        PopulateData();
+        yield return www;        
+        PopulateData(www.text);
         Debug.Log("Data Get!");
     }    
+    
 
-    void ConvertStringToTextAsset(string text) {
+    void PopulateData(string text) {
+        //strip off callback nonsense
         string formatted = text.Remove(0, 9);
         int charLength = formatted.Length;
-        formatted = formatted.Remove(charLength - 1, 1);        
-        File.WriteAllText(Application.dataPath + "/Resources/" + filename, formatted);
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
-        textAsset = (TextAsset)Resources.Load("data");        
-    }
-   
-    public static DateTime UnixTimeStampToDateTime(double unixTimeStamp) {
-        // Unix timestamp is seconds past epoch
-        DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
-        dtDateTime = dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
-        return dtDateTime;
-    }
-
-    void PopulateData() {
-        data = JsonConvert.DeserializeObject<RootObject>(textAsset.text);
-        DateTime dateTime = UnixTimeStampToDateTime((double)data.lastUpdate);
-        Debug.Log(dateTime.ToString() + " just happened");
+        formatted = formatted.Remove(charLength - 1, 1);   
+        //serialize the data
+        data = JsonConvert.DeserializeObject<RootObject>(formatted);
+        //DateTime dateTime = UnixTimeStampToDateTime((double)data.lastUpdate);
+        //Debug.Log(dateTime.ToString() + " just happened");
         JSON_LOAD_COMPLETE = true;
     }
     
@@ -150,18 +138,36 @@ public class TechTrendsJSONWrapper : MonoBehaviour {
         
         return tempDict;
     }
+    
+	void Start () {
+        StartCoroutine("WWWGet");
+    }
+		
+	void Update () {
+	}
 
+    /* 
+    //mostly used this to save off data.json for comparison sakes    
+    void ConvertStringToTextAsset(string text) {
+        TextAsset textAsset = null;
+        string formatted = text.Remove(0, 9);
+        int charLength = formatted.Length;
+        formatted = formatted.Remove(charLength - 1, 1);
+        File.WriteAllText(Application.dataPath + "/Resources/" + filename, formatted);
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+        textAsset = (TextAsset)Resources.Load("data");
+    }
+    This was just to test the validity of the serialiation routine
     void WriteData() {
         string serialized = JsonConvert.SerializeObject(data);
         File.WriteAllText(Application.dataPath + "/Resources/data_serialized.json", serialized);
     }
-    
-	// Use this for initialization
-	void Start () {
-        StartCoroutine("WWWGet");
-    }
-	
-	// Update is called once per frame
-	void Update () {
-	}
+    public static DateTime UnixTimeStampToDateTime(double unixTimeStamp) {
+        // Unix timestamp is seconds past epoch
+        DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+        dtDateTime = dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
+        return dtDateTime;
+    }*/
+
 }
