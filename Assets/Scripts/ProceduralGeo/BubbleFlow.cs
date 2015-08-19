@@ -61,13 +61,14 @@ public class BubbleFlow : MonoBehaviour {
     }
 
 	// Use this for initialization
-	void Start () {
+	void Start () {        
 		_dataObject = GameObject.Find("DataObject");
 	}
 
+    //GOTTA FIX THIS TO NEW VERSION
 	private int GetTrendingTopicsDictionary(){
-		if (_dataObject.GetComponent<TechTrendsWrapper>().isLoaded == true) {
-			trendingTopics = _dataObject.GetComponent<TechTrendsWrapper>().GetSectorToDictionary(0, sector); //that zero eventually needs to correspond to weeks past
+		if (TechTrendsJSONWrapper.JSON_LOAD_COMPLETE == true) {
+			trendingTopics = _dataObject.GetComponent<TechTrendsJSONWrapper>().GetJSONDictionary(sector); //that zero eventually needs to correspond to weeks past
 			return 1;
 		}
 		return 0;

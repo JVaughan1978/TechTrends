@@ -45,18 +45,13 @@ public class PieChart : MonoBehaviour {
     }
 
 	// Use this for initialization
-	void Start () {
-        _dataObject = GameObject.Find("DataObject");
-        int newTTD = GetTrendingTopicsDictionary();
-        if (newTTD == 0) {
-            Debug.Log("NO Trending Topics!");
-            this.enabled = false;
-        }
+	void Start () {        
+        _dataObject = GameObject.Find("DataObject");       
 	}
-
+    
     private int GetTrendingTopicsDictionary() {
-        if (_dataObject.GetComponent<TechTrendsWrapper>().isLoaded == true) {
-            trendingTopics = _dataObject.GetComponent<TechTrendsWrapper>().GetSectorToTruncatedDictionary(0, sector, 9);
+        if (TechTrendsJSONWrapper.JSON_LOAD_COMPLETE == true) {
+            trendingTopics = _dataObject.GetComponent<TechTrendsJSONWrapper>().GetTruncatedJSONDictionary(sector,9);
             return 1;
         }
         return 0;
@@ -130,6 +125,6 @@ public class PieChart : MonoBehaviour {
 		transform.localScale = Vector3.one;
 	}    
 
-	void Update () {
+	void Update () {        
 	}
 }

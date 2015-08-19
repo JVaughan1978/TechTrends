@@ -82,8 +82,9 @@ public class HighlightTextReplacer : MonoBehaviour {
     }
 
     private int GetTrendingTopicsDictionary() {
-        if (_dataObject.GetComponent<TechTrendsWrapper>().isLoaded == true) {
-            _data = _dataObject.GetComponent<TechTrendsWrapper>().GetSectorToDictionary(0, _sector);
+        if (TechTrendsJSONWrapper.JSON_LOAD_COMPLETE) {
+            //_data = _dataObject.GetComponent<TechTrendsWrapper>().GetSectorToDictionary(0, _sector);
+            _data = _dataObject.GetComponent<TechTrendsJSONWrapper>().GetJSONDictionary(_sector);
             return 1;
         }
         return 0;
