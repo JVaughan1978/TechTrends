@@ -97,7 +97,7 @@ public class TechTrendsJSONWrapper : MonoBehaviour {
             string path = Application.persistentDataPath + "/Resources/data.json";
             string serialized = JsonConvert.SerializeObject(data);         
             
-            using(FileStream fs = new FileStream(path, FileMode.Open)) {
+            using(FileStream fs = new FileStream(path, FileMode.OpenOrCreate)) {
                 using(StreamWriter writer = new StreamWriter(fs)) {
                     writer.Write(serialized);
                 }
@@ -120,6 +120,24 @@ public class TechTrendsJSONWrapper : MonoBehaviour {
         }
         
         return tempDict;
+    }
+
+    public static DateTime UnixTimeStampToDateTime(double unixTimeStamp) {
+        // Unix timestamp is seconds past epoch
+        DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+        dtDateTime = dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
+        return dtDateTime;
+    }
+
+    public string GetJSONUpdateTime() {
+        string outString = "";
+        if(data != null) {            
+            DateTime dateTime = UnixTimeStampToDateTime((double)data.lastUpdate);
+            outString = dateTime.ToString();            
+        } else {
+            Debug.LogWarning("data not loaded!");
+        }
+        return outString;
     }
 
     public Dictionary<string, int> GetTruncatedJSONDictionary(Sector sect, int truncate) {
