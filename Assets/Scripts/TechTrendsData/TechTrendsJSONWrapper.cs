@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
-using UnityEditor;
+using System;
+using System.IO;
+using System.Net;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
-using System;
-using System.Linq;
 using Newtonsoft.Json;
 
 public class TechTrendsJSONWrapper : MonoBehaviour {
@@ -73,20 +73,36 @@ public class TechTrendsJSONWrapper : MonoBehaviour {
         WWW www = new WWW(url);
         yield return www;        
         PopulateData(www.text);
+        Invoke("SerializeData", 12.0f);
         Debug.Log("Data Get!");
-    }    
+    }
+
+    void LoadLocalData() {
+        TextAsset textAsset = (TextAsset)Resources.Load("data", typeof(TextAsset));
+        data = JsonConvert.DeserializeObject<RootObject>(textAsset.text);
+        JSON_LOAD_COMPLETE = true;
+    }
     
 
-    void PopulateData(string text) {
-        //strip off callback nonsense
+    void PopulateData(string text) {        
         string formatted = text.Remove(0, 9);
         int charLength = formatted.Length;
-        formatted = formatted.Remove(charLength - 1, 1);   
-        //serialize the data
+        formatted = formatted.Remove(charLength - 1, 1);           
         data = JsonConvert.DeserializeObject<RootObject>(formatted);
-        //DateTime dateTime = UnixTimeStampToDateTime((double)data.lastUpdate);
-        //Debug.Log(dateTime.ToString() + " just happened");
         JSON_LOAD_COMPLETE = true;
+    }
+
+    void SerializeData() {
+        if(data != null) {
+            string path = Application.persistentDataPath + "/Resources/data.json";
+            string serialized = JsonConvert.SerializeObject(data);         
+            
+            using(FileStream fs = new FileStream(path, FileMode.Open)) {
+                using(StreamWriter writer = new StreamWriter(fs)) {
+                    writer.Write(serialized);
+                }
+            }   
+        }                        
     }
     
     public Dictionary<string, int> GetJSONDictionary(Sector sect) {        
@@ -138,36 +154,48 @@ public class TechTrendsJSONWrapper : MonoBehaviour {
         
         return tempDict;
     }
+
+    public string GetHtmlFromUri(string resource) {
+        string html = string.Empty;
+        HttpWebRequest req = (HttpWebRequest)WebRequest.Create(resource);
+        try {
+            using(HttpWebResponse resp = (HttpWebResponse)req.GetResponse()) {
+                bool isSuccess = (int)resp.StatusCode < 299 && (int)resp.StatusCode >= 200;
+                if(isSuccess) {
+                    using(StreamReader reader = new StreamReader(resp.GetResponseStream())) {
+                        //We are limiting the array to 80 so we don't have
+                        //to parse the entire html document feel free to 
+                        //adjust (probably stay under 300)
+                        char[] cs = new char[80];
+                        reader.Read(cs, 0, cs.Length);
+                        foreach(char ch in cs) {
+                            html += ch;
+                        }
+                    }
+                }
+            }
+        } catch {
+            return "";
+        }
+        return html;
+    }
     
 	void Start () {
-        StartCoroutine("WWWGet");
+        string HtmlText = GetHtmlFromUri("http://google.com");
+        if(HtmlText == "") {
+            //No connection
+            //load from data.json
+            LoadLocalData();
+        } else if(!HtmlText.Contains("schema.org/WebPage")) {
+            //Redirecting since the beginning of googles html contains that 
+            //phrase and it was not found
+            LoadLocalData();
+        } else {
+            //success
+            StartCoroutine("WWWGet");
+        }        
     }
 		
 	void Update () {
 	}
-
-    /* 
-    //mostly used this to save off data.json for comparison sakes    
-    void ConvertStringToTextAsset(string text) {
-        TextAsset textAsset = null;
-        string formatted = text.Remove(0, 9);
-        int charLength = formatted.Length;
-        formatted = formatted.Remove(charLength - 1, 1);
-        File.WriteAllText(Application.dataPath + "/Resources/" + filename, formatted);
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
-        textAsset = (TextAsset)Resources.Load("data");
-    }
-    This was just to test the validity of the serialiation routine
-    void WriteData() {
-        string serialized = JsonConvert.SerializeObject(data);
-        File.WriteAllText(Application.dataPath + "/Resources/data_serialized.json", serialized);
-    }
-    public static DateTime UnixTimeStampToDateTime(double unixTimeStamp) {
-        // Unix timestamp is seconds past epoch
-        DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
-        dtDateTime = dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
-        return dtDateTime;
-    }*/
-
 }
