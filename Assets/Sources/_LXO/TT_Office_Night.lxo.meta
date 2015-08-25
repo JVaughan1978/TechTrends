@@ -429,6 +429,46 @@ ModelImporter:
     100842: windows_11x20_C_white_stripes__Image___2___Texture_
     100844: windows_11x20_C_white_stripes__Image___Texture_
     100846: Wrought_Steel.lxp__3_
+    100848: AstorBuilding3_FinalColorOutput__Image___Texture_
+    100850: AstorBuilding__2_
+    100852: Condos
+    100854: Condos2_FinalColorOutput__Image___Texture_
+    100856: CountyBuilding2_FinalColorOutput__Image___Texture_
+    100858: CountyBuilding__3_
+    100860: CountyBuilding__3__MeshPart0
+    100862: CountyBuilding__3__MeshPart1
+    100864: Excelsior2_FinalColorOutput__Image___Texture_
+    100866: Excelsior__3_
+    100868: HighRiseApts
+    100870: HighRiseApts2_FinalColorOutput__Image___Texture_
+    100872: Hotel2_FinalColorOutput__Image___Texture_
+    100874: Hotel__3_
+    100876: Leed4000_2_FinalColorOutput__Image___Texture_
+    100878: Leed4000__3_
+    100880: Leed4000__3__MeshPart0
+    100882: Leed4000__3__MeshPart1
+    100884: Leed4000__3__MeshPart2
+    100886: Leed4000__3__MeshPart3
+    100888: MixedUse2_FinalColorOutput__Image___Texture_
+    100890: MixedUse__3_
+    100892: OfficeSpace2_FinalColorOutput__Image___Texture_
+    100894: OfficeSpace__3_
+    100896: OldenBuilding
+    100898: OldenBuilding2_FinalColorOutput__Image___Texture_
+    100900: OldenBuilding_2_FinalColorOutput__Image___Texture_
+    100902: PixelBuilding2_FinalColorOutput__Image___Texture_
+    100904: PixelBuilding__3_
+    100906: RoundBuilding2_FinalColorOutput__Image___Texture_
+    100908: RoundBuilding__3_
+    100910: RoundBuildingExtension__2_
+    100912: RoundBuildingExtension_FinalColorOutput__Image___Texture_
+    100914: Tall_KPMG_Building2_FinalColorOutput__Image___Texture_
+    100916: Tall_KPMG_Building__3_
+    100918: Tall_KPMG_Building__3__MeshPart0
+    100920: Tall_KPMG_Building__3__MeshPart1
+    100922: Tall_KPMG_Building__4_
+    100924: Tenement_2_FinalColorOutput__Image___Texture_
+    100926: Tenement__3_
     400000: _mixed___Texture_
     400002: _mixed___Texture___111_
     400004: _mixed___Texture___141_
@@ -853,6 +893,46 @@ ModelImporter:
     400842: windows_11x20_C_white_stripes__Image___2___Texture_
     400844: windows_11x20_C_white_stripes__Image___Texture_
     400846: Wrought_Steel.lxp__3_
+    400848: AstorBuilding3_FinalColorOutput__Image___Texture_
+    400850: AstorBuilding__2_
+    400852: Condos
+    400854: Condos2_FinalColorOutput__Image___Texture_
+    400856: CountyBuilding2_FinalColorOutput__Image___Texture_
+    400858: CountyBuilding__3_
+    400860: CountyBuilding__3__MeshPart0
+    400862: CountyBuilding__3__MeshPart1
+    400864: Excelsior2_FinalColorOutput__Image___Texture_
+    400866: Excelsior__3_
+    400868: HighRiseApts
+    400870: HighRiseApts2_FinalColorOutput__Image___Texture_
+    400872: Hotel2_FinalColorOutput__Image___Texture_
+    400874: Hotel__3_
+    400876: Leed4000_2_FinalColorOutput__Image___Texture_
+    400878: Leed4000__3_
+    400880: Leed4000__3__MeshPart0
+    400882: Leed4000__3__MeshPart1
+    400884: Leed4000__3__MeshPart2
+    400886: Leed4000__3__MeshPart3
+    400888: MixedUse2_FinalColorOutput__Image___Texture_
+    400890: MixedUse__3_
+    400892: OfficeSpace2_FinalColorOutput__Image___Texture_
+    400894: OfficeSpace__3_
+    400896: OldenBuilding
+    400898: OldenBuilding2_FinalColorOutput__Image___Texture_
+    400900: OldenBuilding_2_FinalColorOutput__Image___Texture_
+    400902: PixelBuilding2_FinalColorOutput__Image___Texture_
+    400904: PixelBuilding__3_
+    400906: RoundBuilding2_FinalColorOutput__Image___Texture_
+    400908: RoundBuilding__3_
+    400910: RoundBuildingExtension__2_
+    400912: RoundBuildingExtension_FinalColorOutput__Image___Texture_
+    400914: Tall_KPMG_Building2_FinalColorOutput__Image___Texture_
+    400916: Tall_KPMG_Building__3_
+    400918: Tall_KPMG_Building__3__MeshPart0
+    400920: Tall_KPMG_Building__3__MeshPart1
+    400922: Tall_KPMG_Building__4_
+    400924: Tenement_2_FinalColorOutput__Image___Texture_
+    400926: Tenement__3_
     2300000: _NO_EXPORT_SHADOWS___2_
     2300002: AstorBuilding
     2300004: AstorBuilding__3_
@@ -912,6 +992,27 @@ ModelImporter:
     2300112: Tenement
     2300114: Tenement__2_
     2300116: Twitter__2_
+    2300118: AstorBuilding__2_
+    2300120: Condos
+    2300122: CountyBuilding__3__MeshPart0
+    2300124: CountyBuilding__3__MeshPart1
+    2300126: Excelsior__3_
+    2300128: HighRiseApts
+    2300130: Hotel__3_
+    2300132: Leed4000__3__MeshPart0
+    2300134: Leed4000__3__MeshPart1
+    2300136: Leed4000__3__MeshPart2
+    2300138: Leed4000__3__MeshPart3
+    2300140: MixedUse__3_
+    2300142: OfficeSpace__3_
+    2300144: OldenBuilding
+    2300146: PixelBuilding__3_
+    2300148: RoundBuilding__3_
+    2300150: RoundBuildingExtension__2_
+    2300152: Tall_KPMG_Building__3__MeshPart0
+    2300154: Tall_KPMG_Building__3__MeshPart1
+    2300156: Tall_KPMG_Building__4_
+    2300158: Tenement__3_
     3300000: _NO_EXPORT_SHADOWS___2_
     3300002: AstorBuilding
     3300004: AstorBuilding__3_
@@ -971,6 +1072,27 @@ ModelImporter:
     3300112: Tenement
     3300114: Tenement__2_
     3300116: Twitter__2_
+    3300118: AstorBuilding__2_
+    3300120: Condos
+    3300122: CountyBuilding__3__MeshPart0
+    3300124: CountyBuilding__3__MeshPart1
+    3300126: Excelsior__3_
+    3300128: HighRiseApts
+    3300130: Hotel__3_
+    3300132: Leed4000__3__MeshPart0
+    3300134: Leed4000__3__MeshPart1
+    3300136: Leed4000__3__MeshPart2
+    3300138: Leed4000__3__MeshPart3
+    3300140: MixedUse__3_
+    3300142: OfficeSpace__3_
+    3300144: OldenBuilding
+    3300146: PixelBuilding__3_
+    3300148: RoundBuilding__3_
+    3300150: RoundBuildingExtension__2_
+    3300152: Tall_KPMG_Building__3__MeshPart0
+    3300154: Tall_KPMG_Building__3__MeshPart1
+    3300156: Tall_KPMG_Building__4_
+    3300158: Tenement__3_
     4300000: RivalAccountants
     4300002: HighRiseApts2__2_
     4300004: Condos2__2_
@@ -1030,6 +1152,27 @@ ModelImporter:
     4300112: SeverSpaceBake
     4300114: RivalAccountants__3__MeshPart0
     4300116: RivalAccountants__3__MeshPart1
+    4300118: Tall_KPMG_Building__4_
+    4300120: OldenBuilding
+    4300122: RoundBuilding__3_
+    4300124: AstorBuilding__2_
+    4300126: Excelsior__3_
+    4300128: Tall_KPMG_Building__3__MeshPart0
+    4300130: Tall_KPMG_Building__3__MeshPart1
+    4300132: Hotel__3_
+    4300134: OfficeSpace__3_
+    4300136: Tenement__3_
+    4300138: HighRiseApts
+    4300140: Condos
+    4300142: Leed4000__3__MeshPart0
+    4300144: Leed4000__3__MeshPart1
+    4300146: Leed4000__3__MeshPart2
+    4300148: Leed4000__3__MeshPart3
+    4300150: RoundBuildingExtension__2_
+    4300152: MixedUse__3_
+    4300154: PixelBuilding__3_
+    4300156: CountyBuilding__3__MeshPart0
+    4300158: CountyBuilding__3__MeshPart1
     9500000: //RootNode
   materials:
     importMaterials: 1
