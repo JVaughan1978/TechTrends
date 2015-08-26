@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 1881ecc038fe5ff429cf021fd33a3c12
+timeCreated: 1440626120
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ChrisBlackman
+    100002: ColtonJohnson
+    100004: Compliance By Design
+    100006: ContactInfo
+    100008: ContactShortNames
+    100010: ContactUs
+    100012: CT_BrettWeaver
+    100014: CT_BrettWeaver_2
+    100016: CT_GaryMatuszak
+    100018: CT_GaryMatuszak_2
+    100020: CT_LeahLockwood
+    100022: CT_LeahLockwood_2
+    100024: CT_TomLamoureux
+    100026: CT_TomLamoureux_2
+    100028: EnterpriseRiskManagement
+    100030: FinancialRisk
+    100032: GeorgeGraves01
+    100034: GeorgeGravesShort
+    100036: GovernanceRiskCompliance
+    100038: InsightsAndStuff
+    100040: InternalAuditSourcing
+    100042: IssuesAndInsights
+    100044: IssuesAndInsightsGrp
+    100046: JillSylwester
+    100048: MeetOurTeam
+    100050: MeetTheTeam
+    100052: MeetTheTeamGrp
+    100054: MenuBoxes
+    100056: Mesh_2
+    100058: Mesh_3
+    100060: OurServices
+    100062: ServicesGrp
+    100064: ServicesText
+    100066: StrongProcess
+    100068: Texture Group
+    100070: TimJakubowski
+    100072: TomLamoureux
+    100074: TopMenuGrp
+    100076: W1HomeGrp
+    100078: Week1IntroMesh
+    100080: //RootNode
+    100082: Camera
+    100084: Directional Light
+    100086: ContactInfoMesh
+    100088: IssuesMesh
+    100090: MeetTheTeamMesh
+    100092: MeetTheTeamTxt
+    100094: ServiceMesh
+    100096: Mesh
+    100098: Faces
+    400000: ChrisBlackman
+    400002: ColtonJohnson
+    400004: Compliance By Design
+    400006: ContactInfo
+    400008: ContactShortNames
+    400010: ContactUs
+    400012: CT_BrettWeaver
+    400014: CT_BrettWeaver_2
+    400016: CT_GaryMatuszak
+    400018: CT_GaryMatuszak_2
+    400020: CT_LeahLockwood
+    400022: CT_LeahLockwood_2
+    400024: CT_TomLamoureux
+    400026: CT_TomLamoureux_2
+    400028: EnterpriseRiskManagement
+    400030: FinancialRisk
+    400032: GeorgeGraves01
+    400034: GeorgeGravesShort
+    400036: GovernanceRiskCompliance
+    400038: InsightsAndStuff
+    400040: InternalAuditSourcing
+    400042: IssuesAndInsights
+    400044: IssuesAndInsightsGrp
+    400046: JillSylwester
+    400048: MeetOurTeam
+    400050: MeetTheTeam
+    400052: MeetTheTeamGrp
+    400054: MenuBoxes
+    400056: Mesh_2
+    400058: Mesh_3
+    400060: OurServices
+    400062: ServicesGrp
+    400064: ServicesText
+    400066: StrongProcess
+    400068: Texture Group
+    400070: TimJakubowski
+    400072: TomLamoureux
+    400074: TopMenuGrp
+    400076: W1HomeGrp
+    400078: Week1IntroMesh
+    400080: //RootNode
+    400082: Camera
+    400084: Directional Light
+    400086: ContactInfoMesh
+    400088: IssuesMesh
+    400090: MeetTheTeamMesh
+    400092: MeetTheTeamTxt
+    400094: ServiceMesh
+    400096: Mesh
+    400098: Faces
+    2300000: ChrisBlackman
+    2300002: ColtonJohnson
+    2300004: Compliance By Design
+    2300006: ContactShortNames
+    2300008: ContactUs
+    2300010: CT_BrettWeaver
+    2300012: CT_BrettWeaver_2
+    2300014: CT_GaryMatuszak
+    2300016: CT_GaryMatuszak_2
+    2300018: CT_LeahLockwood
+    2300020: CT_LeahLockwood_2
+    2300022: CT_TomLamoureux
+    2300024: CT_TomLamoureux_2
+    2300026: EnterpriseRiskManagement
+    2300028: FinancialRisk
+    2300030: GeorgeGraves01
+    2300032: GeorgeGravesShort
+    2300034: GovernanceRiskCompliance
+    2300036: InsightsAndStuff
+    2300038: InternalAuditSourcing
+    2300040: IssuesAndInsights
+    2300042: JillSylwester
+    2300044: MeetOurTeam
+    2300046: MeetTheTeam
+    2300048: MenuBoxes
+    2300050: Mesh_2
+    2300052: Mesh_3
+    2300054: OurServices
+    2300056: ServicesText
+    2300058: StrongProcess
+    2300060: TimJakubowski
+    2300062: TomLamoureux
+    2300064: Week1IntroMesh
+    2300066: ContactInfoMesh
+    2300068: IssuesMesh
+    2300070: MeetTheTeamMesh
+    2300072: MeetTheTeamTxt
+    2300074: ServiceMesh
+    2300076: Mesh
+    2300078: Faces
+    3300000: ChrisBlackman
+    3300002: ColtonJohnson
+    3300004: Compliance By Design
+    3300006: ContactShortNames
+    3300008: ContactUs
+    3300010: CT_BrettWeaver
+    3300012: CT_BrettWeaver_2
+    3300014: CT_GaryMatuszak
+    3300016: CT_GaryMatuszak_2
+    3300018: CT_LeahLockwood
+    3300020: CT_LeahLockwood_2
+    3300022: CT_TomLamoureux
+    3300024: CT_TomLamoureux_2
+    3300026: EnterpriseRiskManagement
+    3300028: FinancialRisk
+    3300030: GeorgeGraves01
+    3300032: GeorgeGravesShort
+    3300034: GovernanceRiskCompliance
+    3300036: InsightsAndStuff
+    3300038: InternalAuditSourcing
+    3300040: IssuesAndInsights
+    3300042: JillSylwester
+    3300044: MeetOurTeam
+    3300046: MeetTheTeam
+    3300048: MenuBoxes
+    3300050: Mesh_2
+    3300052: Mesh_3
+    3300054: OurServices
+    3300056: ServicesText
+    3300058: StrongProcess
+    3300060: TimJakubowski
+    3300062: TomLamoureux
+    3300064: Week1IntroMesh
+    3300066: ContactInfoMesh
+    3300068: IssuesMesh
+    3300070: MeetTheTeamMesh
+    3300072: MeetTheTeamTxt
+    3300074: ServiceMesh
+    3300076: Mesh
+    3300078: Faces
+    4300000: Mesh_3
+    4300002: ServicesText
+    4300004: InternalAuditSourcing
+    4300006: GovernanceRiskCompliance
+    4300008: EnterpriseRiskManagement
+    4300010: GeorgeGraves01
+    4300012: TomLamoureux
+    4300014: Week1IntroMesh
+    4300016: MenuBoxes
+    4300018: IssuesAndInsights
+    4300020: MeetOurTeam
+    4300022: OurServices
+    4300024: ContactUs
+    4300026: Compliance By Design
+    4300028: InsightsAndStuff
+    4300030: FinancialRisk
+    4300032: StrongProcess
+    4300034: ContactShortNames
+    4300036: CT_TomLamoureux
+    4300038: CT_TomLamoureux_2
+    4300040: CT_BrettWeaver
+    4300042: CT_BrettWeaver_2
+    4300044: CT_GaryMatuszak
+    4300046: CT_GaryMatuszak_2
+    4300048: CT_LeahLockwood
+    4300050: CT_LeahLockwood_2
+    4300052: MeetTheTeam
+    4300054: Mesh_2
+    4300056: GeorgeGravesShort
+    4300058: TimJakubowski
+    4300060: JillSylwester
+    4300062: ChrisBlackman
+    4300064: ColtonJohnson
+    4300066: ServiceMesh
+    4300068: IssuesMesh
+    4300070: ContactInfoMesh
+    4300072: MeetTheTeamMesh
+    4300074: MeetTheTeamTxt
+    4300076: Mesh
+    4300078: Faces
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
