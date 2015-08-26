@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 7673397a4da94c64183d43d5dd5b32a7
+timeCreated: 1440611678
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: _mixed___Texture___2_
+    100002: _none___Image___2___Texture_
+    100004: _none___Image___3___Texture_
+    100006: _none___Image___Texture_
+    100008: _none___Texture_
+    100010: _none___Texture___2_
+    100012: _none___Texture___3_
+    100014: _none___Texture___4_
+    100016: _none___Texture___5_
+    100018: _none___Texture___6_
+    100020: _none___Texture___7_
+    100022: AstorBuilding3_FinalColorOutput__Image___Texture_
+    100024: AstorBuilding__3_
+    100026: Beige_Marble_2D.lxp
+    100028: Brick_Wall_04.lxp
+    100030: Brushed_Aluminum.lxp
+    100032: Brushed_Steel.lxp__2_
+    100034: Chromium_Plate_Cast.lxp__3_
+    100036: Concrete_01.lxp
+    100038: Excelsior2_FinalColorOutput__Image___Texture_
+    100040: Excelsior__3_
+    100042: ExteriorBakes
+    100044: Galvanised.lxp
+    100046: Hardwood_Floor.lxp
+    100048: Hotel2_FinalColorOutput__Image___Texture_
+    100050: Hotel__3_
+    100052: Irregular_Brick.lxp
+    100054: Limestone.lxp
+    100056: Matte_Chrome.lxp__3_
+    100058: Matte_Copper.lxp__3_
+    100060: Metal_Dented_01.lxp__3_
+    100062: OfficeSpace2_FinalColorOutput__Image___Texture_
+    100064: OfficeSpace__3_
+    100066: OldenBuilding
+    100068: OldenBuilding2_FinalColorOutput__Image___Texture_
+    100070: Patinated_Brass.lxp__3_
+    100072: Polished_Oak_2D__2_
+    100074: Polyethylene_Terephthalate__PET_.lxp__2_
+    100076: Procedural_Brick_Red.lxp
+    100078: Red_Spray_Paint.lxp
+    100080: Render
+    100082: RoundBuilding2_FinalColorOutput__Image___Texture_
+    100084: RoundBuilding__3_
+    100086: Sandblasted_Steel.lxp__3_
+    100088: scratched_powder_coating_v2_GTR.lxp__4_
+    100090: serverRack__Image___Texture_
+    100092: Slate_01.lxp
+    100094: Stainless_Steel_Sandblasted.lxp__3_
+    100096: Tall_KPMG_Building2_FinalColorOutput__Image___Texture_
+    100098: Tall_KPMG_Building__3_
+    100100: Tall_KPMG_Building__3__MeshPart0
+    100102: Tall_KPMG_Building__3__MeshPart1
+    100104: Texture_Group
+    100106: Texture_Group__2_
+    100108: //RootNode
+    100110: Varnished_Rosewood.lxp
+    100112: Wrought_Steel.lxp__3_
+    400000: _mixed___Texture___2_
+    400002: _none___Image___2___Texture_
+    400004: _none___Image___3___Texture_
+    400006: _none___Image___Texture_
+    400008: _none___Texture_
+    400010: _none___Texture___2_
+    400012: _none___Texture___3_
+    400014: _none___Texture___4_
+    400016: _none___Texture___5_
+    400018: _none___Texture___6_
+    400020: _none___Texture___7_
+    400022: AstorBuilding3_FinalColorOutput__Image___Texture_
+    400024: AstorBuilding__3_
+    400026: Beige_Marble_2D.lxp
+    400028: Brick_Wall_04.lxp
+    400030: Brushed_Aluminum.lxp
+    400032: Brushed_Steel.lxp__2_
+    400034: Chromium_Plate_Cast.lxp__3_
+    400036: Concrete_01.lxp
+    400038: Excelsior2_FinalColorOutput__Image___Texture_
+    400040: Excelsior__3_
+    400042: ExteriorBakes
+    400044: Galvanised.lxp
+    400046: Hardwood_Floor.lxp
+    400048: Hotel2_FinalColorOutput__Image___Texture_
+    400050: Hotel__3_
+    400052: Irregular_Brick.lxp
+    400054: Limestone.lxp
+    400056: Matte_Chrome.lxp__3_
+    400058: Matte_Copper.lxp__3_
+    400060: Metal_Dented_01.lxp__3_
+    400062: OfficeSpace2_FinalColorOutput__Image___Texture_
+    400064: OfficeSpace__3_
+    400066: OldenBuilding
+    400068: OldenBuilding2_FinalColorOutput__Image___Texture_
+    400070: Patinated_Brass.lxp__3_
+    400072: Polished_Oak_2D__2_
+    400074: Polyethylene_Terephthalate__PET_.lxp__2_
+    400076: Procedural_Brick_Red.lxp
+    400078: Red_Spray_Paint.lxp
+    400080: Render
+    400082: RoundBuilding2_FinalColorOutput__Image___Texture_
+    400084: RoundBuilding__3_
+    400086: Sandblasted_Steel.lxp__3_
+    400088: scratched_powder_coating_v2_GTR.lxp__4_
+    400090: serverRack__Image___Texture_
+    400092: Slate_01.lxp
+    400094: Stainless_Steel_Sandblasted.lxp__3_
+    400096: Tall_KPMG_Building2_FinalColorOutput__Image___Texture_
+    400098: Tall_KPMG_Building__3_
+    400100: Tall_KPMG_Building__3__MeshPart0
+    400102: Tall_KPMG_Building__3__MeshPart1
+    400104: Texture_Group
+    400106: Texture_Group__2_
+    400108: //RootNode
+    400110: Varnished_Rosewood.lxp
+    400112: Wrought_Steel.lxp__3_
+    2300000: AstorBuilding__3_
+    2300002: Excelsior__3_
+    2300004: Hotel__3_
+    2300006: OfficeSpace__3_
+    2300008: OldenBuilding
+    2300010: RoundBuilding__3_
+    2300012: Tall_KPMG_Building__3__MeshPart0
+    2300014: Tall_KPMG_Building__3__MeshPart1
+    3300000: AstorBuilding__3_
+    3300002: Excelsior__3_
+    3300004: Hotel__3_
+    3300006: OfficeSpace__3_
+    3300008: OldenBuilding
+    3300010: RoundBuilding__3_
+    3300012: Tall_KPMG_Building__3__MeshPart0
+    3300014: Tall_KPMG_Building__3__MeshPart1
+    4300000: OldenBuilding
+    4300002: RoundBuilding__3_
+    4300004: AstorBuilding__3_
+    4300006: Excelsior__3_
+    4300008: Tall_KPMG_Building__3__MeshPart0
+    4300010: Tall_KPMG_Building__3__MeshPart1
+    4300012: Hotel__3_
+    4300014: OfficeSpace__3_
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

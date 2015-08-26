@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 6e83dd87e696e454c91409c84af51be5
+timeCreated: 1440613917
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Texture Group
+    100002: Week1
+    100004: Week1_Colision
+    100006: Week1_Text
+    100008: Week2
+    100010: Week2_Colision
+    100012: Week2_Text
+    100014: Week3
+    100016: Week3_Colision
+    100018: Week3_Text
+    100020: Week4
+    100022: Week4_Colision
+    100024: Week4_Text
+    100026: Week5
+    100028: Week5_Colision
+    100030: Week5_Text
+    100032: Week6
+    100034: Week6_Colision
+    100036: Week6_Text
+    100038: //RootNode
+    400000: Texture Group
+    400002: Week1
+    400004: Week1_Colision
+    400006: Week1_Text
+    400008: Week2
+    400010: Week2_Colision
+    400012: Week2_Text
+    400014: Week3
+    400016: Week3_Colision
+    400018: Week3_Text
+    400020: Week4
+    400022: Week4_Colision
+    400024: Week4_Text
+    400026: Week5
+    400028: Week5_Colision
+    400030: Week5_Text
+    400032: Week6
+    400034: Week6_Colision
+    400036: Week6_Text
+    400038: //RootNode
+    2300000: Week1
+    2300002: Week1_Colision
+    2300004: Week1_Text
+    2300006: Week2
+    2300008: Week2_Colision
+    2300010: Week2_Text
+    2300012: Week3
+    2300014: Week3_Colision
+    2300016: Week3_Text
+    2300018: Week4
+    2300020: Week4_Colision
+    2300022: Week4_Text
+    2300024: Week5
+    2300026: Week5_Colision
+    2300028: Week5_Text
+    2300030: Week6
+    2300032: Week6_Colision
+    2300034: Week6_Text
+    3300000: Week1
+    3300002: Week1_Colision
+    3300004: Week1_Text
+    3300006: Week2
+    3300008: Week2_Colision
+    3300010: Week2_Text
+    3300012: Week3
+    3300014: Week3_Colision
+    3300016: Week3_Text
+    3300018: Week4
+    3300020: Week4_Colision
+    3300022: Week4_Text
+    3300024: Week5
+    3300026: Week5_Colision
+    3300028: Week5_Text
+    3300030: Week6
+    3300032: Week6_Colision
+    3300034: Week6_Text
+    4300000: Week1
+    4300002: Week2
+    4300004: Week3
+    4300006: Week4
+    4300008: Week5
+    4300010: Week6
+    4300012: Week3_Text
+    4300014: Week4_Text
+    4300016: Week5_Text
+    4300018: Week2_Text
+    4300020: Week1_Text
+    4300022: Week6_Text
+    4300024: Week3_Colision
+    4300026: Week4_Colision
+    4300028: Week5_Colision
+    4300030: Week2_Colision
+    4300032: Week1_Colision
+    4300034: Week6_Colision
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
