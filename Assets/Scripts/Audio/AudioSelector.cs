@@ -6,9 +6,7 @@ public class AudioSelector : MonoBehaviour {
     public bool playOnSelect = false;
     public bool playOnDeselect = false;
     public bool playOnMode = false;
-    public bool playOnFocus = false;
-
-    public Sector sector = Sector.Automotive;
+    public bool playOnFocus = false;    
 
     private AudioSource _as;
 
@@ -26,13 +24,13 @@ public class AudioSelector : MonoBehaviour {
         SelectionReaction.OnSelect += SelectSwitch;
     }
 
-    void DeselectSwitch(Sector sect) {
+    void DeselectSwitch() {
         if(playOnDeselect) {
             _as.Play();
         }
     }
 
-    void FocusSwitch(Sector sect) {
+    void FocusSwitch() {
         if(playOnFocus) {
             _as.Play();
         }
@@ -45,7 +43,7 @@ public class AudioSelector : MonoBehaviour {
 
     }
 
-    void SelectSwitch(Sector sect) {
+    void SelectSwitch() {
         if(playOnSelect) {
             _as.Play();
         }
