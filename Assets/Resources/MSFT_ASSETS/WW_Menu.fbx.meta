@@ -55,6 +55,15 @@ ModelImporter:
     100094: ServiceMesh
     100096: Mesh
     100098: Faces
+    100100: Backdrop
+    100102: SrvcImgHolder
+    100104: SrvcTextHolder
+    100106: TextHolder
+    100108: VideoMesh
+    100110: CI_ScalingHolder
+    100112: MTT_Faces
+    100114: MTT_TextHolder
+    100116: TM_HighlightBox
     400000: ChrisBlackman
     400002: ColtonJohnson
     400004: Compliance By Design
@@ -105,6 +114,15 @@ ModelImporter:
     400094: ServiceMesh
     400096: Mesh
     400098: Faces
+    400100: Backdrop
+    400102: SrvcImgHolder
+    400104: SrvcTextHolder
+    400106: TextHolder
+    400108: VideoMesh
+    400110: CI_ScalingHolder
+    400112: MTT_Faces
+    400114: MTT_TextHolder
+    400116: TM_HighlightBox
     2300000: ChrisBlackman
     2300002: ColtonJohnson
     2300004: Compliance By Design
@@ -145,6 +163,15 @@ ModelImporter:
     2300074: ServiceMesh
     2300076: Mesh
     2300078: Faces
+    2300080: Backdrop
+    2300082: SrvcImgHolder
+    2300084: SrvcTextHolder
+    2300086: TextHolder
+    2300088: VideoMesh
+    2300090: CI_ScalingHolder
+    2300092: MTT_Faces
+    2300094: MTT_TextHolder
+    2300096: TM_HighlightBox
     3300000: ChrisBlackman
     3300002: ColtonJohnson
     3300004: Compliance By Design
@@ -185,6 +212,15 @@ ModelImporter:
     3300074: ServiceMesh
     3300076: Mesh
     3300078: Faces
+    3300080: Backdrop
+    3300082: SrvcImgHolder
+    3300084: SrvcTextHolder
+    3300086: TextHolder
+    3300088: VideoMesh
+    3300090: CI_ScalingHolder
+    3300092: MTT_Faces
+    3300094: MTT_TextHolder
+    3300096: TM_HighlightBox
     4300000: Mesh_3
     4300002: ServicesText
     4300004: InternalAuditSourcing
@@ -225,6 +261,15 @@ ModelImporter:
     4300074: MeetTheTeamTxt
     4300076: Mesh
     4300078: Faces
+    4300080: SrvcTextHolder
+    4300082: SrvcImgHolder
+    4300084: TextHolder
+    4300086: Backdrop
+    4300088: VideoMesh
+    4300090: TM_HighlightBox
+    4300092: CI_ScalingHolder
+    4300094: MTT_Faces
+    4300096: MTT_TextHolder
     7400000: Take 001
     9500000: //RootNode
   materials:

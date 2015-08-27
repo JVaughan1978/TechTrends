@@ -26,7 +26,6 @@ public class SelectionReaction : MonoBehaviour {
 
 	public void Deselected() {        
 		Reset();
-
         if (OnDeselect != null) 
             OnDeselect();       
 	}

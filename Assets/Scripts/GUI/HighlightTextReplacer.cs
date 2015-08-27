@@ -9,8 +9,7 @@ public class HighlightTextReplacer : MonoBehaviour {
     private string _text = "";
     private bool _highlightedEvent = false;
     private bool _deselectedEvent = false;
-
-    private GameObject _dataObject;
+        
     // YES THIS SHOULD REALLY NOT BE HERE.
     private Dictionary<string, int> _data = new Dictionary<string,int>();
 
@@ -40,8 +39,7 @@ public class HighlightTextReplacer : MonoBehaviour {
     }
 	
 	void Start () {
-        _thisText = GetComponent<Text>();
-        _dataObject = GameObject.Find("DataObject");
+        _thisText = GetComponent<Text>();        
 	}	
 	
 	void Update () {     

@@ -67,6 +67,7 @@ public class SelectionCircle : MonoBehaviour {
         Renderer r = gameObject.GetComponent<Renderer>();
         if(r != null) {
             _currentMaterial = r.material;
+            Debug.Log("Selection Circle: current material get.");
         }
     }
 
