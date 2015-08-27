@@ -18,6 +18,9 @@ public class SelectionReaction : MonoBehaviour {
     public delegate void DeselectAction();
     public static event DeselectAction OnDeselect;
 
+    public delegate void SelectNameAction(string name);
+    public static event SelectNameAction OnNameSelect;
+
 	private void Selected() {                
         if (OnSelect != null) {
             OnSelect();
@@ -30,6 +33,12 @@ public class SelectionReaction : MonoBehaviour {
             OnDeselect();       
 	}
 
+    public void NameSelected() {
+        if(OnNameSelect != null) {
+            OnNameSelect(this.name);
+        }
+    }
+
 	public void InFocus() {
         if (focused) {
             if (!selected) { 
@@ -37,6 +46,7 @@ public class SelectionReaction : MonoBehaviour {
                 if (_time > timeToSelected) {
                     selected = true;
                     Selected();
+                    NameSelected();
                 }
             }
         } else {

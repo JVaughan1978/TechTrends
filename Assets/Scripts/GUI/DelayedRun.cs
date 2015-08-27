@@ -6,18 +6,33 @@ public class DelayedRun : MonoBehaviour {
     private bool switched = false;
     public float movieDuration = 15.0f;
 
+    public delegate void EndAction();
+    public static event EndAction OnEnd;
+
     void OnEnable() {
         SelectionReaction.OnSelect += Selected;
+        TopMenuVis.OnMenu += VidOver;
     }
 
     void OnDisable() {
         SelectionReaction.OnSelect -= Selected;
+        TopMenuVis.OnMenu += VidOver;
+    }
+
+    private void Ended() {
+        if(OnEnd != null) {
+            OnEnd();
+        }
+    }
+
+    private void VidOver(string name) {
+        Hide();
     }
 
     void Selected() {
         if(switched == false) {
             Show();
-            Invoke("Hide", movieDuration);
+            Invoke("Ended", movieDuration);//HACKITY HACK HACK
             switched = true;
         }
     }
