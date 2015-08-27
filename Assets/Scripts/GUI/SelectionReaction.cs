@@ -6,49 +6,29 @@ public class SelectionReaction : MonoBehaviour {
 
     private bool focused = false;    
     private bool selected = false;
-	public bool mode = true;
-    public float timeToSelected = 3f; // should get this from somewhere else...
-    public Sector sector;
+    public float timeToSelected = 3f; // should get this from somewhere else...    
     private float _time = 0;
 
-    public delegate void FocusAction(Sector sect);
+    public delegate void FocusAction();
     public static event FocusAction OnFocus;
 
-    public delegate void SelectAction(Sector sect);
+    public delegate void SelectAction();
     public static event SelectAction OnSelect;
 
-    public delegate void DeselectAction(Sector sect);
+    public delegate void DeselectAction();
     public static event DeselectAction OnDeselect;
-
-	public delegate void ModeAction(bool check);
-	public static event ModeAction OnMode;
-
-    void OnEnable() {                
-		SelectionReaction.OnMode += ModeSwitch;
-    }
-
-    void OnDisable() {                
-		SelectionReaction.OnMode -= ModeSwitch;
-    }       
-
-	void ModeSwitch(bool check){
-		mode = !check;
-	}
 
 	private void Selected() {                
         if (OnSelect != null) {
-            OnSelect(sector);
+            OnSelect();
         }
-		if (OnMode != null) {
-			OnMode(mode);
-		}
 	}
 
 	public void Deselected() {        
 		Reset();
 
         if (OnDeselect != null) 
-            OnDeselect(sector);       
+            OnDeselect();       
 	}
 
 	public void InFocus() {
@@ -63,7 +43,7 @@ public class SelectionReaction : MonoBehaviour {
         } else {
             focused = true;
             if(OnFocus != null){
-                OnFocus(sector);               
+                OnFocus();               
             }
         }
 	}

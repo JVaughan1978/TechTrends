@@ -13,14 +13,12 @@ public class AudioSelector : MonoBehaviour {
     void OnEnable() {
         SelectionReaction.OnDeselect += DeselectSwitch;
         SelectionReaction.OnFocus += FocusSwitch;
-        SelectionReaction.OnMode += ModeSwitch;
         SelectionReaction.OnSelect += SelectSwitch;
     }
 
     void OnDisable() {
         SelectionReaction.OnDeselect -= DeselectSwitch;
         SelectionReaction.OnFocus -= FocusSwitch;
-        SelectionReaction.OnMode -= ModeSwitch;
         SelectionReaction.OnSelect += SelectSwitch;
     }
 
@@ -36,7 +34,7 @@ public class AudioSelector : MonoBehaviour {
         }
     }
 
-    void ModeSwitch(bool check) {
+    void ModeSwitch() {
         if(playOnMode) {
             _as.Play();
         }

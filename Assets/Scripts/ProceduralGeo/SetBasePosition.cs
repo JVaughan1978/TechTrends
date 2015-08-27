@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SetBasePosition : MonoBehaviour {
 
-    public GameObject anchorHead;
+    public GameObject anchorHead = null;
 
     private Transform[] _anchors = new Transform[8];
 
@@ -15,19 +15,19 @@ public class SetBasePosition : MonoBehaviour {
         SelectionReaction.OnSelect += SwitchAnchor;
     }
 
-    void SwitchAnchor(Sector sect) {
-        transform.localPosition = _anchors[(int)sect].position;
+    void SwitchAnchor() {
+        transform.localPosition = _anchors[0].position;
     }
-	
-	void Start () {
+
+    void Start() {
         if(anchorHead != null) {
             for(int i = 0; i < 8; i++) {
                 Transform tempT = anchorHead.transform.GetChild(i);
                 _anchors[i] = tempT;
             }
         }
-	}
+    }
 
-	void Update () {	
-	}
+    void Update() {
+    }
 }
