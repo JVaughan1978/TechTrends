@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
-[RequireComponent (typeof(Text))]
 public class PinTextToGameObject : MonoBehaviour {
 
 	public GameObject pinnedObject = null;
@@ -12,7 +10,7 @@ public class PinTextToGameObject : MonoBehaviour {
 	}	
 	
 	void Update () { 
-        transform.localPosition = new Vector3(pinnedObject.transform.position.x, pinnedObject.transform.position.y,
+        transform.position = new Vector3(pinnedObject.transform.position.x, pinnedObject.transform.position.y,
                                                              pinnedObject.transform.position.z);
 
         transform.Translate(offset.x, offset.y, offset.z, Space.Self);

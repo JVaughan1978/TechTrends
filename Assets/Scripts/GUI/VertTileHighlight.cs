@@ -33,7 +33,7 @@ public class VertTileHighlight : MonoBehaviour
     {
         if (name == this.name)
         {
-            Show();
+            //Show();
             ScaleUp();
             if (OnShove != null)
             {
@@ -42,7 +42,7 @@ public class VertTileHighlight : MonoBehaviour
         }
         else
         {
-            Hide();
+            //Hide();
         }
     }
 
@@ -50,7 +50,7 @@ public class VertTileHighlight : MonoBehaviour
     {
         if (name == this.name)
         {
-            Hide();
+            //Hide();
             ScaleDown();
             if (OnSlide != null)
             {

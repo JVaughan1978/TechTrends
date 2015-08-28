@@ -22,7 +22,7 @@ public class MatStretcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float yFactor = transform.localScale.y;
+        float yFactor = transform.parent.localScale.y;
         _mr.material.mainTextureScale = new Vector2(1.0f, (_startYTiling * yFactor));
     }
 }
