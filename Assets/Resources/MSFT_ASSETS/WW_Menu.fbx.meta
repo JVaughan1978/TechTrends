@@ -64,6 +64,7 @@ ModelImporter:
     100112: MTT_Faces
     100114: MTT_TextHolder
     100116: TM_HighlightBox
+    100118: SrvcImageHolder
     400000: ChrisBlackman
     400002: ColtonJohnson
     400004: Compliance By Design
@@ -123,6 +124,7 @@ ModelImporter:
     400112: MTT_Faces
     400114: MTT_TextHolder
     400116: TM_HighlightBox
+    400118: SrvcImageHolder
     2300000: ChrisBlackman
     2300002: ColtonJohnson
     2300004: Compliance By Design
@@ -172,6 +174,7 @@ ModelImporter:
     2300092: MTT_Faces
     2300094: MTT_TextHolder
     2300096: TM_HighlightBox
+    2300098: SrvcImageHolder
     3300000: ChrisBlackman
     3300002: ColtonJohnson
     3300004: Compliance By Design
@@ -221,6 +224,7 @@ ModelImporter:
     3300092: MTT_Faces
     3300094: MTT_TextHolder
     3300096: TM_HighlightBox
+    3300098: SrvcImageHolder
     4300000: Mesh_3
     4300002: ServicesText
     4300004: InternalAuditSourcing
@@ -270,6 +274,7 @@ ModelImporter:
     4300092: CI_ScalingHolder
     4300094: MTT_Faces
     4300096: MTT_TextHolder
+    4300098: SrvcImageHolder
     7400000: Take 001
     9500000: //RootNode
   materials:

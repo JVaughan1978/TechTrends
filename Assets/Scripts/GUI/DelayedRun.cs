@@ -30,8 +30,8 @@ public class DelayedRun : MonoBehaviour {
     }
 
     void Selected() {
-        if(switched == false) {
-            Show();
+        if(!switched) {
+            Invoke("Show", 0.2f);
             Invoke("Ended", movieDuration);//HACKITY HACK HACK
             switched = true;
         }

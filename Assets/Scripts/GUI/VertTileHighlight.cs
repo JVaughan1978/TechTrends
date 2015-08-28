@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
-using System;
 using System.Collections;
 
-public class PortraitHighlight : MonoBehaviour {
-        
+public class VertTileHighlight : MonoBehaviour
+{
     public int myNum = 0;
     private Vector3 _startPos;
-    private Vector3 _startScale;    
+    private Vector3 _startScale;
 
     public delegate void ShoveAction(int num);
     public static event ShoveAction OnShove;
@@ -14,88 +13,110 @@ public class PortraitHighlight : MonoBehaviour {
     public delegate void SlideAction(int num);
     public static event SlideAction OnSlide;
 
-    void OnEnable() {
+    void OnEnable()
+    {
         HighlightReaction.OnHighlight += Highlighted;
         HighlightReaction.OnDeselect += Deselected;
-        PortraitHighlight.OnShove += Shoved;
-        PortraitHighlight.OnSlide += Slid;
+        VertTileHighlight.OnShove += Shoved;
+        VertTileHighlight.OnSlide += Slid;
     }
 
-    void OnDisable() {
+    void OnDisable()
+    {
         HighlightReaction.OnHighlight -= Highlighted;
         HighlightReaction.OnDeselect -= Deselected;
-        PortraitHighlight.OnShove -= Shoved;
-        PortraitHighlight.OnSlide -= Slid;
+        VertTileHighlight.OnShove -= Shoved;
+        VertTileHighlight.OnSlide -= Slid;
     }
 
-    void Highlighted(string name) {        
-        if(name == this.name) {
+    void Highlighted(string name)
+    {
+        if (name == this.name)
+        {
             Show();
             ScaleUp();
-            if (OnShove != null) {
+            if (OnShove != null)
+            {
                 OnShove(myNum);
-            }            
-        } else {
-            Hide();            
-        }                
+            }
+        }
+        else
+        {
+            Hide();
+        }
     }
 
-    void Deselected(string name) {
-        if(name == this.name) {
-            Hide();            
+    void Deselected(string name)
+    {
+        if (name == this.name)
+        {
+            Hide();
             ScaleDown();
-            if(OnSlide != null) {
+            if (OnSlide != null)
+            {
                 OnSlide(myNum);
             }
         }
     }
-    
-    void Shoved(int num) {
+
+    void Shoved(int num)
+    {
         //this will fire off an coroutine later HACK
-        if(num < myNum) {
-            Vector3 tempVect = new Vector3((_startPos.x - 1.1f), _startPos.y, _startPos.z);
+        if (num < myNum)
+        {
+            Vector3 tempVect = new Vector3(_startPos.x, (_startPos.y - 1.1f), _startPos.z);
             transform.localPosition = tempVect;
         }
     }
 
-    void Slid(int num) {
+    void Slid(int num)
+    {
         //this will fire off a coroutine later HACK
-        if(num < myNum) {
+        if (num < myNum)
+        {
             transform.localPosition = _startPos;
         }
     }
 
-    void Show() {
-        for(int i = 0; i < transform.childCount; i++) {
+    void Show()
+    {
+        for (int i = 0; i < transform.childCount; i++)
+        {
             Transform go = transform.GetChild(i);
             go.gameObject.SetActive(true);//going to need another way to set this, too many objects might not need to be seen
         }
     }
 
-    void Hide() {
-        for(int i = 0; i < transform.childCount; i++) {
+    void Hide()
+    {
+        for (int i = 0; i < transform.childCount; i++)
+        {
             Transform go = transform.GetChild(i);
             go.gameObject.SetActive(false);
         }
     }
 
-    void ScaleUp() {
+    void ScaleUp()
+    {
         //this will fire off an coroutine later HACK
-        transform.localScale = Vector3.one;
+        transform.localScale = new Vector3(1.0f, 2.0f, 1.0f);
     }
 
-    void ScaleDown() {
+    void ScaleDown()
+    {
         //this will fire off an coroutine later HACK
         transform.localScale = _startScale;
     }
 
     // Use this for initialization
-    void Start() {
+    void Start()
+    {
         _startPos = transform.localPosition;
-        _startScale = transform.localScale;        
+        _startScale = transform.localScale;
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
     }
 }

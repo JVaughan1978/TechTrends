@@ -21,11 +21,16 @@ public class WeekVisManager : MonoBehaviour {
         }        
     }
 
+    void Show() {
+        weekRoot.SetActive(true);
+    }
+
     void Hide() {
         weekRoot.SetActive(false);
     }
 
     void Start() {
+        Show();
     }
 
     void Update() {
