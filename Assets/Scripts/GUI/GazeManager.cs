@@ -3,10 +3,10 @@ using System.Collections;
 
 public class GazeManager : MonoBehaviour {
 
+    public float coolDownTime = 0.1f;
     private int gazeDistance = 0;
     private int scannableLayerMask = 0;
-    private bool _casting = true;
-    private bool _inSector = false;
+    private bool _casting = true;    
 
     private SelectionReaction selectionReaction;
     private HighlightReaction highlightReaction;
@@ -26,12 +26,7 @@ public class GazeManager : MonoBehaviour {
     }
 
     void TimeOut() {
-        if(_inSector) {
-            StartCoroutine(CoolDown(2.0f));
-        } else {
-            StartCoroutine(CoolDown(6.0f));
-        }
-        _inSector = !_inSector;
+        StartCoroutine(CoolDown(0.1f));        
     }
 
     void Start() {
