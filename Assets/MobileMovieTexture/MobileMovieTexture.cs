@@ -10,6 +10,7 @@ namespace MMT
         #region Types
 
         public delegate void OnFinished(MobileMovieTexture sender);
+        public AudioSource audio;
 
         #endregion
 
@@ -316,6 +317,14 @@ namespace MMT
         #endregion
 
         #region Behaviour Overrides
+        void OnEnable() {
+            Open();
+            Invoke("Play", 0.25f);
+        }
+
+        void OnDisable() {
+            Stop();
+        }
 
         void Start()
         {
@@ -331,6 +340,8 @@ namespace MMT
             {
                 Play();
             }
+
+            audio = GetComponent<AudioSource>();
         }
 
 
@@ -412,12 +423,20 @@ namespace MMT
             {
                 gameObject.AddComponent<MobileMovieManager>();
             }
+
+            if(audio != null) {
+                audio.Play();
+            }
         }
 
         public void Stop()
         {
             CloseStream(m_nativeContext);
 			m_hasFinished = true;
+
+            if(audio != null) {
+                audio.Stop();
+            }
         }
 
         private void Open()

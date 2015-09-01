@@ -9,7 +9,6 @@ public class FadeUpOnEnable : MonoBehaviour {
 
     private MeshRenderer _mr = null;    
     private Color _initialColor = Color.black;
-    private Color fakeColor = new Color(1.0f, 0.0f, 1.0f, 0.0f);
     private Vector3 _initialPosition = Vector3.zero;
     private float _currTime = 0;
     private bool _done = false;
