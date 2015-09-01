@@ -15,9 +15,9 @@ public class WeekVisManager : MonoBehaviour {
     }
 
     void Selected() {
-        if(switched == false) { 
-            Hide();
-            switched = true;   
+        if(switched == false) {
+            switched = true;
+            Hide();              
         }        
     }
 

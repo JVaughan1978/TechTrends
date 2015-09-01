@@ -7,12 +7,12 @@ public class TopMenuVis : MonoBehaviour {
     public static event MenuAction OnMenu;
 
     void OnEnable() {
-        DelayedRun.OnEnd += VidEnd;
+        HomeMenuVis.OnEnd += VidEnd;
         SelectionReaction.OnSelect += MenuSelection;
     }
 
     void OnDisable() {
-        DelayedRun.OnEnd -= VidEnd;
+        HomeMenuVis.OnEnd -= VidEnd;
         SelectionReaction.OnSelect -= MenuSelection;
     }
 
@@ -39,13 +39,11 @@ public class TopMenuVis : MonoBehaviour {
             go.gameObject.SetActive(false);
         }
     }
-
-    // Use this for initialization
+    
     void Start() {
         Hide();
     }
-
-    // Update is called once per frame
+    
     void Update() {
 
     }

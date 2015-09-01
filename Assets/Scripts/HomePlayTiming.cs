@@ -6,38 +6,37 @@ public class HomePlayTiming : MonoBehaviour {
     public AudioSource vidAudio;
     public MMT.MobileMovieTexture mmt;
     public AudioSource introAudio;
+    public GameObject vidMesh;
     public GameObject textA;
     public GameObject textB;
     public GameObject textHolder;
+    public GameObject x_Button;
 
     public float introTime = 12.0f;
+    public float xTime = 22.0f;
     public float textSwitchTime = 50.0f;
     private float _currentTime = 0.0f;
     private bool _vidStarted = false;
-    private bool _targetEnabled = false;
 
-    void TargetEnabled() {
+    void OnEnable() {
+        SelectionReaction.OnSelect += OnSelect;
+    }
+
+    void OnDisable() {
+        SelectionReaction.OnSelect -= OnSelect;
+    }
+
+    void OnSelect() {        
         vidAudio.enabled = false;
-        mmt.enabled = true;
-        mmt.Pause = true;            
-        introAudio.enabled = true;
+        mmt.Pause = true;
+        introAudio.enabled = false;
+        vidMesh.SetActive(false);
         textA.SetActive(false);
         textB.SetActive(false);
         textHolder.SetActive(false);
+        x_Button.SetActive(false);
     }
 
-    void TargetDisabled() {
-        vidAudio.enabled = false;
-        mmt.enabled = true;
-        mmt.Pause = true;            
-        introAudio.enabled = true;
-        _currentTime = 0.0f;
-        _vidStarted = false;
-        textA.SetActive(false);
-        textB.SetActive(false);
-        textHolder.SetActive(false);
-    }
-        
 	// Use this for initialization
 	void Start () {
         if(vidAudio == null) {
@@ -51,35 +50,31 @@ public class HomePlayTiming : MonoBehaviour {
         if(introAudio == null) {
             Debug.LogWarning("No IntroAudio Found");
         }
-	}
-
-    bool GetTargetState() {
-        bool ret = mmt.gameObject.active;
-        return ret;
-    }
+	}    
 	
 	// Update is called once per frame
 	void Update () {
+        _currentTime += Time.deltaTime;
 
-        _targetEnabled = GetTargetState();
-
-        if(_targetEnabled) {
-            _currentTime += Time.deltaTime;
-
-            if(_currentTime > introTime && !_vidStarted ) {
-                vidAudio.enabled = true;
-                mmt.Pause = false;            
-                introAudio.enabled = false;
-                _vidStarted = true;
-                textA.SetActive(true);
-                textB.SetActive(false);
-                textHolder.SetActive(true);
-            }
-
-            if(_currentTime > textSwitchTime) {
-                textA.SetActive(false);
-                textB.SetActive(true);
-            }
+        if(_currentTime > introTime && !_vidStarted ) {
+            vidAudio.enabled = true;
+            mmt.Pause = false;            
+            introAudio.enabled = false;
+            _vidStarted = true;
+            vidMesh.SetActive(true);
+            textA.SetActive(true);
+            textB.SetActive(false);
+            textHolder.SetActive(true);
+            x_Button.SetActive(false);
         }
+
+        if(_currentTime > xTime) {
+            x_Button.SetActive(true);
+        }
+
+        if(_currentTime > textSwitchTime) {
+           textA.SetActive(false);
+           textB.SetActive(true);
+        }        
 	}
 }

@@ -11,11 +11,11 @@ public class LogoShove : MonoBehaviour {
     private bool _move = false;
 
     void OnEnable() {
-        DelayedRun.OnEnd += Shove;
+        HomeMenuVis.OnEnd += Shove;
     }
 
     void OnDisable() {
-        DelayedRun.OnEnd -= Shove;
+        HomeMenuVis.OnEnd -= Shove;
     }
 
     void Shove() {
