@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 6080348ec9d6f5247a7636b83c049eb5
+timeCreated: 1441221887
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AcheivingAlignment
+    100002: ArrowHead
+    100004: ArrowLocator
+    100006: BackSquare
+    100008: BiggerCircle
+    100010: Circle
+    100012: Compliance
+    100014: ControlsIntegration
+    100016: Cost
+    100018: Functional
+    100020: GraphRoot
+    100022: Integrated
+    100024: LeftBoxLocator
+    100026: LeftColBack
+    100028: LeftTitleHolder
+    100030: LowerColBack
+    100032: LowerTitleHolder
+    100034: Performance
+    100036: Quality
+    100038: Redesign
+    100040: RightBoxLocator
+    100042: RingLocator
+    100044: RingPlacementLocator
+    100046: Speed
+    100048: Stetchy
+    100050: Streamline
+    100052: StretchArm
+    100054: Transform
+    100056: //RootNode
+    100058: ArrowheadLocator
+    400000: AcheivingAlignment
+    400002: ArrowHead
+    400004: ArrowLocator
+    400006: BackSquare
+    400008: BiggerCircle
+    400010: Circle
+    400012: Compliance
+    400014: ControlsIntegration
+    400016: Cost
+    400018: Functional
+    400020: GraphRoot
+    400022: Integrated
+    400024: LeftBoxLocator
+    400026: LeftColBack
+    400028: LeftTitleHolder
+    400030: LowerColBack
+    400032: LowerTitleHolder
+    400034: Performance
+    400036: Quality
+    400038: Redesign
+    400040: RightBoxLocator
+    400042: RingLocator
+    400044: RingPlacementLocator
+    400046: Speed
+    400048: Stetchy
+    400050: Streamline
+    400052: StretchArm
+    400054: Transform
+    400056: //RootNode
+    400058: ArrowheadLocator
+    2300000: AcheivingAlignment
+    2300002: ArrowHead
+    2300004: BackSquare
+    2300006: BiggerCircle
+    2300008: Circle
+    2300010: Compliance
+    2300012: ControlsIntegration
+    2300014: Cost
+    2300016: Functional
+    2300018: Integrated
+    2300020: LeftColBack
+    2300022: LeftTitleHolder
+    2300024: LowerColBack
+    2300026: LowerTitleHolder
+    2300028: Performance
+    2300030: Quality
+    2300032: Redesign
+    2300034: Speed
+    2300036: Stetchy
+    2300038: Streamline
+    2300040: Transform
+    3300000: AcheivingAlignment
+    3300002: ArrowHead
+    3300004: BackSquare
+    3300006: BiggerCircle
+    3300008: Circle
+    3300010: Compliance
+    3300012: ControlsIntegration
+    3300014: Cost
+    3300016: Functional
+    3300018: Integrated
+    3300020: LeftColBack
+    3300022: LeftTitleHolder
+    3300024: LowerColBack
+    3300026: LowerTitleHolder
+    3300028: Performance
+    3300030: Quality
+    3300032: Redesign
+    3300034: Speed
+    3300036: Stetchy
+    3300038: Streamline
+    3300040: Transform
+    4300000: BiggerCircle
+    4300002: Circle
+    4300004: Quality
+    4300006: Speed
+    4300008: Performance
+    4300010: Compliance
+    4300012: Cost
+    4300014: LeftColBack
+    4300016: LeftTitleHolder
+    4300018: Transform
+    4300020: Redesign
+    4300022: Streamline
+    4300024: AcheivingAlignment
+    4300026: LowerTitleHolder
+    4300028: LowerColBack
+    4300030: Integrated
+    4300032: Functional
+    4300034: ControlsIntegration
+    4300036: BackSquare
+    4300038: Stetchy
+    4300040: ArrowHead
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

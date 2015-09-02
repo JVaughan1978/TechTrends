@@ -67,6 +67,9 @@ ModelImporter:
     100118: SrvcImageHolder
     100120: SrvcImgHold
     100122: SrvcTextHold
+    100124: Mesh2
+    100126: Backdrop2
+    100128: TextHolder2
     400000: ChrisBlackman
     400002: ColtonJohnson
     400004: Compliance By Design
@@ -129,6 +132,9 @@ ModelImporter:
     400118: SrvcImageHolder
     400120: SrvcImgHold
     400122: SrvcTextHold
+    400124: Mesh2
+    400126: Backdrop2
+    400128: TextHolder2
     2300000: ChrisBlackman
     2300002: ColtonJohnson
     2300004: Compliance By Design
@@ -181,6 +187,8 @@ ModelImporter:
     2300098: SrvcImageHolder
     2300100: SrvcImgHold
     2300102: SrvcTextHold
+    2300104: Backdrop2
+    2300106: TextHolder2
     3300000: ChrisBlackman
     3300002: ColtonJohnson
     3300004: Compliance By Design
@@ -233,6 +241,8 @@ ModelImporter:
     3300098: SrvcImageHolder
     3300100: SrvcImgHold
     3300102: SrvcTextHold
+    3300104: Backdrop2
+    3300106: TextHolder2
     4300000: Mesh_3
     4300002: ServicesText
     4300004: InternalAuditSourcing
@@ -285,6 +295,8 @@ ModelImporter:
     4300098: SrvcImageHolder
     4300100: SrvcImgHold
     4300102: SrvcTextHold
+    4300104: Backdrop2
+    4300106: TextHolder2
     7400000: Take 001
     9500000: //RootNode
   materials:
