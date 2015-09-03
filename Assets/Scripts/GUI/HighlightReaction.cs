@@ -12,12 +12,12 @@ public class HighlightReaction : MonoBehaviour {
 	public static event DeselectAction OnDeselect;    
 
 	public void Highlight(){
-		Debug.Log(gameObject.name + " highlighted.");
+        Debug.Log(gameObject.name + " highlighted.");
 		highlighted = true;
 
 		if (OnHighlight != null) {
-			OnHighlight(gameObject.name);
-		}
+		   OnHighlight(gameObject.name);
+		}        
 	}
 
 	public void Deselect(){

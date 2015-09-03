@@ -12,11 +12,11 @@ public class GazeManager : MonoBehaviour {
     private HighlightReaction highlightReaction;
 
     void OnEnable() {
-        SelectionReaction.OnSelect += TimeOut;
+        SelectionReaction.OnSelect += TimeOut;        
     }
 
     void OnDisable() {
-        SelectionReaction.OnSelect -= TimeOut;
+        SelectionReaction.OnSelect -= TimeOut;        
     }
 
     IEnumerator CoolDown(float time) {
