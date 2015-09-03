@@ -6,11 +6,13 @@ public class PortraitHighlight : MonoBehaviour {
         
     public int myNum = 0;
     public float duration = 1.0f;
-    public Vector3 startPos = Vector3.zero;
-    public Vector3 endPos = Vector3.zero;
+    public float moveX = 0;
     private float _time = 0f;
     private bool _selected = false;
     private bool _switching = false;
+    private Vector3 initialPosition = Vector3.zero;
+    private Vector3 newPosition = Vector3.zero;
+    public bool logging = false;
 
     public delegate void ShoveAction(int num);
     public static event ShoveAction OnShove;
@@ -41,6 +43,8 @@ public class PortraitHighlight : MonoBehaviour {
             if (OnShove != null) {
                 OnShove(myNum);
             }            
+        } else {
+            _switching = true;
         }               
     }
 
@@ -53,12 +57,15 @@ public class PortraitHighlight : MonoBehaviour {
             if(OnSlide != null) {
                 OnSlide(myNum);
             }
+        } else {
+            _switching = true;
         }
     }
 
     void Reset() {
         _time = 0;
         _switching = false;
+        newPosition = transform.localPosition;
     }
 
     IEnumerator Move(float duration, bool push) {
@@ -71,24 +78,23 @@ public class PortraitHighlight : MonoBehaviour {
                     _time = duration;
                 }
 
-                float v1, v2, v3;
+                float v1 = 0;
+                float newX = initialPosition.x + moveX;
 
                 if(push) {
-                    Debug.Log("move over");
-                    v1 = Easing.CubicEaseInOut(_time, startPos.x, endPos.x, duration);
-                    v2 = Easing.CubicEaseInOut(_time, startPos.y, endPos.y, duration);
-                    v3 = Easing.CubicEaseInOut(_time, startPos.z, endPos.z, duration);
+                    Debug.Log("move over");                    
+                    v1 = Easing.CubicEaseInOut(_time, initialPosition.x, newX, duration);
                 } else {
-                    Debug.Log("move back");
-                    v1 = Easing.CubicEaseInOut(_time, endPos.x, startPos.x, duration);
-                    v2 = Easing.CubicEaseInOut(_time, endPos.y, startPos.y, duration);
-                    v3 = Easing.CubicEaseInOut(_time, endPos.z, startPos.z, duration);
+                    Debug.Log("move back");                    
+                    v1 = Easing.CubicEaseInOut(_time, newPosition.x, -newX, duration);
+                    if(logging) {
+                        Debug.Log(this.name + " time: " + _time + " newPosition.x: " + newPosition.x + " initialPosition.x: " + initialPosition.x + " duration: " + duration);
+                    }                    
                 }
-
-                Vector3 apply = new Vector3(v1, v2, v3);
+                
+                Vector3 apply = new Vector3(v1, initialPosition.y, initialPosition.z);
                 transform.localPosition = apply;
-            }
-
+            }            
             yield return null;
         }
     }
@@ -167,7 +173,8 @@ public class PortraitHighlight : MonoBehaviour {
     }
 
     // Use this for initialization
-    void Start() {        
+    void Start() {
+        initialPosition = transform.localPosition;
     }
 
     // Update is called once per frame
