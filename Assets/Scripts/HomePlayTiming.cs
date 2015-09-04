@@ -14,6 +14,7 @@ public class HomePlayTiming : MonoBehaviour {
 
     public bool hasIntroAudio = false;
     public bool separateMovieAudio = false;
+    public bool textSwitches = false;
 
     public float introTime = 12.0f;
     public float xTime = 22.0f;
@@ -80,7 +81,7 @@ public class HomePlayTiming : MonoBehaviour {
             x_Button.SetActive(true);
         }
 
-        if(_currentTime > textSwitchTime) {
+        if(_currentTime > textSwitchTime && textSwitches) {
            textA.SetActive(false);
            textB.SetActive(true);
         }        
