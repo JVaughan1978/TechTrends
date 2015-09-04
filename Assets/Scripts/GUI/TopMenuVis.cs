@@ -3,6 +3,8 @@ using System.Collections;
 
 public class TopMenuVis : MonoBehaviour {
 
+    public string reaction = "";
+
     public delegate void MenuAction(string name);
     public static event MenuAction OnMenu;
 
@@ -22,8 +24,8 @@ public class TopMenuVis : MonoBehaviour {
         }
     }   
  
-    void VidEnd() {
-        Show();
+    void VidEnd(string name) {
+        if(name == reaction) { Show(); }        
     }
 
     void Show() {

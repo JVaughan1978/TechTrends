@@ -8,7 +8,7 @@ public class HomeMenuVis : MonoBehaviour {
     public string reaction = "";
     private bool switched = false;
 
-    public delegate void EndAction();
+    public delegate void EndAction(string name);
     public static event EndAction OnEnd;
     public bool _ended = false;
 
@@ -24,7 +24,7 @@ public class HomeMenuVis : MonoBehaviour {
 
     private void Ended() {
         if(OnEnd != null) {
-            OnEnd();
+            OnEnd(this.name);
             _ended = true;
         }
     }

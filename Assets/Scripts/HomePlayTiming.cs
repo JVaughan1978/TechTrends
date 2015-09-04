@@ -12,6 +12,9 @@ public class HomePlayTiming : MonoBehaviour {
     public GameObject textHolder;
     public GameObject x_Button;
 
+    public bool hasIntroAudio = false;
+    public bool separateMovieAudio = false;
+
     public float introTime = 12.0f;
     public float xTime = 22.0f;
     public float textSwitchTime = 50.0f;
@@ -55,11 +58,16 @@ public class HomePlayTiming : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         _currentTime += Time.deltaTime;
-
+        
+        if(hasIntroAudio == false) {
+            introTime = 0f;
+            introAudio.enabled = false;
+        }
+        
         if(_currentTime > introTime && !_vidStarted ) {
             vidAudio.enabled = true;
-            mmt.Pause = false;            
-            introAudio.enabled = false;
+            mmt.Pause = false;
+            if(!hasIntroAudio) { introAudio.enabled = false; }            
             _vidStarted = true;
             vidMesh.SetActive(true);
             textA.SetActive(true);

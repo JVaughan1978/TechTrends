@@ -12,11 +12,15 @@ public class GazeManager : MonoBehaviour {
     private HighlightReaction highlightReaction;
 
     void OnEnable() {
-        SelectionReaction.OnSelect += TimeOut;        
+        SelectionReaction.OnSelect += TimeOut;
+        SelectionReaction.OnCoolDown += SRCoolDown;
+        HighlightReaction.OnCoolDown += HRCoolDown;
     }
 
     void OnDisable() {
-        SelectionReaction.OnSelect -= TimeOut;        
+        SelectionReaction.OnSelect -= TimeOut;
+        SelectionReaction.OnCoolDown -= SRCoolDown;
+        HighlightReaction.OnCoolDown -= HRCoolDown;
     }
 
     IEnumerator CoolDown(float time) {
@@ -27,6 +31,14 @@ public class GazeManager : MonoBehaviour {
 
     void TimeOut() {
         StartCoroutine(CoolDown(0.1f));        
+    }
+
+    void SRCoolDown(float time) {
+        StartCoroutine(CoolDown(time));        
+    }
+
+    void HRCoolDown(float time) {
+        StartCoroutine(CoolDown(time));        
     }
 
     void Start() {

@@ -21,6 +21,9 @@ public class SelectionReaction : MonoBehaviour {
     public delegate void SelectNameAction(string name);
     public static event SelectNameAction OnNameSelect;
 
+    public delegate void CoolDownAction(float time);
+    public static event CoolDownAction OnCoolDown;
+
 	private void Selected() {                
         if (OnSelect != null) {
             OnSelect();
@@ -36,6 +39,12 @@ public class SelectionReaction : MonoBehaviour {
     public void NameSelected() {
         if(OnNameSelect != null) {
             OnNameSelect(this.name);
+        }
+    }
+
+    public void CoolDown(float time) {
+        if(OnCoolDown != null) {
+            OnCoolDown(time);
         }
     }
 

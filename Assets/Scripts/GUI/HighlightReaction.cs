@@ -9,7 +9,10 @@ public class HighlightReaction : MonoBehaviour {
 	public static event HighlightAction OnHighlight;
 
 	public delegate void DeselectAction(string name);
-	public static event DeselectAction OnDeselect;    
+	public static event DeselectAction OnDeselect;
+
+    public delegate void CoolDownAction(float time);
+    public static event CoolDownAction OnCoolDown;    
 
 	public void Highlight(){
         Debug.Log(gameObject.name + " highlighted.");
@@ -27,6 +30,12 @@ public class HighlightReaction : MonoBehaviour {
 			OnDeselect(gameObject.name);
 		}
 	}
+
+    public void CoolDown(float time) {
+        if(OnCoolDown != null) {
+            OnCoolDown(time);
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {	

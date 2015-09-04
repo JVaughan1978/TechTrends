@@ -18,7 +18,7 @@ public class LogoShove : MonoBehaviour {
         HomeMenuVis.OnEnd -= Shove;
     }
 
-    void Shove() {
+    void Shove(string name) {
         _move = true;
     }
 
