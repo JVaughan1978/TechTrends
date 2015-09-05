@@ -5,6 +5,9 @@ public class WaveForm : MonoBehaviour {
     AudioSource audio;
     LineRenderer line;
     private bool cued = false;
+    private bool firstPlay = true;
+    private float restart = 5.0f;
+    private float _time = 0;
     
     void OnEnable() {
         HighlightReaction.OnHighlight += Highlighted;
@@ -17,15 +20,18 @@ public class WaveForm : MonoBehaviour {
     }
 
     void StartAudio() {
-        audio.Play();
-        cued = false;        
+        if(firstPlay) {
+            audio.Play();
+            cued = false;
+            firstPlay = false;
+        }     
     }
 
     void Highlighted(string name) {
         if(name == transform.parent.gameObject.name) {
             if(!audio.isPlaying && !cued){
                 Invoke("StartAudio", 0.3f);
-                cued = true;
+                cued = true;                
             }            
         }
     }
@@ -58,6 +64,20 @@ public class WaveForm : MonoBehaviour {
             }
         } else {
             line.SetVertexCount(0);
+        }
+
+        if(audio.time > (audio.clip.length * 0.99)) {
+            firstPlay = false;
+            audio.Stop();
+        }
+
+        if(!audio.isPlaying && firstPlay == false) {
+            _time += Time.deltaTime;
+            if(_time > restart) {
+                cued = false;
+                firstPlay = true;
+                _time = 0;
+            }
         }
         
     }
