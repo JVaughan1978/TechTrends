@@ -7,13 +7,21 @@ public class PortraitHighlight : MonoBehaviour {
     public int myNum = 0;
     public float duration = 1.0f;
     public float moveX = 0;
-    private float _time = 0f;
+    public float moveY = 0;
+
+    public bool xMovement = true;
+    public bool yMovement = false;
+    public bool hideChildren = true;
+
+    public Vector3 scalar = Vector3.one;
+    private Vector3 initialScale = Vector3.one;
+    private Vector3 newScale = Vector3.one;
     
+    private float _time = 0f;    
     private bool _selected = false;
     private bool _switching = false;
 
     private BoxCollider myBox;
-
     private Vector3 initialPosition = Vector3.zero;
     private Vector3 newPosition = Vector3.zero;    
 
@@ -42,7 +50,11 @@ public class PortraitHighlight : MonoBehaviour {
             this.GetComponent<HighlightReaction>().CoolDown(duration + 0.1f);
             _selected = true;
             _switching = true;
-            Show();
+            
+            if(hideChildren) {
+                Show();
+            }
+            
             ScaleUp();
             if (OnShove != null) {
                 OnShove(myNum);
@@ -56,8 +68,12 @@ public class PortraitHighlight : MonoBehaviour {
         if(name == this.name && _selected) {
             this.GetComponent<HighlightReaction>().CoolDown(duration + 0.1f);
             _selected = false;
-            _switching = true;            
-            Hide();            
+            _switching = true;
+            
+            if(hideChildren) {
+                Hide();
+            }
+
             ScaleDown();
             if(OnSlide != null) {
                 OnSlide(myNum);
@@ -70,7 +86,8 @@ public class PortraitHighlight : MonoBehaviour {
     void Reset() {
         _time = 0;
         _switching = false;
-        newPosition = transform.localPosition;        
+        newPosition = transform.localPosition;
+        newScale = transform.localScale;
     }
 
     IEnumerator Move(float duration, bool push) {
@@ -83,16 +100,26 @@ public class PortraitHighlight : MonoBehaviour {
                     _time = duration;
                 }
 
-                float v1 = 0;
+                float v1, v2;
                 float newX = initialPosition.x + moveX;
+                float newY = initialPosition.y + moveY;
 
                 if(push) {                    
                     v1 = Easing.CubicEaseInOut(_time, initialPosition.x, newX, duration);
                 } else {                    
                     v1 = Easing.CubicEaseInOut(_time, newPosition.x, -newX, duration);                                      
                 }
-                
-                Vector3 apply = new Vector3(v1, initialPosition.y, initialPosition.z);
+
+                if(push) {
+                    v2 = Easing.CubicEaseInOut(_time, initialPosition.y, newY, duration);
+                } else {
+                    v2 = Easing.CubicEaseInOut(_time, newPosition.y, -newY, duration);
+                }
+
+                if(!xMovement) { v1 = initialPosition.x; }
+                if(!yMovement) { v2 = initialPosition.y; }
+
+                Vector3 apply = new Vector3(v1, v2, initialPosition.z);
                 transform.localPosition = apply;
             }            
             yield return null;
@@ -112,13 +139,13 @@ public class PortraitHighlight : MonoBehaviour {
                 float v1, v2, v3;
 
                 if(grow) {                    
-                    v1 = Easing.CubicEaseInOut(_time, 0.5f, 0.5f, duration);
-                    v2 = Easing.CubicEaseInOut(_time, 0.5f, 0.5f, duration);
-                    v3 = Easing.CubicEaseInOut(_time, 0.5f, 0.5f, duration);
+                    v1 = Easing.CubicEaseInOut(_time, initialScale.x, scalar.x, duration);
+                    v2 = Easing.CubicEaseInOut(_time, initialScale.y, scalar.y, duration);
+                    v3 = Easing.CubicEaseInOut(_time, initialScale.z, scalar.z, duration);
                 } else {                    
-                    v1 = Easing.CubicEaseInOut(_time, 1.0f, -0.5f, duration);
-                    v2 = Easing.CubicEaseInOut(_time, 1.0f, -0.5f, duration);
-                    v3 = Easing.CubicEaseInOut(_time, 1.0f, -0.5f, duration);
+                    v1 = Easing.CubicEaseInOut(_time, newScale.x, -scalar.x, duration);
+                    v2 = Easing.CubicEaseInOut(_time, newScale.y, -scalar.y, duration);
+                    v3 = Easing.CubicEaseInOut(_time, newScale.z, -scalar.z, duration);
                 }
 
                 Vector3 apply = new Vector3(v1, v2, v3);                
@@ -178,6 +205,7 @@ public class PortraitHighlight : MonoBehaviour {
     
     void Start() {
         initialPosition = transform.localPosition;
+        initialScale = transform.localScale;
         
         myBox = GetComponent<BoxCollider>();
         if(myBox == null) {

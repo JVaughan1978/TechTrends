@@ -9,7 +9,7 @@ public class PinTextToGameObject : MonoBehaviour {
 	void Start () {				
 	}	
 	
-	void Update () { 
+	void Update () {
         transform.position = new Vector3(pinnedObject.transform.position.x, pinnedObject.transform.position.y,
                                                              pinnedObject.transform.position.z);
 
