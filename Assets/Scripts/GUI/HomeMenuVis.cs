@@ -15,6 +15,7 @@ public class HomeMenuVis : MonoBehaviour {
     void OnEnable() {
         SelectionReaction.OnNameSelect += Selected;
         SelectionReaction.OnSelect += Switch;
+//		MTT.GetComponent<AudioSource>().length = movieDuration;
     }
 
     void OnDisable() {

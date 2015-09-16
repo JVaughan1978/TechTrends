@@ -85,5 +85,5 @@ public class HomePlayTiming : MonoBehaviour {
            textA.SetActive(false);
            textB.SetActive(true);
         }        
-	}
+	} 
 }

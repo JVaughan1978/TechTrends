@@ -34,4 +34,8 @@ public class TileHighlighter : MonoBehaviour {
             Debug.LogWarning("No MeshRenderer found!");
         }
     }
+
+    void Update() {
+
+    }
 }

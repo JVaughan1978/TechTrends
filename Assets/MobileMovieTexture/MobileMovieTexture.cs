@@ -205,7 +205,8 @@ namespace MMT
         /// </summary>
         public bool IsPlaying
         {
-            get { return m_nativeContext != IntPtr.Zero && !m_hasFinished && m_advance; }
+            get { return m_nativeContext != IntPtr.Zero && !m_hasFinished && m_advance;
+			}
         }
 
         public bool Pause { get { return !m_advance; } set { m_advance = !value; } }
@@ -427,7 +428,11 @@ namespace MMT
             if(audio != null) {
                 audio.Play();
             }
+
         }
+
+
+
 
         public void Stop()
         {
@@ -595,8 +600,6 @@ namespace MMT
                 }
             }
         }
-
-       
         #endregion
     }
 }

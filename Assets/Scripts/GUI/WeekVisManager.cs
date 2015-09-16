@@ -4,7 +4,6 @@ using System.Collections;
 public class WeekVisManager : MonoBehaviour {
 
     public GameObject weekRoot = null;
-
     private bool switched = false;
 
     void OnEnable() {
@@ -33,10 +32,6 @@ public class WeekVisManager : MonoBehaviour {
     void Start() {
         Show();
     }
-
-	void WeekCheck (){
-	
-	}
 
     void Update() {
 
