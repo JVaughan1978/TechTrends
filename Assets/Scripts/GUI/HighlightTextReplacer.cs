@@ -9,31 +9,19 @@ public class HighlightTextReplacer : MonoBehaviour {
     private string _text = "";
     private bool _highlightedEvent = false;
     private bool _deselectedEvent = false;
-
-    private Sector _sector = Sector.Automotive;
-    private GameObject _dataObject;
+        
     // YES THIS SHOULD REALLY NOT BE HERE.
     private Dictionary<string, int> _data = new Dictionary<string,int>();
 
-    void OnEnable() {
-        SelectionReaction.OnSelect += SectorChange;
+    void OnEnable() {        
         HighlightReaction.OnHighlight += Highlighted;
         HighlightReaction.OnDeselect += Deselected;
     }
 
-    void OnDisable() {
-        SelectionReaction.OnSelect -= SectorChange;
+    void OnDisable() {        
         HighlightReaction.OnHighlight -= Highlighted;
         HighlightReaction.OnDeselect -= Deselected;
-    }
-
-    void SectorChange(Sector sect){
-        _sector = sect;
-        int i = GetTrendingTopicsDictionary();
-        if(i == 0){
-            Debug.LogError("Didn't get dictionary");
-        }
-    }
+    }    
 
     void Highlighted(string text) {
         _highlightedEvent = true;
@@ -51,8 +39,7 @@ public class HighlightTextReplacer : MonoBehaviour {
     }
 	
 	void Start () {
-        _thisText = GetComponent<Text>();
-        _dataObject = GameObject.Find("DataObject");
+        _thisText = GetComponent<Text>();        
 	}	
 	
 	void Update () {     
@@ -79,14 +66,5 @@ public class HighlightTextReplacer : MonoBehaviour {
         }
         string outText = _text + " : " + _trendValue.ToString();
         return outText;
-    }
-
-    private int GetTrendingTopicsDictionary() {
-        if (TechTrendsJSONWrapper.JSON_LOAD_COMPLETE) {
-            //_data = _dataObject.GetComponent<TechTrendsWrapper>().GetSectorToDictionary(0, _sector);
-            _data = _dataObject.GetComponent<TechTrendsJSONWrapper>().GetJSONDictionary(_sector);
-            return 1;
-        }
-        return 0;
-    }
+    }    
 }

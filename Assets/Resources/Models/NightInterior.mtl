@@ -1,0 +1,41 @@
+# MTL written from D:\Projects\Git\TechTrends\Assets\Resources\Models\NightInterior.obj
+newmtl OfficeBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd C:\Users\Oculus Mini 1\Desktop\BAKES\Office_Doc.png
+newmtl OfficeObjectsBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd C:\Users\Oculus Mini 1\Desktop\BAKES\OfficeObjects_FinalColorOutput.png
+newmtl OpenFloorPlanBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd C:\Users\Oculus Mini 1\Desktop\BAKES\OpenFloorPlan_FinalColorOutput_Doctored.png
+newmtl ServerBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd C:\Users\Oculus Mini 1\Desktop\BAKES\SeverSpace_FinalColorOutput.png
+newmtl TableBaked
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd C:\Users\Oculus Mini 1\Desktop\BAKES\Table_FinalColorOutput.png
