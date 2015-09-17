@@ -9,8 +9,8 @@ public class VertTileHighlight : MonoBehaviour
 
     private bool _switching = false;
     private float _time = 0f;
-    private Vector3 _startPos;
-    private Vector3 _startScale;
+    //private Vector3 _startPos;
+    //private Vector3 _startScale;
     private BoxCollider myBox;
 
     private Vector3 initialPosition = Vector3.zero;
@@ -182,8 +182,8 @@ public class VertTileHighlight : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        _startPos = transform.localPosition;
-        _startScale = transform.localScale;
+        //_startPos = transform.localPosition;
+       // _startScale = transform.localScale;
 
         myBox = GetComponent<BoxCollider>();
         if(myBox == null) {

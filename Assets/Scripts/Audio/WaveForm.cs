@@ -8,6 +8,7 @@ public class WaveForm : MonoBehaviour {
     private bool firstPlay = true;
     private float restart = 5.0f;
     private float _time = 0;
+    private float[] spectrum;
     
     void OnEnable() {
         HighlightReaction.OnHighlight += Highlighted;
@@ -47,12 +48,13 @@ public class WaveForm : MonoBehaviour {
  
     void Start() {
         audio = GetComponent<AudioSource>();
-        line = GetComponent<LineRenderer>();        
+        line = GetComponent<LineRenderer>();   
+        spectrum = new float[256];
     }
 
     void Update() {        
         if(audio.isPlaying) {
-            float[] spectrum = audio.GetSpectrumData(256, 0, FFTWindow.BlackmanHarris);
+            spectrum = audio.GetSpectrumData(256, 0, FFTWindow.BlackmanHarris);
             line.SetVertexCount(255);
             int i = 1;
             while(i < 256) {
