@@ -6,50 +6,47 @@ public class SelectionReaction : MonoBehaviour {
 
     private bool focused = false;    
     private bool selected = false;
-	public bool mode = true;
-    public float timeToSelected = 3f; // should get this from somewhere else...
-    public Sector sector;
+    public float timeToSelected = 3f; // should get this from somewhere else...    
     private float _time = 0;
 
-    public delegate void FocusAction(Sector sect);
+    public delegate void FocusAction();
     public static event FocusAction OnFocus;
 
-    public delegate void SelectAction(Sector sect);
+    public delegate void SelectAction();
     public static event SelectAction OnSelect;
 
-    public delegate void DeselectAction(Sector sect);
+    public delegate void DeselectAction();
     public static event DeselectAction OnDeselect;
 
-	public delegate void ModeAction(bool check);
-	public static event ModeAction OnMode;
+    public delegate void SelectNameAction(string name);
+    public static event SelectNameAction OnNameSelect;
 
-    void OnEnable() {                
-		SelectionReaction.OnMode += ModeSwitch;
-    }
-
-    void OnDisable() {                
-		SelectionReaction.OnMode -= ModeSwitch;
-    }       
-
-	void ModeSwitch(bool check){
-		mode = !check;
-	}
+    public delegate void CoolDownAction(float time);
+    public static event CoolDownAction OnCoolDown;
 
 	private void Selected() {                
         if (OnSelect != null) {
-            OnSelect(sector);
+            OnSelect();
         }
-		if (OnMode != null) {
-			OnMode(mode);
-		}
 	}
 
 	public void Deselected() {        
 		Reset();
-
         if (OnDeselect != null) 
-            OnDeselect(sector);       
+            OnDeselect();       
 	}
+
+    public void NameSelected() {
+        if(OnNameSelect != null) {
+            OnNameSelect(this.name);
+        }
+    }
+
+    public void CoolDown(float time) {
+        if(OnCoolDown != null) {
+            OnCoolDown(time);
+        }
+    }
 
 	public void InFocus() {
         if (focused) {
@@ -58,12 +55,13 @@ public class SelectionReaction : MonoBehaviour {
                 if (_time > timeToSelected) {
                     selected = true;
                     Selected();
+                    NameSelected();
                 }
             }
         } else {
             focused = true;
             if(OnFocus != null){
-                OnFocus(sector);               
+                OnFocus();               
             }
         }
 	}

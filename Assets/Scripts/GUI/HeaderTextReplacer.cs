@@ -4,7 +4,6 @@ using System.Collections;
 
 public class HeaderTextReplacer : MonoBehaviour {
 
-	public Sector sector;
     private bool _toggle = false;
 	private Text _text;
 
@@ -16,11 +15,10 @@ public class HeaderTextReplacer : MonoBehaviour {
 		SelectionReaction.OnSelect -= Select;
 	}
 
-	void Select (Sector sect){
-        sector = sect;
+	void Select (){        
         _toggle = !_toggle;
         if(_toggle) {
-            _text.text = sector.ToString();
+            _text.text = "";
         } else {
             _text.text = "";
         }
